@@ -42,12 +42,17 @@ So we import it and hopefully we have a container later on?
 docker import busybox.tar
 	sha256:98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
 ```
-A imported image is a container
+A imported image is still an image, but now we can see it got imported into the docker subsystem of the atomic host:
+```bash
+find /var/ | grep 98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
+/var/lib/docker/image/overlay2/imagedb/content/sha256/98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
+```
+
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODQ1MTQ0OSwtMTQ5NjE5ODkzNiw2MT
+eyJoaXN0b3J5IjpbMTM2MDEyODI3OCwtMTQ5NjE5ODkzNiw2MT
 k0NzA0MjJdfQ==
 -->
