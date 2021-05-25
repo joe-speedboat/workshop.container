@@ -38,14 +38,16 @@ Okay, the file-system of a single layer container is packed in a tar!
 This tar file looks interesting, but what can we do with it?
 
 So we import it and hopefully we have a container later on?
-
-docker import 
-
+```bash
+docker import busybox.tar
+	sha256:98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
+```
+A imported image is a container
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEzODEwMjAsLTE0OTYxOTg5MzYsNj
-E5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbLTkwODQ1MTQ0OSwtMTQ5NjE5ODkzNiw2MT
+k0NzA0MjJdfQ==
 -->
