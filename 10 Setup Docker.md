@@ -12,8 +12,12 @@ Docker EE, on the other hand, is a premium version of CE. Docker EE is an integr
 
 ## Install Docker CE on CentOS8
 
-
+```
+yum -y install epel-release
+yum install -y yum-utils device-mapper-persistent-data lvm2
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+yum -y install docker-ce docker-ce-cli containerd.io -y
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkxNjc1MTMsLTE1Mzk4NTc1OTZdfQ
-==
+eyJoaXN0b3J5IjpbNTA3MTMyODAyLC0xNTM5ODU3NTk2XX0=
 -->
