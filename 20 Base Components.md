@@ -32,13 +32,14 @@ tar vtfz *.layer.tar
 	drwxr-xr-x 8/8               0 2021-05-17 21:07 var/spool/mail/
 	drwxr-xr-x 0/0               0 2021-05-17 21:07 var/www/
 ```
-Okay, the file-system of a single layer container is again a t
+Okay, the file-system of a single layer container is packed in a tar!
 
+so lets start
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjI5NzM3NiwtMTQ5NjE5ODkzNiw2MT
-k0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbMjY4ODg5Nzk3LC0xNDk2MTk4OTM2LDYxOT
+Q3MDQyMl19
 -->
