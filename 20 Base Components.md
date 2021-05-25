@@ -45,7 +45,7 @@ docker import busybox.tar
 A imported image is still an image, but now we can see it got imported into the docker subsystem of the atomic host:
 ```bash
 find /var/ | grep 98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
-/var/lib/docker/image/overlay2/imagedb/content/sha256/98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
+	/var/lib/docker/image/overlay2/imagedb/content/sha256/98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
 ```
 
 
@@ -53,6 +53,6 @@ find /var/ | grep 98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDEyODI3OCwtMTQ5NjE5ODkzNiw2MT
-k0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOT
+Q3MDQyMl19
 -->
