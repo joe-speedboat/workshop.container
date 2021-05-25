@@ -36,12 +36,13 @@ Okay, the file-system of a single layer container is packed in a tar!
 
 ## The Container
 This tar file looks interesting, but what can we do with it?
-We should make
+So we import it now, then we have a container!
+
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjAwODE2NSwtMTQ5NjE5ODkzNiw2MT
+eyJoaXN0b3J5IjpbMjAzMjM0MTAxMiwtMTQ5NjE5ODkzNiw2MT
 k0NzA0MjJdfQ==
 -->
