@@ -27,9 +27,7 @@ Union file systems, or UnionFS, are file systems that operate by **creating laye
 Docker Engine combines the **namespaces**, **control groups**, and **UnionFS** into a wrapper called a container format. The default container format is `libcontainer`.
 Under the hood might not be the correct heading for this topic, but these are things which strike me when I first start using Docker.
 
-## Container Components
-Snc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODEwNDc3MjQsMTkwMzU4ODAyMSwtMj
-A0NDc1NDExMSwxNjc5Nzk1MTgzLDExMzY0MTUzMzldfQ==
+eyJoaXN0b3J5IjpbLTczMzA5NTM1MywxOTAzNTg4MDIxLC0yMD
+Q0NzU0MTExLDE2Nzk3OTUxODMsMTEzNjQxNTMzOV19
 -->
