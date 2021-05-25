@@ -3,7 +3,7 @@ Docker is an open platform for developing, shipping, and running applications. D
 
 ## Docker  Containers vs. Operating System Applications
 Docker, Kubernetes, and containers are indeed powerful technologies that can bring many benefits to a business. However, depending on what kind of workload you have, you might need to stick to using virtual machines (VMs) instead, or a combination of both containers and VMs.
-
+![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/containers-vs-virtual-machines.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjE3ODUyMSwxMTM2NDE1MzM5XX0=
+eyJoaXN0b3J5IjpbMTY3OTc5NTE4MywxMTM2NDE1MzM5XX0=
 -->
