@@ -11,13 +11,19 @@ CE can run on Windows 10 and Mac, on Azure and AWS, as well as CentOS, Debian, F
 Docker EE, on the other hand, is a premium version of CE. Docker EE is an integrated, fully supported, and certified container platform that runs on Red Hat Enterprise Linux (RHEL), SUSE Linux Enterprise Server (SLES), Oracle Linux, Ubuntu, Windows Server 2016, as well as Azure and AWS.
 
 ## Install Docker CE on CentOS8
+### Create Docker Admin
+```
+useradd atomic
+```
+This user can 
+
 
 ```
 yum -y install epel-release
 yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-yum -y install docker-ce docker-ce-cli containerd.io -y
+yum -y install docker-ce docker-ce-cli containerd.io
 ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MTMyODAyLC0xNTM5ODU3NTk2XX0=
+eyJoaXN0b3J5IjpbMjA1Mjg1NjQxMiwtMTUzOTg1NzU5Nl19
 -->
