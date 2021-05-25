@@ -1,6 +1,19 @@
 # Setup Docker
-## CentOS 8
+In March 2017, Docker released Docker Enterprise Edition (EE), merging their previous enterprise offering of Docker Datacenter and renaming their free offering to Docker Community Edition (CE).
+
+Docker Inc. positions CE for development and Docker EE for business-critical deployments. In this article, we’ll dive deeper into the differences between Docker CE and Docker EE, so you can identify the best option for your project as it stands today, and the best option for your project as it matures.
+
+## Docker CE vs EE: An Overview
+Docker CE is a free and open source containerization platform. It is a rebranded version of the Docker open source solution that has been freely available since the launch of Docker in 2013.
+
+CE can run on Windows 10 and Mac, on Azure and AWS, as well as CentOS, Debian, Fedora, and Ubuntu. CE can be downloaded directly from the Docker Store.
+
+Docker EE, on the other hand, is a premium version of CE. Docker EE is an integrated, fully supported, and certified container platform that runs on Red Hat Enterprise Linux (RHEL), SUSE Linux Enterprise Server (SLES), Oracle Linux, Ubuntu, Windows Server 2016, as well as Azure and AWS.
+
+## Install Docker CE on CentOS8
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk4NTc1OTZdfQ==
+eyJoaXN0b3J5IjpbLTExMjkxNjc1MTMsLTE1Mzk4NTc1OTZdfQ
+==
 -->
