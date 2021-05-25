@@ -23,7 +23,7 @@ tar vxf busybox.tar
 	d3cd072556c21c1f1940bd536675b97d7d419a2287d6bb3bd5044ea7466db788.json
 	manifest.json
 	repositories
-# hmm, vers
+# hmm, version files, json data, what is this tar in the tar? :-/
 tar vtfz *.layer.tar
 	drwxr-xr-x 0/0               0 2021-05-17 21:07 bin/
 	-rwxr-xr-x 0/0         1149184 2021-05-17 21:07 bin/[
@@ -32,12 +32,13 @@ tar vtfz *.layer.tar
 	drwxr-xr-x 8/8               0 2021-05-17 21:07 var/spool/mail/
 	drwxr-xr-x 0/0               0 2021-05-17 21:07 var/www/
 ```
+Okay, the file-system of a single layer container is again a t
 
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDEyODc0OTQsLTE0OTYxOTg5MzYsNj
-E5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbLTM0NjI5NzM3NiwtMTQ5NjE5ODkzNiw2MT
+k0NzA0MjJdfQ==
 -->
