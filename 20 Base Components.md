@@ -34,12 +34,14 @@ tar vtfz *.layer.tar
 ```
 Okay, the file-system of a single layer container is packed in a tar!
 
-so lets start
+## The Container
+This tar file looks interesting, but what can we do with it?
+We should make
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4ODg5Nzk3LC0xNDk2MTk4OTM2LDYxOT
-Q3MDQyMl19
+eyJoaXN0b3J5IjpbMTcwNjAwODE2NSwtMTQ5NjE5ODkzNiw2MT
+k0NzA0MjJdfQ==
 -->
