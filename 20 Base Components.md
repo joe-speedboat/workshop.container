@@ -8,9 +8,10 @@ We do this by the process, deploying a simple web application
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
 
 
+
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbLTE0OTYxOTg5MzYsNjE5NDcwNDIyXX0=
 -->
