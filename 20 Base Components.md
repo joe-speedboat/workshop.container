@@ -14,6 +14,7 @@ mkdir tmp
 cd tmp
 wget https://github.com/joe-speedboat/workshop.docker/raw/main/files/busybox.tar
 
+
 tar vxf busybox.tar
 	002dccb928dca75f75cdf7accaedcb7f86dadc3806a4145253df1c71e578c5e5/
 	002dccb928dca75f75cdf7accaedcb7f86dadc3806a4145253df1c71e578c5e5/VERSION
@@ -24,6 +25,12 @@ tar vxf busybox.tar
 	repositories
 
 tar vtfz *.layer.tar
+	drwxr-xr-x 0/0               0 2021-05-17 21:07 bin/
+	-rwxr-xr-x 0/0         1149184 2021-05-17 21:07 bin/[
+	...
+	drwxr-xr-x 0/0               0 2021-05-17 21:07 var/spool/
+	drwxr-xr-x 8/8               0 2021-05-17 21:07 var/spool/mail/
+	drwxr-xr-x 0/0               0 2021-05-17 21:07 var/www/
 
 
 
@@ -31,6 +38,6 @@ tar vtfz *.layer.tar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkyMDEyNTIsLTE0OTYxOTg5MzYsNj
-E5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbMjY0NDQ3MDA0LC0xNDk2MTk4OTM2LDYxOT
+Q3MDQyMl19
 -->
