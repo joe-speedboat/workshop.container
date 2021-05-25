@@ -6,21 +6,24 @@ Docker, Kubernetes, and containers are indeed powerful technologies that can bri
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/containers-vs-virtual-machines.jpg)
 ## Under the hood
 Let’s discuss a few key things before we dig deeper
-# **_Namespaces_**
-
+### Namespaces
 Docker uses a technology called `namespaces` to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
-
 These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 
-_Docker Engine uses namespaces such as the following on Linux:_
-
+Docker Engine uses namespaces such as the following on Linux:
 -   **_The_** `pid` **_namespace:_** _Process isolation (PID: Process ID)._
 -   **_The_** `net` **_namespace:_** _Managing network interfaces (NET: Networking)._
 -   **_The_** `ipc` **_namespace:_** _Managing access to IPC resources (IPC: InterProcess Communication)._
 -   **_The_** `mnt` **_namespace:_** _Managing filesystem mount points (MNT: Mount)._
 -   **_The_** `uts` **_namespace:_** _Isolating kernel and version identifiers. (UTS: Unix Timesharing System)._
 
+### Control groups
+Docker Engine on Linux also relies on another technology called control groups (`cgroups`). A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally enforce limits and constraints. For example, you can limit the memory available to a specific container.
+
+# _Union file systems_
+
+_Union file systems, or UnionFS, are file systems that operate by creating layers, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, vfs, and DeviceMapper._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1ODg1MjA0LDE2Nzk3OTUxODMsMTEzNj
+eyJoaXN0b3J5IjpbNzEwMjM3Mjc1LDE2Nzk3OTUxODMsMTEzNj
 QxNTMzOV19
 -->
