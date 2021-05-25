@@ -21,10 +21,14 @@ Docker Engine uses namespaces such as the following on Linux:
 Docker Engine on Linux also relies on another technology called control groups (`cgroups`). A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally **enforce limits** and **constraints**. For example, you can limit the memory available to a specific container.
 
 ### Union file systems
-Union file systems, or UnionFS, are file systems that operate by creating layers, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, vfs, and DeviceMapper.
+Union file systems, or UnionFS, are file systems that operate by **creating layers**, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, **vfs**, and **DeviceMapper**.
 
+### Container format
+Docker Engine combines the namespaces, control groups, and UnionFS into a wrapper called a container format. The default container format is_ `_libcontainer_`_._
+
+_Under the hood might not be the correct heading for this topic, but these are things which strike me when I first start using Docker_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ3NTQxMTEsMTY3OTc5NTE4MywxMT
-M2NDE1MzM5XX0=
+eyJoaXN0b3J5IjpbLTYwNjIxNjU3NCwtMjA0NDc1NDExMSwxNj
+c5Nzk1MTgzLDExMzY0MTUzMzldfQ==
 -->
