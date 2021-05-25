@@ -19,6 +19,8 @@ yum -y install epel-release
 yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum -y install docker-ce docker-ce-cli containerd.io
+systemctl start docker
+systemctl enable docker
 ```
 ### Create Docker Admin
 ```
@@ -26,6 +28,5 @@ useradd atomic
 usermod -aG docker atomic
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2MDczMzYsLTE1Mzk4NTc1OTZdfQ
-==
+eyJoaXN0b3J5IjpbMjAyMTE2NDY5OSwtMTUzOTg1NzU5Nl19
 -->
