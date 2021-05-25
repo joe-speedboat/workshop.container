@@ -36,13 +36,16 @@ Okay, the file-system of a single layer container is packed in a tar!
 
 ## The Container
 This tar file looks interesting, but what can we do with it?
-So we import it now, then we have a container!
+
+So we import it and hopefully we have a container later on?
+
+docker import 
 
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjM0MTAxMiwtMTQ5NjE5ODkzNiw2MT
-k0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTE3NDEzODEwMjAsLTE0OTYxOTg5MzYsNj
+E5NDcwNDIyXX0=
 -->
