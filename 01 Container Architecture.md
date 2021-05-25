@@ -8,7 +8,7 @@ Docker, Kubernetes, and containers are indeed powerful technologies that can bri
 Let’s discuss a few key things before we dig deeper
 ### Namespaces
 Docker uses a technology called `namespaces` to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
-These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
+These namespaces provide a layer of **isolation**. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 
 Docker Engine uses namespaces such as the following on Linux:
 -   **_The_** `pid` **_namespace:_** _Process isolation (PID: Process ID)._
@@ -18,12 +18,13 @@ Docker Engine uses namespaces such as the following on Linux:
 -   **_The_** `uts` **_namespace:_** _Isolating kernel and version identifiers. (UTS: Unix Timesharing System)._
 
 ### Control groups
-Docker Engine on Linux also relies on another technology called control groups (`cgroups`). A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally enforce limits and constraints. For example, you can limit the memory available to a specific container.
+Docker Engine on Linux also relies on another technology called control groups (`cgroups`). A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally **enforce limits** and **constraints**. For example, you can limit the memory available to a specific container.
 
-# _Union file systems_
+### Union file systems
+Union file systems, or UnionFS, are file systems that operate by creating layers, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, vfs, and DeviceMapper.
 
-_Union file systems, or UnionFS, are file systems that operate by creating layers, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, vfs, and DeviceMapper._
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMjM3Mjc1LDE2Nzk3OTUxODMsMTEzNj
-QxNTMzOV19
+eyJoaXN0b3J5IjpbLTIwNDQ3NTQxMTEsMTY3OTc5NTE4MywxMT
+M2NDE1MzM5XX0=
 -->
