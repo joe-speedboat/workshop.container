@@ -23,7 +23,7 @@ tar vxf busybox.tar
 	manifest.json
 	repositories
 
-tar vtfz *.layer.
+tar vtfz *.layer.tar
 
 
 
@@ -31,6 +31,6 @@ tar vtfz *.layer.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjY3ODM4MSwtMTQ5NjE5ODkzNiw2MT
-k0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTkyMDEyNTIsLTE0OTYxOTg5MzYsNj
+E5NDcwNDIyXX0=
 -->
