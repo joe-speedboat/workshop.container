@@ -27,6 +27,13 @@ systemctl enable docker
 useradd atomic
 usermod -aG docker atomic
 ```
+
+### Configure Firewalling
+```bash
+dnf -y install firewalld
+systemctl enable firewalld --now
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTE2NDY5OSwtMTUzOTg1NzU5Nl19
+eyJoaXN0b3J5IjpbLTE1MjU0Nzk3OTgsMjAyMTE2NDY5OSwtMT
+UzOTg1NzU5Nl19
 -->
