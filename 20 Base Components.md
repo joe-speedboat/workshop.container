@@ -67,12 +67,23 @@ As you can see, tags can be used to label image versions.
 
 ## Running Images
 Okay, so lets start a first command inside the container
+```bash
+docker run --interactive --tty --rm busybox:latest ifconfig eth0
+	eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
+	          inet addr:172.17.0.2  Bcast:172.17.255.255  Mask:255.255.0.0
+	          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+	          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+	          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+	          collisions:0 txqueuelen:0 
+	          RX bytes:180 (180.0 B)  TX bytes:0 (0.0 B)
+```
+If you 
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODUyMzM4MywtMTM4MjQ2NTA2NSwtMj
+eyJoaXN0b3J5IjpbMTU5MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMj
 A3MzEwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2
 MDI5MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3LDkxODYyOTg4Ni
 wtMTQ5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
