@@ -29,6 +29,7 @@ tar vtf busybox.tar
 ## Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
 Let's first have a short chat about the Docker image architecture.
+So I borrowed few drawings from docker page where they explain the storage drivers:
 
 
 So we import it and hopefully we have a container later on?
@@ -61,6 +62,7 @@ Can Docker do that for me? YES, so lets do it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjA1NTA3NywxNDgxODY1MzY3LDkxOD
-YyOTg4NiwtMTQ5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbMTczMTQyODY5LDE1NTIwNTUwNzcsMTQ4MT
+g2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5MzYsNjE5NDcwNDIy
+XX0=
 -->
