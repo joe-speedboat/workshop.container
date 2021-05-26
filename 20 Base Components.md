@@ -2,9 +2,8 @@
 Now we can install Docker, but what can we do with and how does it work?
 
 Let's look deeper into Docker and what components it's depending on.
-We do this by the process, deploying a simple web application
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 
+![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 ## The Images
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
 So let's look deeper into a minimal docker image consisting of one single layer:
@@ -25,7 +24,6 @@ tar vtf busybox.tar
 	-rw-r--r-- 0/0             203 1970-01-01 01:00 manifest.json
 	-rw-r--r-- 0/0              90 1970-01-01 01:00 repositories
 ```
-
 
 ## Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
@@ -61,7 +59,7 @@ Can Docker do that for me? YES, so lets do it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkzODEyMiwxNTUyMDU1MDc3LDE0OD
+eyJoaXN0b3J5IjpbLTU0OTYwMjkzMCwxNTUyMDU1MDc3LDE0OD
 E4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3MDQy
 Ml19
 -->
