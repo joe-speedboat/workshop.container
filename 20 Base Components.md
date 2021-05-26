@@ -65,17 +65,15 @@ docker images
 ```
 As you can see, tags can be used to label image versions.
 
-
-
 ## Running Images
-
+Okay, so lets start a first command inside the container
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI0NjUwNjUsLTIwNzMxMDcyMjUsLT
-E0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIw
-NTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5Mz
-YsNjE5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbMTIxODUyMzM4MywtMTM4MjQ2NTA2NSwtMj
+A3MzEwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2
+MDI5MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3LDkxODYyOTg4Ni
+wtMTQ5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
 -->
