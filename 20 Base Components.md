@@ -36,14 +36,17 @@ docker import busybox.tar
 ```
 A imported image is still an image, but now we can see it got imported into the docker subsystem of the atomic host:
 ```bash
-
+docker images
+	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+	<none>       <none>    98df473ae812   11 hours ago   1.46MB
 ```
-
+Oh great, now I just have to remember the ID in order to use my busybox docker image!   
+Can Docker do that for me? YES, it is called re
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzU4MzE3Niw5MTg2Mjk4ODYsLTE0OT
-YxOTg5MzYsNjE5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbMTg0MjY0MDg3LDkxODYyOTg4NiwtMTQ5Nj
+E5ODkzNiw2MTk0NzA0MjJdfQ==
 -->
