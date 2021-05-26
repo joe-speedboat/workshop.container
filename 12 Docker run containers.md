@@ -77,9 +77,10 @@ docker images
 As with real operating systems services, we can decide if containers should restart, run in background, and so on.
 So we do now
 
-## 
+## Start a container in background
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIzODA5NDEsMTQxMzIyOTU0OSwxND
-EzMTEwNjk3LDg3ODA3NDU3XX0=
+eyJoaXN0b3J5IjpbMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMz
+ExMDY5Nyw4NzgwNzQ1N119
 -->
