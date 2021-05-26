@@ -95,11 +95,14 @@ docker ps
 ```
 If you now logout and login back again, you can see that the container is still running.
 
+## Jump into a running container
 Now let us jump into the container and kill the application:
 ```bash
 docker ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   5 minutes ago   Up 5 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
+
+docker exec -it a0260d433daf bash
 
 root@a0260d433daf:/code# ps -ef
 	UID          PID    PPID  C STIME TTY          TIME CMD
@@ -114,10 +117,10 @@ docker ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   7 minutes ago   Up 6 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
-As you can see, the container has now a lower uptime
+As you can see, the container has now a lower uptime because of the automated restart.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTI1MjE2OCwxMTY3ODM4NTQ1LDI1Mj
-Y1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2OTcsODc4MDc0NTdd
-fQ==
+eyJoaXN0b3J5IjpbLTEyNTE1NDgwNjcsMTE2NzgzODU0NSwyNT
+I2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3LDg3ODA3NDU3
+XX0=
 -->
