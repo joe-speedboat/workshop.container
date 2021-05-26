@@ -97,18 +97,14 @@ docker search busybox
 	progrium/busybox                                                          70                   [OK]
 	radial/busyboxplus        Full-chain, Internet enabled, busybox made f…   39                   [OK]
 	yauritux/busybox-curl     Busybox with CURL                               15                   
-	arm32v7/busybox           Busybox base image.                             9                    
-	armhf/busybox             Busybox base image.                             6                    
-	odise/busybox-curl                                                        4                    [OK]
 	...                  
 	emccorp/busybox           Busybox                                         0                    
 	ggtools/busybox-ubuntu    Busybox ubuntu version with extra goodies       0                    [OK]
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwOTc3Mzg0LC03Njk2MTcxMDMsLTE3OD
-IyOTkxLDY1MDg5Nzg1MiwxNTkyMjQxMjk4LC0xMzgyNDY1MDY1
-LC0yMDczMTA3MjI1LC0xNDk3NjU0MDYyLC04NTA5OTkzOTIsLT
-U0OTYwMjkzMCwxNTUyMDU1MDc3LDE0ODE4NjUzNjcsOTE4NjI5
-ODg2LC0xNDk2MTk4OTM2LDYxOTQ3MDQyMl19
+eyJoaXN0b3J5IjpbNDQ5NzgzLDM5MDk3NzM4NCwtNzY5NjE3MT
+AzLC0xNzgyMjk5MSw2NTA4OTc4NTIsMTU5MjI0MTI5OCwtMTM4
+MjQ2NTA2NSwtMjA3MzEwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOT
+k5MzkyLC01NDk2MDI5MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3
+LDkxODYyOTg4NiwtMTQ5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
 -->
