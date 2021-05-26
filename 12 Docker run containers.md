@@ -119,8 +119,11 @@ docker ps
 ```
 As you can see, the container has now a lower uptime because of the automated restart.
 
+Let us clean up again
+```bash
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE1NDgwNjcsMTE2NzgzODU0NSwyNT
-I2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3LDg3ODA3NDU3
-XX0=
+eyJoaXN0b3J5IjpbNjY1MDI1OTkwLDExNjc4Mzg1NDUsMjUyNj
+UyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5Nyw4NzgwNzQ1N119
+
 -->
