@@ -28,19 +28,19 @@ tar vtf busybox.tar
 ### Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
 
-
 So we import it and hopefully we have a container later on?
 ```bash
 cat busybox.tar | docker load
-	sha256:98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
+	d0d0905d7be4: Loading layer [=====================>]  1.455MB/1.455MB
+	Loaded image: busybox:latest
 ```
 A imported image is still an image, but now we can see it got imported into the docker subsystem of the atomic host:
 ```bash
 docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-	<none>       <none>    98df473ae812   11 hours ago   1.46MB
+	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
+	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 
-docker inspect 98df473ae812 | jq -r '.[].RootFS'
+docker inspect busybox:latest | jq -r '.[].RootFS'
 	{
 	  "Type": "layers",
 	  "Layers": [
@@ -72,8 +72,8 @@ Okay, this looks better, it's time to start something.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTYxOTY0MiwtMjA3MzEwNzIyNSwtMT
-Q5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5MzAsMTU1MjA1
-NTA3NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMTQ5NjE5ODkzNi
-w2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTE3Mjg4NTkyNTAsLTIwNzMxMDcyMjUsLT
+E0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIw
+NTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5Mz
+YsNjE5NDcwNDIyXX0=
 -->
