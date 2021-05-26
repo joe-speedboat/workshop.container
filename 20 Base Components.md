@@ -44,7 +44,7 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 	{
 	  "Type": "layers",
 	  "Layers": [
-	    "sha256:a41c425c183934031a76f4a3eaaa4ac75ed99e9f10eeb0a937c075c294434ff8"
+	    "sha256:d0d0905d7be4eff6a63efe4a38647a679de1e024101f67db4fe4b5736c1e7f48"
 	  ]
 	}
 ```
@@ -72,7 +72,7 @@ Okay, this looks better, it's time to start something.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg4NTkyNTAsLTIwNzMxMDcyMjUsLT
+eyJoaXN0b3J5IjpbLTEzNDk0NjMwMzQsLTIwNzMxMDcyMjUsLT
 E0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIw
 NTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5Mz
 YsNjE5NDcwNDIyXX0=
