@@ -78,9 +78,24 @@ As with real operating systems services, we can decide if containers should rest
 So we do now
 
 ## Start a container in background
-
+```bash
+docker run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
+	Unable to find image 'yeasy/simple-web:latest' locally
+	latest: Pulling from yeasy/simple-web
+	f2b6b4884fc8: Pull complete 
+	...
+	f05b81527a11: Pull complete 
+	779bb3fb81b2: Pull complete 
+	Digest: sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
+	Status: Downloaded newer image for yeasy/simple-web:latest
+	a0260d433daf4146c42015029e269234038284e35739f4bfb42dde75177bb6c2
+docker ps
+	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
+	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 seconds ago   Up 9 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
+```
+If you now
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMz
-ExMDY5Nyw4NzgwNzQ1N119
+eyJoaXN0b3J5IjpbLTM3MDQ3MTQ0OCwyNTI2NTI5NTgsMTQxMz
+IyOTU0OSwxNDEzMTEwNjk3LDg3ODA3NDU3XX0=
 -->
