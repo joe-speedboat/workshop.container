@@ -18,46 +18,14 @@ docker-container-start (1) - Start one or more stopped containers
 ...
 docker-container-stop (1) - Stop one or more running containers
 docker-container-top (1) - Display the running processes of a container
-docker-container-unpause (1) - Unpause all processes within one or more containers
-docker-container-update (1) - Update configuration of one or more containers
-docker-container-wait (1) - Block until one or more containers stop, then print their exit codes
-docker-context (1)   - Manage contexts
-docker-context-create (1) - Create a context
-docker-context-export (1) - Export a context to a tar or kubeconfig file
-docker-context-import (1) - Import a context from a tar or zip file
-docker-context-inspect (1) - Display detailed information on one or more contexts
-docker-context-ls (1) - List contexts
-docker-context-rm (1) - Remove one or more contexts
-docker-context-update (1) - Update a context
-docker-context-use (1) - Set the current docker context
+...
 docker-cp (1)        - Copy files/folders between a container and the local filesystem
 docker-create (1)    - Create a new container
-docker-diff (1)      - Inspect changes to files or directories on a container's filesystem
-docker-events (1)    - Get real time events from the server
+...
 docker-exec (1)      - Run a command in a running container
-docker-export (1)    - Export a container's filesystem as a tar archive
-docker-history (1)   - Show the history of an image
+...
 docker-image (1)     - Manage images
-docker-image-build (1) - Build an image from a Dockerfile
-docker-image-history (1) - Show the history of an image
-docker-image-import (1) - Import the contents from a tarball to create a filesystem image
-docker-image-inspect (1) - Display detailed information on one or more images
-docker-image-load (1) - Load an image from a tar archive or STDIN
-docker-image-ls (1)  - List images
-docker-image-prune (1) - Remove unused images
-docker-image-pull (1) - Pull an image or a repository from a registry
-docker-image-push (1) - Push an image or a repository to a registry
-docker-image-rm (1)  - Remove one or more images
-docker-image-save (1) - Save one or more images to a tar archive (streamed to STDOUT by default)
-docker-image-tag (1) - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
-docker-images (1)    - List images
-docker-import (1)    - Import the contents from a tarball to create a filesystem image
-docker-info (1)      - Display system-wide information
-docker-inspect (1)   - Return low-level information on Docker objects
-docker-kill (1)      - Kill one or more running containers
-docker-load (1)      - Load an image from a tar archive or STDIN
-docker-login (1)     - Log in to a Docker registry
-docker-logout (1)    - Log out from a Docker registry
+...
 docker-logs (1)      - Fetch the logs of a container
 docker-manifest (1)  - Manage Docker image manifests and manifest lists
 docker-manifest-annotate (1) - Add additional information to a local image manifest
@@ -168,5 +136,5 @@ dockerd (8)          - Enable daemon mode
 Dockerfile (5)       - automate the steps of creating a Docker image
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTM5NjEwMV19
+eyJoaXN0b3J5IjpbNjEzOTkzMTM0XX0=
 -->
