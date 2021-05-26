@@ -87,7 +87,6 @@ But what about portability... security... sharing... of your images?
 
 By default, docker uses the public registry, hosted by the makers of docker at:
 https://hub.docker.com/
-*** TODO: Please create an account docker hub.***
 
 ### Search the Registry
 ```bash
@@ -101,16 +100,19 @@ docker search busybox
 	emccorp/busybox           Busybox                                         0                    
 	ggtools/busybox-ubuntu    Busybox ubuntu version with extra goodies       0                    [OK]
 ```
+
 ```bash
 docker search --filter is-official=true --filter stars=3 busybox
 	NAME      DESCRIPTION           STARS     OFFICIAL   AUTOMATED
 	busybox   Busybox base image.   2231      [OK]     
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODA3Mzc4MCw0NDk3ODMsMzkwOTc3Mz
-g0LC03Njk2MTcxMDMsLTE3ODIyOTkxLDY1MDg5Nzg1MiwxNTky
-MjQxMjk4LC0xMzgyNDY1MDY1LC0yMDczMTA3MjI1LC0xNDk3Nj
-U0MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1MDc3
-LDE0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOT
-Q3MDQyMl19
+eyJoaXN0b3J5IjpbLTIxMDQ1Njk1MDcsNDQ5NzgzLDM5MDk3Nz
+M4NCwtNzY5NjE3MTAzLC0xNzgyMjk5MSw2NTA4OTc4NTIsMTU5
+MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMjA3MzEwNzIyNSwtMTQ5Nz
+Y1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5MzAsMTU1MjA1NTA3
+NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMTQ5NjE5ODkzNiw2MT
+k0NzA0MjJdfQ==
 -->
