@@ -42,13 +42,15 @@ docker-volume (1)    - Manage volumes
 
 ## Pull and start an image from Dockerhub
 ```bash
-docker run --rm -it -p 80:80 yeasy/simple-web:latest
+docker run -it -p 80:80 yeasy/simple-web:latest
 ```
 Now go and try to access the port 80 of your VM with a webbrowser!
 You should see something like that:
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/http_simple_web.png)
-Since you started the c
+Since you started the container in interactive mode, it will exit if you type CTRL-C, please do so now.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzAyMTY3LDE0MTMyMjk1NDksMTQxMz
-ExMDY5Nyw4NzgwNzQ1N119
+eyJoaXN0b3J5IjpbLTE1ODQ0MTIyMSwxNDEzMjI5NTQ5LDE0MT
+MxMTA2OTcsODc4MDc0NTddfQ==
 -->
