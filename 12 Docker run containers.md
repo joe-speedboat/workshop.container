@@ -74,8 +74,12 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
+As with real operating systems services, we can decide if containers should restart, run in background, and so on.
+So we do now
+
+## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDAwMDg4NiwxNDEzMjI5NTQ5LDE0MT
-MxMTA2OTcsODc4MDc0NTddfQ==
+eyJoaXN0b3J5IjpbLTE4NTIzODA5NDEsMTQxMzIyOTU0OSwxND
+EzMTEwNjk3LDg3ODA3NDU3XX0=
 -->
