@@ -121,9 +121,36 @@ As you can see, the container has now a lower uptime because of the automated re
 
 Let us clean up again
 ```bash
+docker ps
+	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
+	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   12 minutes ago   Up 2 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
+
+docker stop a0260d433daf
+	a0260d433daf
+
+docker ps
+	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+docker ps -a
+	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS                        PORTS     NAMES
+	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 minutes ago   Exited (137) 12 seconds ago             laughing_taussig
+
+docker rm a0260d433daf
+	a0260d433daf
+[root@atomic ~]# docker images
+REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
+yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
+[root@atomic ~]# docker rmi yeasy/simple-web
+Untagged: yeasy/simple-web:latest
+Untagged: yeasy/simple-web@sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
+Deleted: sha256:172c78152bf688785a3886063f586af38dbb18c59587f0a90bd57490ef06c251
+...
+Deleted: sha256:8fad67424c4e7098f255513e160caa00852bcff347bc9f920a82ddf3f60229de
+[root@atomic ~]# docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1MDI1OTkwLDExNjc4Mzg1NDUsMjUyNj
+eyJoaXN0b3J5IjpbNjkyMjE1MTQzLDExNjc4Mzg1NDUsMjUyNj
 UyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5Nyw4NzgwNzQ1N119
 
 -->
