@@ -85,6 +85,12 @@ We will look later deeper into the shared and/other separated components of a co
 Now understand the mechanic of images and how to start a container.
 But what about portability... security... sharing... of your images?
 
+A Docker registry is a storage and distribution system for named Docker images. The same image might have multiple different versions, identified by their tags.
+
+A Docker registry is organized into Docker repositories , where a repository holds all the versions of a specific image. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable).
+
+By default, the Docker engine interacts with DockerHub , Docker’s public registry instance. However, it is possible to run on-premise the open-source Docker registry/distribution, as well as a commercially supported version called Docker Trusted Registry . There are other public registries available online.
+
 By default, docker uses the public registry, hosted by the makers of docker at:
 https://hub.docker.com/
 
@@ -109,10 +115,10 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ1Njk1MDcsNDQ5NzgzLDM5MDk3Nz
-M4NCwtNzY5NjE3MTAzLC0xNzgyMjk5MSw2NTA4OTc4NTIsMTU5
-MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMjA3MzEwNzIyNSwtMTQ5Nz
-Y1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5MzAsMTU1MjA1NTA3
-NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMTQ5NjE5ODkzNiw2MT
-k0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTExNzU0MjQzMjcsLTIxMDQ1Njk1MDcsND
+Q5NzgzLDM5MDk3NzM4NCwtNzY5NjE3MTAzLC0xNzgyMjk5MSw2
+NTA4OTc4NTIsMTU5MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMjA3Mz
+EwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5
+MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMT
+Q5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
 -->
