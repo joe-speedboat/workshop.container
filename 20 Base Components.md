@@ -26,7 +26,7 @@ tar vtf busybox.tar
 ```
 
 
-## Importing Images from tar
+## Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
 
 So we import it and hopefully we have a container later on?
@@ -39,17 +39,26 @@ A imported image is still an image, but now we can see it got imported into the 
 docker images
 	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
 	<none>       <none>    98df473ae812   11 hours ago   1.46MB
+
+docker inspect 98df473ae812 | jq -r '.[].RootFS'
+	{
+	  "Type": "layers",
+	  "Layers": [
+	    "sha256:a41c425c183934031a76f4a3eaaa4ac75ed99e9f10eeb0a937c075c294434ff8"
+	  ]
+	}
 ```
 Oh great, now I just have to remember the ID in order to use my busybox docker image!   
 Can Docker do that for me? YES, so lets do it.
 
-## Image naming 
+## Image names and versions
+
 
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU1OTIxNjgsOTE4NjI5ODg2LC0xND
-k2MTk4OTM2LDYxOTQ3MDQyMl19
+eyJoaXN0b3J5IjpbMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OT
+YxOTg5MzYsNjE5NDcwNDIyXX0=
 -->
