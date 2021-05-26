@@ -49,8 +49,8 @@ You should see something like that:
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/http_simple_web.png)
 Since you started the container in interactive mode, it will exit if you type CTRL-C, please do so now.
 
-
+Now let us inspect the current sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ0MTIyMSwxNDEzMjI5NTQ5LDE0MT
+eyJoaXN0b3J5IjpbMTYzMzU1Mjc4NCwxNDEzMjI5NTQ5LDE0MT
 MxMTA2OTcsODc4MDc0NTddfQ==
 -->
