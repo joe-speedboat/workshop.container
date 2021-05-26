@@ -11,12 +11,9 @@
 * https://hub.docker.com/
 * Create an account
 
-## Github
-* https://github.com/
-* Create an account
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQzMTk0NTMsMTQzOTE3MDE2OSw3Nz
-E2ODE3NTEsNDc2Mzc0MTE2XX0=
+eyJoaXN0b3J5IjpbMTMyMzU0OTE2LC0xMzc0MzE5NDUzLDE0Mz
+kxNzAxNjksNzcxNjgxNzUxLDQ3NjM3NDExNl19
 -->
