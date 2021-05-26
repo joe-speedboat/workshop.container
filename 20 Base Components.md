@@ -101,10 +101,16 @@ docker search busybox
 	emccorp/busybox           Busybox                                         0                    
 	ggtools/busybox-ubuntu    Busybox ubuntu version with extra goodies       0                    [OK]
 ```
+```bash
+docker search --filter is-official=true --filter stars=3 busybox
+	NAME      DESCRIPTION           STARS     OFFICIAL   AUTOMATED
+	busybox   Busybox base image.   2231      [OK]     
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NzgzLDM5MDk3NzM4NCwtNzY5NjE3MT
-AzLC0xNzgyMjk5MSw2NTA4OTc4NTIsMTU5MjI0MTI5OCwtMTM4
-MjQ2NTA2NSwtMjA3MzEwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOT
-k5MzkyLC01NDk2MDI5MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3
-LDkxODYyOTg4NiwtMTQ5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTMwODA3Mzc4MCw0NDk3ODMsMzkwOTc3Mz
+g0LC03Njk2MTcxMDMsLTE3ODIyOTkxLDY1MDg5Nzg1MiwxNTky
+MjQxMjk4LC0xMzgyNDY1MDY1LC0yMDczMTA3MjI1LC0xNDk3Nj
+U0MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1MDc3
+LDE0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOT
+Q3MDQyMl19
 -->
