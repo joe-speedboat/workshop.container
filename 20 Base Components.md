@@ -8,7 +8,7 @@ We do this by the process, deploying a simple web application
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
 So let's look deeper into a minimal docker image consisting of one single layer:
 ```bash
-dnf -y install vim tar wget
+dnf -y install vim tar wget jq
 
 mkdir tmp
 cd tmp
@@ -26,7 +26,7 @@ tar vtf busybox.tar
 ```
 
 
-## The Container
+## Importing Images from tar
 This tar file looks interesting, but what can we do with it?
 
 So we import it and hopefully we have a container later on?
@@ -41,12 +41,15 @@ docker images
 	<none>       <none>    98df473ae812   11 hours ago   1.46MB
 ```
 Oh great, now I just have to remember the ID in order to use my busybox docker image!   
-Can Docker do that for me? YES, it is called re
+Can Docker do that for me? YES, so lets do it.
+
+## Image naming 
+
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjY0MDg3LDkxODYyOTg4NiwtMTQ5Nj
-E5ODkzNiw2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTExNzU1OTIxNjgsOTE4NjI5ODg2LC0xND
+k2MTk4OTM2LDYxOTQ3MDQyMl19
 -->
