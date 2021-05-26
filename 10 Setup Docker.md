@@ -32,8 +32,12 @@ usermod -aG docker atomic
 ```bash
 dnf -y install firewalld
 systemctl enable firewalld --now
-
+firewall-cmd --permanent --zone=public --add-service=http
+firewall-cmd --permanent --zone=public --add-service=https
+firewall-cmd --zone=public --add-masquerade --permanent
+firewall-cmd --reload
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU0Nzk3OTgsMjAyMTE2NDY5OSwtMT
+eyJoaXN0b3J5IjpbLTEwNzk5MzEwNjQsMjAyMTE2NDY5OSwtMT
 UzOTg1NzU5Nl19
 -->
