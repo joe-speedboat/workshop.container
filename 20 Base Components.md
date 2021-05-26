@@ -84,10 +84,11 @@ We will look later deeper into the shared and/other separated components of a co
 Now understand the mechanic of images and how to start a container.
 But what about portability... security... sharing... of your images?
 
+By default, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzI5MjY5MCw2NTA4OTc4NTIsMTU5Mj
-I0MTI5OCwtMTM4MjQ2NTA2NSwtMjA3MzEwNzIyNSwtMTQ5NzY1
-NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5MzAsMTU1MjA1NTA3Ny
-wxNDgxODY1MzY3LDkxODYyOTg4NiwtMTQ5NjE5ODkzNiw2MTk0
-NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbNzEyMTcxODI4LDY1MDg5Nzg1MiwxNTkyMj
+QxMjk4LC0xMzgyNDY1MDY1LC0yMDczMTA3MjI1LC0xNDk3NjU0
+MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1MDc3LD
+E0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3
+MDQyMl19
 -->
