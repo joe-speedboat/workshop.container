@@ -95,7 +95,6 @@ docker ps
 ```
 If you now logout and login back again, you can see that the container is still running.
 
-## Jump into a running container
 Now let us jump into the container and kill the application:
 ```bash
 docker ps
@@ -152,7 +151,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODU1MzE3NywxMTY3ODM4NTQ1LDI1Mj
-Y1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2OTcsODc4MDc0NTdd
-fQ==
+eyJoaXN0b3J5IjpbMTE2NDUxOTE2LC00NDg1NTMxNzcsMTE2Nz
+gzODU0NSwyNTI2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3
+LDg3ODA3NDU3XX0=
 -->
