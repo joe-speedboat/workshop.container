@@ -40,8 +40,12 @@ docker-volume (1)    - Manage volumes
 ...
 ```
 
-## Pull an image from Dockerhub
-
+## Pull and start an image from Dockerhub
+```bash
+docker run --rm -it -p 80:80 yeasy/simple-web:latest
+```
+Now go and try to access the port 80 of your VM with a webbrow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzExMDY5Nyw4NzgwNzQ1N119
+eyJoaXN0b3J5IjpbMTkzNzkzMzQ5MCwxNDEzMTEwNjk3LDg3OD
+A3NDU3XX0=
 -->
