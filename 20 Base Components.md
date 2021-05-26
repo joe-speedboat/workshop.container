@@ -3,6 +3,7 @@ Now we can install Docker, but what can we do with and how does it work?
 
 Let's look deeper into Docker and what components it's depending on.
 We do this by the process, deploying a simple web application
+![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 
 ## The Images
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
@@ -28,8 +29,6 @@ tar vtf busybox.tar
 
 ## Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
-Let's first have a short chat about the Docker image architecture.
-So I borrowed few drawings from docker page where they explain the storage drivers:
 
 
 So we import it and hopefully we have a container later on?
@@ -62,7 +61,7 @@ Can Docker do that for me? YES, so lets do it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTQyODY5LDE1NTIwNTUwNzcsMTQ4MT
-g2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5MzYsNjE5NDcwNDIy
-XX0=
+eyJoaXN0b3J5IjpbLTE5MzkzODEyMiwxNTUyMDU1MDc3LDE0OD
+E4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3MDQy
+Ml19
 -->
