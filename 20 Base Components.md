@@ -52,14 +52,24 @@ Oh great, now I just have to remember the ID in order to use my busybox docker i
 Can Docker do that for me? YES, so lets do it.
 
 ## Image names and versions
+```bash
+docker images
+	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+	<none>       <none>    98df473ae812   12 hours ago   1.46MB
 
+docker tag 98df473ae812 busybox:latest
+
+docker images
+	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+	busybox      latest    98df473ae812   12 hours ago   1.46MB
+```
 
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTYwMjkzMCwxNTUyMDU1MDc3LDE0OD
-E4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3MDQy
-Ml19
+eyJoaXN0b3J5IjpbLTU2NDg5NzE0NCwtNTQ5NjAyOTMwLDE1NT
+IwNTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5
+MzYsNjE5NDcwNDIyXX0=
 -->
