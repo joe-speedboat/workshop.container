@@ -77,16 +77,16 @@ docker run --interactive --tty --rm busybox:latest ifconfig eth0
 	          collisions:0 txqueuelen:0 
 	          RX bytes:180 (180.0 B)  TX bytes:0 (0.0 B)
 ```
-If you compare the IP you got, you can see that they are different.
-We will look later deeper into the share
+If you compare the IP you got with the OS IP, you can see that they are different.
+We will look later deeper into the shared and/other separated components of a container.
 
 ## The Registry
-
+Now we got the power
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODcxNDQ0NjQsNjUwODk3ODUyLDE1OT
-IyNDEyOTgsLTEzODI0NjUwNjUsLTIwNzMxMDcyMjUsLTE0OTc2
-NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIwNTUwNz
-csMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5MzYsNjE5
-NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbNjQ1MTQ3MzU4LDY1MDg5Nzg1MiwxNTkyMj
+QxMjk4LC0xMzgyNDY1MDY1LC0yMDczMTA3MjI1LC0xNDk3NjU0
+MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1MDc3LD
+E0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3
+MDQyMl19
 -->
