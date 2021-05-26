@@ -88,8 +88,11 @@ But what about portability... security... sharing... of your images?
 By default, docker uses the public registry, hosted by the makers of docker at:
 https://hub.docker.com/
 *** TODO: Please create an account docker hub.***
+
+### Search the Registry
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODc1OTQ3MCwtMTc4MjI5OTEsNjUwOD
+eyJoaXN0b3J5IjpbLTc2OTYxNzEwMywtMTc4MjI5OTEsNjUwOD
 k3ODUyLDE1OTIyNDEyOTgsLTEzODI0NjUwNjUsLTIwNzMxMDcy
 MjUsLTE0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLD
 E1NTIwNTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYx
