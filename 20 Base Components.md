@@ -31,7 +31,7 @@ This tar file looks interesting, but what can we do with it?
 
 So we import it and hopefully we have a container later on?
 ```bash
-docker import busybox.tar
+cat busybox.tar | docker load
 	sha256:98df473ae812df90a95ac180cda62653feff29e59c085884b45b6d37a10658c2
 ```
 A imported image is still an image, but now we can see it got imported into the docker subsystem of the atomic host:
@@ -72,8 +72,8 @@ Okay, this looks better, it's time to start something.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMxMDcyMjUsLTE0OTc2NTQwNjIsLT
-g1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIwNTUwNzcsMTQ4MTg2
-NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5MzYsNjE5NDcwNDIyXX
-0=
+eyJoaXN0b3J5IjpbMTk4NTYxOTY0MiwtMjA3MzEwNzIyNSwtMT
+Q5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5MzAsMTU1MjA1
+NTA3NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMTQ5NjE5ODkzNi
+w2MTk0NzA0MjJdfQ==
 -->
