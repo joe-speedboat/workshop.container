@@ -8,7 +8,7 @@ Let's look deeper into Docker and what components it's depending on.
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
 So let's look deeper into a minimal docker image consisting of one single layer:
 ```bash
-dnf -y install vim tar wget jq
+dnf -y install vim tar wget jq git
 
 mkdir tmp
 cd tmp
@@ -72,7 +72,7 @@ Okay, this looks better, it's time to start something.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NT
-IwNTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5
-MzYsNjE5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbLTE0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNT
+Q5NjAyOTMwLDE1NTIwNTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4
+ODYsLTE0OTYxOTg5MzYsNjE5NDcwNDIyXX0=
 -->
