@@ -137,20 +137,22 @@ docker ps -a
 
 docker rm a0260d433daf
 	a0260d433daf
-[root@atomic ~]# docker images
-REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
-yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
-[root@atomic ~]# docker rmi yeasy/simple-web
-Untagged: yeasy/simple-web:latest
-Untagged: yeasy/simple-web@sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
-Deleted: sha256:172c78152bf688785a3886063f586af38dbb18c59587f0a90bd57490ef06c251
-...
-Deleted: sha256:8fad67424c4e7098f255513e160caa00852bcff347bc9f920a82ddf3f60229de
-[root@atomic ~]# docker images
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 
+docker images
+	REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
+	yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
+docker rmi yeasy/simple-web
+	Untagged: yeasy/simple-web:latest
+	Untagged: yeasy/simple-web@sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
+	Deleted: sha256:172c78152bf688785a3886063f586af38dbb18c59587f0a90bd57490ef06c251
+	...
+	Deleted: sha256:8fad67424c4e7098f255513e160caa00852bcff347bc9f920a82ddf3f60229de
+
+docker images
+	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMjE1MTQzLDExNjc4Mzg1NDUsMjUyNj
-UyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5Nyw4NzgwNzQ1N119
-
+eyJoaXN0b3J5IjpbLTQ0ODU1MzE3NywxMTY3ODM4NTQ1LDI1Mj
+Y1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2OTcsODc4MDc0NTdd
+fQ==
 -->
