@@ -77,14 +77,14 @@ docker run --interactive --tty --rm busybox:latest ifconfig eth0
 	          collisions:0 txqueuelen:0 
 	          RX bytes:180 (180.0 B)  TX bytes:0 (0.0 B)
 ```
-If you 
+If you compare the IP you got, you can see that they are different.
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMj
-A3MzEwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2
-MDI5MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3LDkxODYyOTg4Ni
-wtMTQ5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbMTc3NTUxMjk2MCwxNTkyMjQxMjk4LC0xMz
+gyNDY1MDY1LC0yMDczMTA3MjI1LC0xNDk3NjU0MDYyLC04NTA5
+OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1MDc3LDE0ODE4NjUzNj
+csOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3MDQyMl19
 -->
