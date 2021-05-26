@@ -11,15 +11,11 @@ docker-attach (1)    - Attach local standard input, output, and error streams to
 docker-container-kill (1) - Kill one or more running containers
 docker-container-logs (1) - Fetch the logs of a container
 docker-container-ls (1) - List containers
-docker-container-pause (1) - Pause all processes within one or more containers
-docker-container-port (1) - List port mappings or a specific mapping for the container
-docker-container-prune (1) - Remove all stopped containers
-docker-container-rename (1) - Rename a container
-docker-container-restart (1) - Restart one or more containers
+...
 docker-container-rm (1) - Remove one or more containers
 docker-container-run (1) - Run a command in a new container
 docker-container-start (1) - Start one or more stopped containers
-docker-container-stats (1) - Display a live stream of container(s) resource usage statistics
+...
 docker-container-stop (1) - Stop one or more running containers
 docker-container-top (1) - Display the running processes of a container
 docker-container-unpause (1) - Unpause all processes within one or more containers
@@ -172,5 +168,5 @@ dockerd (8)          - Enable daemon mode
 Dockerfile (5)       - automate the steps of creating a Docker image
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NTkzODc4XX0=
+eyJoaXN0b3J5IjpbLTk2OTM5NjEwMV19
 -->
