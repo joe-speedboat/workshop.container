@@ -6,7 +6,8 @@ Let's look deeper into Docker and what components it's depending on.
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 ## The Images
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
-So let's look deeper into a minimal docker image consisting of one single layer:
+So let's look deeper into a minimal docker image consisting of one single layer.
+**TODO: This is as well an exercise, try it out on your CentOS8 VM**
 ```bash
 dnf -y install vim tar wget jq git bash-completion
 
@@ -86,12 +87,11 @@ But what about portability... security... sharing... of your images?
 
 By default, docker uses the public registry, hosted by the makers of docker at:
 https://hub.docker.com/
-* TODO: Please create an account docker hub.
-* 
+*** TODO: Please create an account docker hub.***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2OTY4NTY4LC0xNzgyMjk5MSw2NTA4OT
-c4NTIsMTU5MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMjA3MzEwNzIy
-NSwtMTQ5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5MzAsMT
-U1MjA1NTA3NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMTQ5NjE5
-ODkzNiw2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbMTAyODc1OTQ3MCwtMTc4MjI5OTEsNjUwOD
+k3ODUyLDE1OTIyNDEyOTgsLTEzODI0NjUwNjUsLTIwNzMxMDcy
+MjUsLTE0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLD
+E1NTIwNTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYx
+OTg5MzYsNjE5NDcwNDIyXX0=
 -->
