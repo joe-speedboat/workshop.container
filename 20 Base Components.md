@@ -54,14 +54,16 @@ Can Docker do that for me? YES, so lets do it.
 ### Image names and versions
 ```bash
 docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-	<none>       <none>    98df473ae812   12 hours ago   1.46MB
+	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
+	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 
-docker tag 98df473ae812 busybox:latest
+docker tag busybox:latest busybox:stable
 
 docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-	busybox      latest    98df473ae812   12 hours ago   1.46MB
+	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
+	busybox      latest    d3cd072556c2   8 days ago   1.24MB
+	busybox      stable    d3cd072556c2   8 days ago   1.24MB
+
 ```
 Okay, this looks better, it's time to start something.
 
@@ -72,8 +74,8 @@ Okay, this looks better, it's time to start something.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk0NjMwMzQsLTIwNzMxMDcyMjUsLT
-E0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIw
-NTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5Mz
-YsNjE5NDcwNDIyXX0=
+eyJoaXN0b3J5IjpbNTkwNTM5MzczLC0yMDczMTA3MjI1LC0xND
+k3NjU0MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1
+MDc3LDE0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LD
+YxOTQ3MDQyMl19
 -->
