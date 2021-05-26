@@ -44,8 +44,10 @@ docker-volume (1)    - Manage volumes
 ```bash
 docker run --rm -it -p 80:80 yeasy/simple-web:latest
 ```
-Now go and try to access the port 80 of your VM with a webbrow
+Now go and try to access the port 80 of your VM with a webbrowser!
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzkzMzQ5MCwxNDEzMTEwNjk3LDg3OD
+eyJoaXN0b3J5IjpbMTQxMzIyOTU0OSwxNDEzMTEwNjk3LDg3OD
 A3NDU3XX0=
 -->
