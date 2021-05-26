@@ -95,10 +95,12 @@ docker ps
 ```
 If you now logout and login back again, you can see that the container is still running.
 
-Now let us jump into the container and ki
+Now let us jump into the container and kill the application:
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA2OTMxNTcsMTE2NzgzODU0NSwyNT
+eyJoaXN0b3J5IjpbLTE4NzI3NjEwNjQsMTE2NzgzODU0NSwyNT
 I2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3LDg3ODA3NDU3
 XX0=
 -->
