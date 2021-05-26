@@ -91,9 +91,6 @@ A Docker registry is organized into Docker repositories , where a repository hol
 
 By default, the Docker engine interacts with DockerHub , Docker’s public registry instance. However, it is possible to run on-premise the open-source Docker registry/distribution, as well as a commercially supported version called Docker Trusted Registry . There are other public registries available online.
 
-By default, docker uses the public registry, hosted by the makers of docker at:
-https://hub.docker.com/
-
 ### Search the Registry
 ```bash
 docker search busybox
@@ -115,10 +112,10 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU0MjQzMjcsLTIxMDQ1Njk1MDcsND
-Q5NzgzLDM5MDk3NzM4NCwtNzY5NjE3MTAzLC0xNzgyMjk5MSw2
-NTA4OTc4NTIsMTU5MjI0MTI5OCwtMTM4MjQ2NTA2NSwtMjA3Mz
-EwNzIyNSwtMTQ5NzY1NDA2MiwtODUwOTk5MzkyLC01NDk2MDI5
-MzAsMTU1MjA1NTA3NywxNDgxODY1MzY3LDkxODYyOTg4NiwtMT
-Q5NjE5ODkzNiw2MTk0NzA0MjJdfQ==
+eyJoaXN0b3J5IjpbMTUxNzQ5NjEzNiwtMjEwNDU2OTUwNyw0ND
+k3ODMsMzkwOTc3Mzg0LC03Njk2MTcxMDMsLTE3ODIyOTkxLDY1
+MDg5Nzg1MiwxNTkyMjQxMjk4LC0xMzgyNDY1MDY1LC0yMDczMT
+A3MjI1LC0xNDk3NjU0MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkz
+MCwxNTUyMDU1MDc3LDE0ODE4NjUzNjcsOTE4NjI5ODg2LC0xND
+k2MTk4OTM2LDYxOTQ3MDQyMl19
 -->
