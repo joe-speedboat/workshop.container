@@ -96,11 +96,45 @@ docker ps
 If you now logout and login back again, you can see that the container is still running.
 
 Now let us jump into the container and kill the application:
+```bash
+docker ps
+	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
+	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   5 minutes ago   Up 5 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 
+root@a0260d433daf:/code# ps -ef
+	UID          PID    PPID  C STIME TTY          TIME CMD
+	root           1       0  0 10:30 ?        00:00:00 /bin/sh -c python index.py
+	root           7       1  0 10:30 ?        00:00:00 python index.py
+	root          14       0  1 10:36 pts/0    00:00:00 bash
+	root          21      14  0 10:36 pts/0    00:00:00 ps -ef
+root@a0260d433daf:/code# kill 1
+root@a0260d433daf:/code# ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 10:30 ?        00:00:00 /bin/sh -c python index.py
+root           7       1  0 10:30 ?        00:00:00 python index.py
+root          14       0  0 10:36 pts/0    00:00:00 bash
+root          22      14  0 10:36 pts/0    00:00:00 ps -ef
+root@a0260d433daf:/code# kill -9 1
+root@a0260d433daf:/code# ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 10:30 ?        00:00:00 /bin/sh -c python index.py
+root           7       1  0 10:30 ?        00:00:00 python index.py
+root          14       0  0 10:36 pts/0    00:00:00 bash
+root          23      14  0 10:36 pts/0    00:00:00 ps -ef
+root@a0260d433daf:/code# kill 9
+bash: kill: (9) - No such process
+root@a0260d433daf:/code# kill 7
+root@a0260d433daf
+[root@atomic ~]# 
+[root@atomic ~]# 
+[root@atomic ~]# 
+[root@atomic ~]# docker ps
+CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
+a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   7 minutes ago   Up 6 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI3NjEwNjQsMTE2NzgzODU0NSwyNT
-I2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3LDg3ODA3NDU3
-XX0=
+eyJoaXN0b3J5IjpbMTc0ODA1NDg2NSwxMTY3ODM4NTQ1LDI1Mj
+Y1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2OTcsODc4MDc0NTdd
+fQ==
 -->
