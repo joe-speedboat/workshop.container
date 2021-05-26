@@ -63,7 +63,8 @@ docker images
 	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 	busybox      stable    d3cd072556c2   8 days ago   1.24MB
 ```
-As you can see, tags can be used to label images a
+As you can see, tags can be used to label image versions.
+
 
 
 ## Running Images
@@ -73,7 +74,7 @@ As you can see, tags can be used to label images a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkxNDMyNDIsLTIwNzMxMDcyMjUsLT
+eyJoaXN0b3J5IjpbLTEzODI0NjUwNjUsLTIwNzMxMDcyMjUsLT
 E0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIw
 NTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5Mz
 YsNjE5NDcwNDIyXX0=
