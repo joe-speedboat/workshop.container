@@ -34,6 +34,7 @@ cat busybox.tar | docker load
 	d0d0905d7be4: Loading layer [=====================>]  1.455MB/1.455MB
 	Loaded image: busybox:latest
 ```
+
 A imported image is still an image, but now we can see it got imported into the docker subsystem of the atomic host:
 ```bash
 docker images
@@ -48,8 +49,6 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 	  ]
 	}
 ```
-Oh great, now I just have to remember the ID in order to use my busybox docker image!   
-Can Docker do that for me? YES, so lets do it.
 
 ### Image names and versions
 ```bash
@@ -63,9 +62,9 @@ docker images
 	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
 	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 	busybox      stable    d3cd072556c2   8 days ago   1.24MB
-
 ```
-Okay, this looks better, it's time to start something.
+As you can see, tags can be used to label images a
+
 
 ## Running Images
 
@@ -74,8 +73,8 @@ Okay, this looks better, it's time to start something.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwNTM5MzczLC0yMDczMTA3MjI1LC0xND
-k3NjU0MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1
-MDc3LDE0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LD
-YxOTQ3MDQyMl19
+eyJoaXN0b3J5IjpbLTEzODkxNDMyNDIsLTIwNzMxMDcyMjUsLT
+E0OTc2NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIw
+NTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5Mz
+YsNjE5NDcwNDIyXX0=
 -->
