@@ -93,9 +93,10 @@ docker ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 seconds ago   Up 9 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
-If you now
+If you now logout and login back again, you can see that the container is still running.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDQ3MTQ0OCwyNTI2NTI5NTgsMTQxMz
+eyJoaXN0b3J5IjpbMTE2NzgzODU0NSwyNTI2NTI5NTgsMTQxMz
 IyOTU0OSwxNDEzMTEwNjk3LDg3ODA3NDU3XX0=
 -->
