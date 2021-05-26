@@ -84,11 +84,14 @@ We will look later deeper into the shared and/other separated components of a co
 Now understand the mechanic of images and how to start a container.
 But what about portability... security... sharing... of your images?
 
-By default, 
+By default, docker uses the public registry, hosted by the makers of docker at:
+https://hub.docker.com/
+
+Now go and create your own account, and then 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMTcxODI4LDY1MDg5Nzg1MiwxNTkyMj
-QxMjk4LC0xMzgyNDY1MDY1LC0yMDczMTA3MjI1LC0xNDk3NjU0
-MDYyLC04NTA5OTkzOTIsLTU0OTYwMjkzMCwxNTUyMDU1MDc3LD
-E0ODE4NjUzNjcsOTE4NjI5ODg2LC0xNDk2MTk4OTM2LDYxOTQ3
-MDQyMl19
+eyJoaXN0b3J5IjpbLTE4OTI5ODkyOTYsNjUwODk3ODUyLDE1OT
+IyNDEyOTgsLTEzODI0NjUwNjUsLTIwNzMxMDcyMjUsLTE0OTc2
+NTQwNjIsLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NTIwNTUwNz
+csMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5MzYsNjE5
+NDcwNDIyXX0=
 -->
