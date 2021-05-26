@@ -25,7 +25,7 @@ tar vtf busybox.tar
 	-rw-r--r-- 0/0              90 1970-01-01 01:00 repositories
 ```
 
-## Importing Images from tar file
+### Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
 
 
@@ -51,7 +51,7 @@ docker inspect 98df473ae812 | jq -r '.[].RootFS'
 Oh great, now I just have to remember the ID in order to use my busybox docker image!   
 Can Docker do that for me? YES, so lets do it.
 
-## Image names and versions
+### Image names and versions
 ```bash
 docker images
 	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
@@ -63,13 +63,16 @@ docker images
 	REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
 	busybox      latest    98df473ae812   12 hours ago   1.46MB
 ```
+Okay, this looks better, it's time to start something.
+
+## Running Images
 
 
 ## The Registry
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDg5NzE0NCwtNTQ5NjAyOTMwLDE1NT
+eyJoaXN0b3J5IjpbLTg1MDk5OTM5MiwtNTQ5NjAyOTMwLDE1NT
 IwNTUwNzcsMTQ4MTg2NTM2Nyw5MTg2Mjk4ODYsLTE0OTYxOTg5
 MzYsNjE5NDcwNDIyXX0=
 -->
