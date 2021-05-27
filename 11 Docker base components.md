@@ -66,10 +66,10 @@ docker images
 ```
 As you can see, tags can be used to label image versions.
 
-## Running Images
+## Running Images are Containers
 Okay, so lets start a first command inside the container
 ```bash
-docker run --interactive --tty --rm busybox:latest ifconfig eth0
+docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 	eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
 	          inet addr:172.17.0.2  Bcast:172.17.255.255  Mask:255.255.0.0
 	          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
@@ -112,5 +112,5 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzQ5NjEzNl19
+eyJoaXN0b3J5IjpbLTY1MDI3OTY4N119
 -->
