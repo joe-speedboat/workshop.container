@@ -28,7 +28,7 @@ docker container ps -a
 
 docker container rm f4a758984ac0
 	f4a758984ac0
-docker images
+docker images ls
 	REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
 	yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
 
@@ -119,7 +119,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzcyNjUwNSwtNDQ4NTUzMTc3LDExNj
+eyJoaXN0b3J5IjpbLTUyODY1ODQ0MiwtNDQ4NTUzMTc3LDExNj
 c4Mzg1NDUsMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5
 Nyw4NzgwNzQ1N119
 -->
