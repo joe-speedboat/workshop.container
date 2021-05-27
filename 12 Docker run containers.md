@@ -95,14 +95,14 @@ docker container ps
 docker container stop a0260d433daf
 	a0260d433daf
 
-docker ps
+docker container ps
 	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
-docker ps -a
+docker container ps -a
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS                        PORTS     NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 minutes ago   Exited (137) 12 seconds ago             laughing_taussig
 
-docker rm a0260d433daf
+docker container rm a0260d433daf
 	a0260d433daf
 
 docker images
@@ -119,7 +119,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTIxOTgwNywtNDQ4NTUzMTc3LDExNj
-c4Mzg1NDUsMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5
-Nyw4NzgwNzQ1N119
+eyJoaXN0b3J5IjpbNTYzNjM0OTEyLC00NDg1NTMxNzcsMTE2Nz
+gzODU0NSwyNTI2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3
+LDg3ODA3NDU3XX0=
 -->
