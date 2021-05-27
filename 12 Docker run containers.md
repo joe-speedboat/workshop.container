@@ -2,10 +2,10 @@
 
 ## Explore the Docker client options
 With Docker cli client you can do all the work on the lowest level, this brings you as close as possible to the container technology.
-Lets explore what we can do with docker cli. For that we look at the shipped documentation first:
+Lets explore what we can do with docker cli.    
+For that we look at the shipped documentation first:
 ```bash
 man -k docker
-
 ```
 
 ## Pull and start an image from Dockerhub
@@ -19,10 +19,10 @@ Since you started the container in interactive mode, it will exit if you type CT
 
 Now let us inspect the current status of docker and clean up.
 ```bash
-docker ps 
+docker container ps 
 	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
-docker ps -a
+docker container ps -a
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS                     PORTS     NAMES
 	f4a758984ac0   yeasy/simple-web:latest   "/bin/sh -c 'python …"   3 minutes ago   Exited (0) 3 minutes ago             dreamy_diffie
 
@@ -119,7 +119,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDkzMjIyLC00NDg1NTMxNzcsMTE2Nz
-gzODU0NSwyNTI2NTI5NTgsMTQxMzIyOTU0OSwxNDEzMTEwNjk3
-LDg3ODA3NDU3XX0=
+eyJoaXN0b3J5IjpbLTEzOTk0OTAyNDYsLTQ0ODU1MzE3NywxMT
+Y3ODM4NTQ1LDI1MjY1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2
+OTcsODc4MDc0NTddfQ==
 -->
