@@ -65,11 +65,11 @@ If you now logout and login back again, you can see that the container is still 
 
 Now let us jump into the container and kill the application:
 ```bash
-docker ps
+docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   5 minutes ago   Up 5 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 
-docker exec -it a0260d433daf bash
+docker container exec -it a0260d433daf bash
 
 root@a0260d433daf:/code# ps -ef
 	UID          PID    PPID  C STIME TTY          TIME CMD
@@ -80,7 +80,7 @@ root@a0260d433daf:/code# ps -ef
 
 root@a0260d433daf:/code# kill 7
 
-docker ps
+docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   7 minutes ago   Up 6 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
@@ -88,11 +88,11 @@ As you can see, the container has now a lower uptime because of the automated re
 
 Let us clean up again
 ```bash
-docker ps
+docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   12 minutes ago   Up 2 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 
-docker stop a0260d433daf
+docker container stop a0260d433daf
 	a0260d433daf
 
 docker ps
@@ -119,7 +119,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk4NzI1NDgsLTQ0ODU1MzE3NywxMT
-Y3ODM4NTQ1LDI1MjY1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2
-OTcsODc4MDc0NTddfQ==
+eyJoaXN0b3J5IjpbMTQ3OTIxOTgwNywtNDQ4NTUzMTc3LDExNj
+c4Mzg1NDUsMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5
+Nyw4NzgwNzQ1N119
 -->
