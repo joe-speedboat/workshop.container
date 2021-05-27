@@ -3,6 +3,10 @@ Now we can install Docker, but what can we do with and how does it work?
 
 Let's look deeper into Docker and what components it's depending on.
 
+
+
+
+
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 ## The Images
 As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
@@ -112,5 +116,5 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDkxNTYyM119
+eyJoaXN0b3J5IjpbLTE5NzY1OTYxMTMsMTA3MDkxNTYyM119
 -->
