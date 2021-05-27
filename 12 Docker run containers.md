@@ -28,7 +28,7 @@ docker container ps -a
 
 docker container rm f4a758984ac0
 	f4a758984ac0
-docker images ls
+docker images
 	REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
 	yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
 
@@ -38,7 +38,7 @@ docker rmi yeasy/simple-web
 	Deleted: sha256:172c78152bf688785a3886063f586af38dbb18c59587f0a90bd57490ef06c251
 	...
 	Deleted: sha256:8fad67424c4e7098f255513e160caa00852bcff347bc9f920a82ddf3f60229de
-docker images ls
+docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
@@ -47,7 +47,7 @@ So we do now
 
 ## Start a container in background
 ```bash
-docker run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
+docker container run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
 	Unable to find image 'yeasy/simple-web:latest' locally
 	latest: Pulling from yeasy/simple-web
 	f2b6b4884fc8: Pull complete 
@@ -57,7 +57,7 @@ docker run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
 	Digest: sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
 	Status: Downloaded newer image for yeasy/simple-web:latest
 	a0260d433daf4146c42015029e269234038284e35739f4bfb42dde75177bb6c2
-docker ps
+docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 seconds ago   Up 9 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
@@ -119,7 +119,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODY1ODQ0MiwtNDQ4NTUzMTc3LDExNj
-c4Mzg1NDUsMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5
-Nyw4NzgwNzQ1N119
+eyJoaXN0b3J5IjpbLTE5NDk4NzI1NDgsLTQ0ODU1MzE3NywxMT
+Y3ODM4NTQ1LDI1MjY1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2
+OTcsODc4MDc0NTddfQ==
 -->
