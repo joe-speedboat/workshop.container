@@ -57,7 +57,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
 	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 
-docker tag busybox:latest busybox:stable
+docker images tag busybox:latest busybox:stable
 
 docker images
 	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
@@ -112,5 +112,5 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDI3OTY4N119
+eyJoaXN0b3J5IjpbMTA3MDkxNTYyM119
 -->
