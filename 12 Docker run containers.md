@@ -10,7 +10,7 @@ man -k docker
 
 ## Pull and start an image from Dockerhub
 ```bash
-docker run -it -p 80:80 yeasy/simple-web:latest
+docker container run -it -p 80:80 yeasy/simple-web:latest
 ```
 Now go and try to access the port 80 of your VM with a webbrowser!
 You should see something like that:
@@ -26,7 +26,7 @@ docker container ps -a
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS                     PORTS     NAMES
 	f4a758984ac0   yeasy/simple-web:latest   "/bin/sh -c 'python …"   3 minutes ago   Exited (0) 3 minutes ago             dreamy_diffie
 
-docker rm f4a758984ac0
+docker container rm f4a758984ac0
 	f4a758984ac0
 docker images
 	REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
@@ -38,7 +38,7 @@ docker rmi yeasy/simple-web
 	Deleted: sha256:172c78152bf688785a3886063f586af38dbb18c59587f0a90bd57490ef06c251
 	...
 	Deleted: sha256:8fad67424c4e7098f255513e160caa00852bcff347bc9f920a82ddf3f60229de
-docker images
+docker images ls
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
@@ -119,7 +119,7 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk0OTAyNDYsLTQ0ODU1MzE3NywxMT
-Y3ODM4NTQ1LDI1MjY1Mjk1OCwxNDEzMjI5NTQ5LDE0MTMxMTA2
-OTcsODc4MDc0NTddfQ==
+eyJoaXN0b3J5IjpbLTYyNzcyNjUwNSwtNDQ4NTUzMTc3LDExNj
+c4Mzg1NDUsMjUyNjUyOTU4LDE0MTMyMjk1NDksMTQxMzExMDY5
+Nyw4NzgwNzQ1N119
 -->
