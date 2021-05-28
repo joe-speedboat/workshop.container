@@ -26,8 +26,7 @@ docker search --filter is-official=true --filter stars=3 busybox
 ```
 ### Pulling images
 By default docker client is pulling from dockerhub registry.
-If you do not deinfe
- but you can pull from other registries as well if you define the full url of the image.
+If you do not define the full url of an image, docker client tries to auto-complete the url with docker.io.
 ```bash
 docker pull busybox:latest
 latest: Pulling from library/busybox
@@ -38,6 +37,8 @@ docker.io/library/busybox:latest
 [root@atomic ~]# docker images
 REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
 busybox      latest    d3cd072556c2   10 days ago   1.24MB
+```
+But you can download from other container registries as well if you define the full url of an image
 
 
 
@@ -62,5 +63,5 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNjQ3MDg2LDE1MjU0OTY0NTJdfQ==
+eyJoaXN0b3J5IjpbMTY0OTY5MzEyMCwxNTI1NDk2NDUyXX0=
 -->
