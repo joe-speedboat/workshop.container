@@ -34,6 +34,10 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 ### Push to Registry
 
+## Images (operating Units)
+
+## Containers (running Images)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5Mjc3MjY2LDIwODE4NDUwODBdfQ==
+eyJoaXN0b3J5IjpbODg3NDI4OTc1LDIwODE4NDUwODBdfQ==
 -->
