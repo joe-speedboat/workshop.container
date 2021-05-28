@@ -48,11 +48,12 @@ docker pull quay.io/ooteniya/todo-spring:v5.0.0
 	Digest: sha256:05d9af6eef604093506982424414331d2b9225476ddabc4c5f33ab44f208ec9f
 	Status: Downloaded newer image for quay.io/ooteniya/todo-spring:v5.0.0
 	quay.io/ooteniya/todo-spring:v5.0.0
+
+docker images
+	REPOSITORY                     TAG       IMAGE ID       CREATED       SIZE
+	busybox                        latest    d3cd072556c2   10 days ago   1.24MB
+	quay.io/ooteniya/todo-spring   v5.0.0    63e36498f889   3 weeks ago   679MB
 ```
-
-
-
-
 
 ### Registry Namespace (tagging)
 ```bash
@@ -73,6 +74,6 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTE0NDUxNiwxOTM4NTM1NDcyLDE1Mj
-U0OTY0NTJdfQ==
+eyJoaXN0b3J5IjpbMTMzODU3NjM1NSwxMDA5MTQ0NTE2LDE5Mz
+g1MzU0NzIsMTUyNTQ5NjQ1Ml19
 -->
