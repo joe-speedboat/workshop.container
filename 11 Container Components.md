@@ -30,14 +30,22 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 ### Authenticate to Registry Service
 
-### Pull from Registry
 
-### Push to Registry
+
 
 ## Images
 
+###
+
+
 ## Containers (running Images)
 
+### Start Container
+
+### Stop Container
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA0Mjk1MDksMjA4MTg0NTA4MF19
+eyJoaXN0b3J5IjpbMTAyNzMxNzAzMiwtMTcyMDQyOTUwOSwyMD
+gxODQ1MDgwXX0=
 -->
