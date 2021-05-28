@@ -39,11 +39,9 @@ docker images
 ```
 As you can see, tags can be used to label image versions.
 
-
-
-
-
 ### Authenticate to Registry Service
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU4MTA4NDhdfQ==
+eyJoaXN0b3J5IjpbMTUyNTQ5NjQ1Ml19
 -->
