@@ -1,12 +1,7 @@
 # Docker: Run containers
 
-## Explore the Docker client options
-With Docker cli client you can do all the work on the lowest level, this brings you as close as possible to the container technology.
-Lets explore what we can do with docker cli.    
-For that we look at the shipped documentation first:
-```bash
-man -k docker
-```
+
+
 
 ## Pull and start an image from Dockerhub
 ```bash
@@ -119,5 +114,5 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNjM0OTEyXX0=
+eyJoaXN0b3J5IjpbMjc5MDI1MDg3LDU2MzYzNDkxMl19
 -->
