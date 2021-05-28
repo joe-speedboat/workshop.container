@@ -64,12 +64,11 @@ docker tag quay.io/ooteniya/todo-spring:v5.0.0 docker.io/christian773/todo-sprin
 docker tag quay.io/ooteniya/todo-spring:v5.0.0 docker.io/christian773/todo-spring:stable
 
 docker images
-REPOSITORY                     TAG       IMAGE ID       CREATED       SIZE
-busybox                        latest    d3cd072556c2   10 days ago   1.24MB
-quay.io/ooteniya/todo-spring   v5.0.0    63e36498f889   3 weeks ago   679MB
-christian773/todo-spring       stable    63e36498f889   3 weeks ago   679MB
-christian773/todo-spring       v5.0.0    63e36498f889   3 weeks ago   679MB
-
+	REPOSITORY                     TAG       IMAGE ID       CREATED       SIZE
+	busybox                        latest    d3cd072556c2   10 days ago   1.24MB
+	quay.io/ooteniya/todo-spring   v5.0.0    63e36498f889   3 weeks ago   679MB
+	christian773/todo-spring       stable    63e36498f889   3 weeks ago   679MB
+	christian773/todo-spring       v5.0.0    63e36498f889   3 weeks ago   679MB
 ```
 As you can see, tags can be used to label image versions.
 
@@ -77,6 +76,6 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MTU3MTczLDEwMDkxNDQ1MTYsMTkzOD
+eyJoaXN0b3J5IjpbNjY2NDg2MTcxLDEwMDkxNDQ1MTYsMTkzOD
 UzNTQ3MiwxNTI1NDk2NDUyXX0=
 -->
