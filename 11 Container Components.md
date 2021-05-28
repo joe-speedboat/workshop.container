@@ -27,6 +27,9 @@ docker search --filter is-official=true --filter stars=3 busybox
 	busybox   Busybox base image.   2231      [OK]     
 ```
 
+### Pull from Registry
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTg0NTA4MF19
+eyJoaXN0b3J5IjpbMTc1MTg3NzYwNCwyMDgxODQ1MDgwXX0=
 -->
