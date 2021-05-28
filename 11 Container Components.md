@@ -26,10 +26,14 @@ docker search --filter is-official=true --filter stars=3 busybox
 	NAME      DESCRIPTION           STARS     OFFICIAL   AUTOMATED
 	busybox   Busybox base image.   2231      [OK]     
 ```
+### Registry Namespace (tagging)
+
+### Authenticate to Registry Service
 
 ### Pull from Registry
 
-###
+### Push to Registry
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTg3NzYwNCwyMDgxODQ1MDgwXX0=
+eyJoaXN0b3J5IjpbNjg5Mjc3MjY2LDIwODE4NDUwODBdfQ==
 -->
