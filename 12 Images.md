@@ -45,22 +45,9 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 	}
 ```
 
-### Image names and versions (tags)
-```bash
-docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
-	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 
-docker images tag busybox:latest busybox:stable
-
-docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
-	busybox      latest    d3cd072556c2   8 days ago   1.24MB
-	busybox      stable    d3cd072556c2   8 days ago   1.24MB
-```
-As you can see, tags can be used to label image versions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMDk1NTI5LC0xMDcwNzUwNDE5LDEzMj
-MwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbLTEwNjMzNjkwODgsLTEwNzA3NTA0MTksMT
+MyMzA5OTk2Nl19
 -->
