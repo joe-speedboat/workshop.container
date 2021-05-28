@@ -1,8 +1,6 @@
 # Containers
 
 
-
-
 ## Running Containers interactively
 So lets start a first command inside the container
 ```bash
@@ -18,5 +16,5 @@ docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 If you compare the IP you got with the OS IP, you can see that they are different.
 We will look later deeper into the shared and/other separated components of a container.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2ODg3MDk1XX0=
+eyJoaXN0b3J5IjpbMjA2NzU1NTkzMV19
 -->
