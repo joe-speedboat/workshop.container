@@ -24,6 +24,10 @@ docker search --filter is-official=true --filter stars=3 busybox
 	NAME      DESCRIPTION           STARS     OFFICIAL   AUTOMATED
 	busybox   Busybox base image.   2231      [OK]     
 ```
+### Pulling images
+By default docker client is pulling from dockerhub registry, but you can pull from other registries as well if you define the full name
+
+
 ### Registry Namespace (tagging)
 ```bash
 docker images
@@ -43,5 +47,5 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTQ5NjQ1Ml19
+eyJoaXN0b3J5IjpbLTEyNDc0MzkyMTgsMTUyNTQ5NjQ1Ml19
 -->
