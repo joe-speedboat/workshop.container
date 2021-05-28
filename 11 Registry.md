@@ -56,6 +56,7 @@ docker images
 ```
 
 ### Registry Namespace (tagging)
+Tags are used to identify the location a
 ```bash
 
 ```
@@ -65,6 +66,6 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDkzNTc2LDEwMDkxNDQ1MTYsMTkzOD
-UzNTQ3MiwxNTI1NDk2NDUyXX0=
+eyJoaXN0b3J5IjpbLTkxNzY4NjI4NiwxMDA5MTQ0NTE2LDE5Mz
+g1MzU0NzIsMTUyNTQ5NjQ1Ml19
 -->
