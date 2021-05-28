@@ -1,11 +1,6 @@
 
 
 
-# The Images
-As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
-So let's look deeper into a minimal docker image consisting of one single layer.
-
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 
 
 ```bash
@@ -83,5 +78,5 @@ We will look later deeper into the shared and/other separated components of a co
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NzkxOTMsMTg3MTYwNDk0M119
+eyJoaXN0b3J5IjpbLTM5NTQ4MjE2LDE4NzE2MDQ5NDNdfQ==
 -->
