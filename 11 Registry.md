@@ -56,8 +56,19 @@ docker images
 ```
 
 ### Registry Namespace (tagging)
-Tags are used to identify the location a
+Tags are used to identify the location and version of an image.
+Let's explore it by an example with the image we downloaded from quay.io before:
 ```bash
+docker tag quay.io/ooteniya/todo-spring:v5.0.0 docker.io/christian773/todo-spring:v5.0.0
+
+docker tag quay.io/ooteniya/todo-spring:v5.0.0 docker.io/christian773/todo-spring:stable
+
+docker images
+REPOSITORY                     TAG       IMAGE ID       CREATED       SIZE
+busybox                        latest    d3cd072556c2   10 days ago   1.24MB
+quay.io/ooteniya/todo-spring   v5.0.0    63e36498f889   3 weeks ago   679MB
+christian773/todo-spring       stable    63e36498f889   3 weeks ago   679MB
+christian773/todo-spring       v5.0.0    63e36498f889   3 weeks ago   679MB
 
 ```
 As you can see, tags can be used to label image versions.
@@ -66,6 +77,6 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzY4NjI4NiwxMDA5MTQ0NTE2LDE5Mz
-g1MzU0NzIsMTUyNTQ5NjQ1Ml19
+eyJoaXN0b3J5IjpbMzc0MTU3MTczLDEwMDkxNDQ1MTYsMTkzOD
+UzNTQ3MiwxNTI1NDk2NDUyXX0=
 -->
