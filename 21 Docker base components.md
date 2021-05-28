@@ -1,17 +1,11 @@
-# Base Components
-Now we can install Docker, but what can we do with and how does it work?
-
-Let's look deeper into Docker and what components it's depending on.
 
 
 
 
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
-## The Images
-As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
-So let's look deeper into a minimal docker image consisting of one single layer.
-**TODO: This is as well an exercise, try it out on your CentOS8 VM**
+
+
 ```bash
 dnf -y install vim tar wget jq git bash-completion
 
@@ -88,5 +82,5 @@ We will look later deeper into the shared and/other separated components of a co
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTYwNDk0M119
+eyJoaXN0b3J5IjpbMzA4ODU2MTkwLDE4NzE2MDQ5NDNdfQ==
 -->
