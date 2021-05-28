@@ -4,9 +4,7 @@ Docker is an open platform for developing, shipping, and running applications. D
 ## Docker  Containers vs. Operating System Applications
 Docker, Kubernetes, and containers are indeed powerful technologies that can bring many benefits to a business. However, depending on what kind of workload you have, you might need to stick to using virtual machines (VMs) instead, or a combination of both containers and VMs.
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/containers-vs-virtual-machines.jpg)
-## Under the hood
-Let’s discuss a few key things before we dig deeper
-### Namespaces
+## Namespaces
 Docker uses a technology called `namespaces` to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
 These namespaces provide a layer of **isolation**. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 
@@ -17,18 +15,18 @@ Docker Engine uses namespaces such as the following on Linux:
 -   **_The_** `mnt` **_namespace:_** _Managing filesystem mount points (MNT: Mount)._
 -   **_The_** `uts` **_namespace:_** _Isolating kernel and version identifiers. (UTS: Unix Timesharing System)._
 
-### Control groups
+## Control groups
 Docker Engine on Linux also relies on another technology called control groups (`cgroups`). A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally **enforce limits** and **constraints**. For example, you can limit the memory available to a specific container.
 
-### Union file systems
+## Union file systems
 Union file systems, or UnionFS, are file systems that operate by **creating layers**, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, **vfs**, and **DeviceMapper**.
 
-### Container format
+## Container format
 Docker Engine combines the **namespaces**, **control groups**, and **UnionFS** into a wrapper called a container format. The default container format is `libcontainer`.
 Under the hood might not be the correct heading for this topic, but these are things which strike me when I first start using Docker.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTYwNTc5NV19
+eyJoaXN0b3J5IjpbLTQzMDE0NzczMiwxNzI1NjA1Nzk1XX0=
 -->
