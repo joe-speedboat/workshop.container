@@ -1,7 +1,7 @@
 
 # Container Components
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/docker-components.png)
-## The Registry
+## The Registry (Image store)
 A Docker registry is a storage and distribution system for named Docker images. The same image might have multiple different versions, identified by their tags.
 
 A Docker registry is organized into Docker repositories , where a repository holds all the versions of a specific image. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable).
@@ -34,10 +34,10 @@ docker search --filter is-official=true --filter stars=3 busybox
 
 ### Push to Registry
 
-## Images (operating Units)
+## Images
 
 ## Containers (running Images)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3NDI4OTc1LDIwODE4NDUwODBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjA0Mjk1MDksMjA4MTg0NTA4MF19
 -->
