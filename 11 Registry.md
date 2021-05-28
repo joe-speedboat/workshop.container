@@ -28,17 +28,27 @@ docker search --filter is-official=true --filter stars=3 busybox
 If you do not define the full url of an image, docker client tries to auto-complete the url with docker.io.
 ```bash
 docker pull busybox:latest
-latest: Pulling from library/busybox
-92f8b3f0730f: Pull complete 
-Digest: sha256:b5fc1d7b2e4ea86a06b0cf88de915a2c43a99a00b6b3c0af731e5f4c07ae8eff
-Status: Downloaded newer image for busybox:latest
-docker.io/library/busybox:latest
-[root@atomic ~]# docker images
-REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
-busybox      latest    d3cd072556c2   10 days ago   1.24MB
+	latest: Pulling from library/busybox
+	92f8b3f0730f: Pull complete 
+	Digest: sha256:b5fc1d7b2e4ea86a06b0cf88de915a2c43a99a00b6b3c0af731e5f4c07ae8eff
+	Status: Downloaded newer image for busybox:latest
+	docker.io/library/busybox:latest
+docker images
+	REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+	busybox      latest    d3cd072556c2   10 days ago   1.24MB
 ```
 But you can download from other container registries as well if you define the full url of an image:
-
+```bash
+docker pull quay.io/ooteniya/todo-spring:v5.0.0
+	v5.0.0: Pulling from ooteniya/todo-spring
+	b10f359f0883: Pull complete 
+	c78b8fddfa3d: Pull complete 
+	6e99518c4711: Pull complete 
+	e2b398a93b60: Pull complete 
+	Digest: sha256:05d9af6eef604093506982424414331d2b9225476ddabc4c5f33ab44f208ec9f
+	Status: Downloaded newer image for quay.io/ooteniya/todo-spring:v5.0.0
+	quay.io/ooteniya/todo-spring:v5.0.0
+```
 
 
 
@@ -63,5 +73,6 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODUzNTQ3MiwxNTI1NDk2NDUyXX0=
+eyJoaXN0b3J5IjpbMTAwOTE0NDUxNiwxOTM4NTM1NDcyLDE1Mj
+U0OTY0NTJdfQ==
 -->
