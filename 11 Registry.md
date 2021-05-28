@@ -57,16 +57,7 @@ docker images
 
 ### Registry Namespace (tagging)
 ```bash
-docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
-	busybox      latest    d3cd072556c2   8 days ago   1.24MB
 
-docker images tag busybox:latest busybox:stable
-
-docker images
-	REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
-	busybox      latest    d3cd072556c2   8 days ago   1.24MB
-	busybox      stable    d3cd072556c2   8 days ago   1.24MB
 ```
 As you can see, tags can be used to label image versions.
 
@@ -74,6 +65,6 @@ As you can see, tags can be used to label image versions.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODU3NjM1NSwxMDA5MTQ0NTE2LDE5Mz
-g1MzU0NzIsMTUyNTQ5NjQ1Ml19
+eyJoaXN0b3J5IjpbMzUzNDkzNTc2LDEwMDkxNDQ1MTYsMTkzOD
+UzNTQ3MiwxNTI1NDk2NDUyXX0=
 -->
