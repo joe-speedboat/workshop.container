@@ -37,6 +37,12 @@ firewall-cmd --permanent --zone=public --add-service=https
 firewall-cmd --zone=public --add-masquerade --permanent
 firewall-cmd --reload
 ```
+
+### Install helpers
+
+```bash
+dnf -y install vim tar wget jq git bash-completion
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5MzEwNjRdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzc2NTAwNTRdfQ==
 -->
