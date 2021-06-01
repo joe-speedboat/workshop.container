@@ -76,7 +76,10 @@ eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02
 [root@stream toolbox]# docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
+
+## Container like Service
+The most useful case to start a container is to start it as a service
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg3MzYwNjUsLTEyODAwMjQ5MzYsLT
-EzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbLTI0ODU0OTU3OSwtMTI4MDAyNDkzNiwtMT
+MwODU2NjM5XX0=
 -->
