@@ -26,8 +26,9 @@ So let us take a look of some of this options to get a better understanding:
 ### docker container run
 This means we start a new container out of an image.
 
-### 
+### --interactive --tty
+This means that the container does avoid to run in background. The tty reason which allocates a terminal makes sense if y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY3Nzk1NjIsLTEyODAwMjQ5MzYsLT
+eyJoaXN0b3J5IjpbLTEyMjgzNTk3NjIsLTEyODAwMjQ5MzYsLT
 EzMDg1NjYzOV19
 -->
