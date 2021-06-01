@@ -73,8 +73,8 @@ docker images
 As you can see, tags can be used to label image versions.
 
 ### Authenticate against Registry Service
-
+Dockerhub public image registry used to be free for any usage ... but since they reache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4Njg4Njg1LDY2NjQ4NjE3MSwxMDA5MT
-Q0NTE2LDE5Mzg1MzU0NzIsMTUyNTQ5NjQ1Ml19
+eyJoaXN0b3J5IjpbLTEyMTE1NTUyMjMsNjY2NDg2MTcxLDEwMD
+kxNDQ1MTYsMTkzODUzNTQ3MiwxNTI1NDk2NDUyXX0=
 -->
