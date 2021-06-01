@@ -1,12 +1,12 @@
 
-## The Registry (Image store)
+# The Registry (Image store)
 A Docker registry is a storage and distribution system for named Docker images. The same image might have multiple different versions, identified by their tags.
 
 A Docker registry is organized into Docker repositories , where a repository holds all the versions of a specific image. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable).
 
 By default, the Docker engine interacts with DockerHub , Docker’s public registry instance. However, it is possible to run on-premise the open-source Docker registry/distribution, as well as a commercially supported version called Docker Trusted Registry . There are other public registries available online.
 
-### Search the Registry
+## Search the Registry
 ```bash
 docker search busybox
 	NAME                      DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
@@ -24,7 +24,7 @@ docker search --filter is-official=true --filter stars=3 busybox
 	NAME      DESCRIPTION           STARS     OFFICIAL   AUTOMATED
 	busybox   Busybox base image.   2231      [OK]     
 ```
-### Pulling images
+## Pulling images
 If you do not define the full url of an image, docker client tries to auto-complete the url with docker.io.
 ```bash
 docker pull busybox:latest
@@ -55,7 +55,7 @@ docker images
 	quay.io/ooteniya/todo-spring   v5.0.0    63e36498f889   3 weeks ago   679MB
 ```
 
-### Registry Namespace (tagging)
+## Registry Namespace (tagging)
 Tags are used to identify the location and version of an image.
 Let's explore it by an example with the image we downloaded from quay.io before:
 ```bash
@@ -72,12 +72,28 @@ docker images
 ```
 As you can see, tags can be used to label image versions.
 
-### Authenticate against Registry Service
+## Authenticate against Registry Service
 Dockerhub public image registry used to be free for any usage ... but since they reached it's capacity limits, you have to authenticate for bypassing the publick limits:
+
+### Verify anonymous dockerhub limitations
+```bash
+TOKEN=$(curl "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
+
+curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ratelimitpreview/test/manifests/latest
+HTTP/1.1 200 OK
+content-length: 2782
+content-type: application/vnd.docker.distribution.manifest.v1+prettyjws
+docker-content-digest: sha256:767a3815c34823b355bed31760d5fa3daca0aec2ce15b217c9cd83229e0e2020
+docker-distribution-api-version: registry/2.0
+etag: "sha256:767a3815c34823b355bed31760d5fa3daca0aec2ce15b217c9cd83229e0e2020"
+date: Tue, 01 Jun 2021 05:55:56 GMT
+strict-transport-security: max-age=31536000
+ratelimit-limit: 100;w=21600
+ratelimit-remaining: 99;w=21600
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY0MTg3NDcsMTcxMjA1NzY4Nyw2Nj
-Y0ODYxNzEsMTAwOTE0NDUxNiwxOTM4NTM1NDcyLDE1MjU0OTY0
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MzEyNDMzMCwxNzEyMDU3Njg3LDY2Nj
+Q4NjE3MSwxMDA5MTQ0NTE2LDE5Mzg1MzU0NzIsMTUyNTQ5NjQ1
+Ml19
 -->
