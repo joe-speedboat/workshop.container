@@ -1,6 +1,6 @@
 
 # The Registry (Image store)
-A Docker registry is a storage and distribution system for named Docker images. The same image might have multiple different versions, identified by their tags.
+A Docker registry is a storage and distribution system for Docker images. The same image might exist in multiple different versions, identified by their tags.
 
 A Docker registry is organized into Docker repositories , where a repository holds all the versions of a specific image. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable).
 
@@ -111,7 +111,7 @@ docker login
 	Login Succeeded
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI0MjgzMzYsLTUyMzk4MTUsMTIzMj
-k5NjkxLDE3MTIwNTc2ODcsNjY2NDg2MTcxLDEwMDkxNDQ1MTYs
-MTkzODUzNTQ3MiwxNTI1NDk2NDUyXX0=
+eyJoaXN0b3J5IjpbLTEyODc1MDg3LC0xNjgyNDI4MzM2LC01Mj
+M5ODE1LDEyMzI5OTY5MSwxNzEyMDU3Njg3LDY2NjQ4NjE3MSwx
+MDA5MTQ0NTE2LDE5Mzg1MzU0NzIsMTUyNTQ5NjQ1Ml19
 -->
