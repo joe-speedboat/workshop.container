@@ -156,9 +156,9 @@ docker images
 Do you remember the <tt>--rm</tt> option. 
 Can you explain the benefit and disadvantage of it?  
 
-
 ## Stopping containers
+If you need to stop a runing container, you might want to let the container finish its work and clean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjYyMTg4MSw2NTEyMDU5NTYsMTM3Nz
-I2NjY1MCwtMTI4MDAyNDkzNiwtMTMwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbLTE0NDQ4ODcxMzUsNjUxMjA1OTU2LDEzNz
+cyNjY2NTAsLTEyODAwMjQ5MzYsLTEzMDg1NjYzOV19
 -->
