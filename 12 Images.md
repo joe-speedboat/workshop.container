@@ -50,7 +50,7 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 mkdir src/docker.toolbox
 cd src/docker.toolbox
 ```
-* Create the container building information
+### Create the container building information
 <tt>vi Dockerfile</tt>
 ```
 FROM alpine:3.13
@@ -72,7 +72,7 @@ RUN apk add ${APK_FLAGS_DEV} bash bind-tools curl iftop openssl bc jq wget coreu
 ADD https://raw.githubusercontent.com/joe-speedboat/shell.scripts/master/nc_benchmark.sh /usr/bin/nc_benchmark.sh 
 RUN chmod 755 /usr/bin/nc_benchmark.sh
 ```
-* build it
+### build it
 ```bash
 docker build --network=host -t mytoolbox:0.01 .
 Sending build context to Docker daemon   2.56kB
@@ -84,11 +84,11 @@ Removing intermediate container 7dcc1bf8ab68
 Successfully built a2424c9c517b
 Successfully tagged mytoolbox:0.01
 ```
-
+### Test it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzI1MjM3LDExNDk2MTUzOTQsNzczMT
+eyJoaXN0b3J5IjpbNzUwMzAxMjM1LDExNDk2MTUzOTQsNzczMT
 M4MDA2LC05OTE0MjMxOTgsMzk2Mjk1MDYsMTQwODcwNDExNywt
 NjA2ODcyNDIzLC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
