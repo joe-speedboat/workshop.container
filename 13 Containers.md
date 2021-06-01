@@ -27,8 +27,11 @@ So let us take a look of some of this options to get a better understanding:
 This means we start a new container out of an image.
 
 ### --interactive --tty
-This means that the container does avoid to run in background. The tty reason which allocates a terminal makes sense if y
+This means that the container does avoid to run in background. The tty reason which allocates a terminal makes sense if you use the interactive option. You can see this options often in short form: <tt>-it</tt>
+
+### --rm
+This means that the container s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgzNTk3NjIsLTEyODAwMjQ5MzYsLT
-EzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbMTc4MTQ2MDE2MSwtMTI4MDAyNDkzNiwtMT
+MwODU2NjM5XX0=
 -->
