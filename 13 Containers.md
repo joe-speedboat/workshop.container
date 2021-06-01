@@ -30,8 +30,11 @@ This means we start a new container out of an image.
 This means that the container does avoid to run in background. The tty reason which allocates a terminal makes sense if you use the interactive option. You can see this options often in short form: <tt>-it</tt>
 
 ### --rm
-This means that the container s
+This means that the container should be removed once it has entered the exit state.
+But what is the meaning and value of this option?
+So let us try that by an example and discuss later on the results:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTQ2MDE2MSwtMTI4MDAyNDkzNiwtMT
-MwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbLTEzNzAzNjgwMzMsLTEyODAwMjQ5MzYsLT
+EzMDg1NjYzOV19
 -->
