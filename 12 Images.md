@@ -163,12 +163,13 @@ stable: digest: sha256:e177e2ceb9c980086536a5a09e93b6685f1c9ca7761cb579e747979c6
 After about 5 minutes you should be able to see the new image in your dockerhub profile:
 https://hub.docker.com/u/christian773
 
-Of course you can search is as well with the docker cli client, but it may take few minutes more until the image get visible:
+Of course you can search is as well with the docker cli client, but it may take few minutes more until the image get visible.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNzk3NDU1LDE3OTY1OTQ0MjQsMTgyOD
-M4NDg4NywxODMwOTk1MDI3LDExNDk2MTUzOTQsNzczMTM4MDA2
-LC05OTE0MjMxOTgsMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2OD
-cyNDIzLC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbNjAwNTU5NzcxLDk3Mjc5NzQ1NSwxNzk2NT
+k0NDI0LDE4MjgzODQ4ODcsMTgzMDk5NTAyNywxMTQ5NjE1Mzk0
+LDc3MzEzODAwNiwtOTkxNDIzMTk4LDM5NjI5NTA2LDE0MDg3MD
+QxMTcsLTYwNjg3MjQyMywtMTA3MDc1MDQxOSwxMzIzMDk5OTY2
+XX0=
 -->
