@@ -17,9 +17,11 @@ docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 If you compare the IP you got with the operating system IP, you can see that they are different.
 We will look later deeper into the shared and/other separated components of a container.
 
+## Container start options
 Did you notice that the container immediately returned to the  operating system after executing the desired command?
+A container image may suggest the process that get started after container is going up, but we can always override this settings.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYyMjkxODcsLTEyODAwMjQ5MzYsLT
-EzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbLTc4MDc3MzIwNywtMTI4MDAyNDkzNiwtMT
+MwODU2NjM5XX0=
 -->
