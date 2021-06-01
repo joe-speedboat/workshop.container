@@ -23,8 +23,10 @@ docker inspect --format="{{json .Config.ExposedPorts }}"  nodered/node-red
 
 ### Jump into a running container 
 ```bash 
-# let us start a container, j
+# let us start a container, just to see how we can jump into
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc0NDU3MjVdfQ==
+eyJoaXN0b3J5IjpbLTg1NzgyMzYwMV19
 -->
