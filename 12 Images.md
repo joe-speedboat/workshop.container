@@ -1,6 +1,5 @@
 # The Images
-As we have seen, Docker images may built from multiple layers, each of them depend on the layer below it.
-So let's look deeper into a minimal docker image consisting of one single layer.
+A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users.
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
 ## Under the hood
@@ -48,6 +47,6 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODcwNDExNywtNjA2ODcyNDIzLC0xMD
-cwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2OD
+cyNDIzLC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
