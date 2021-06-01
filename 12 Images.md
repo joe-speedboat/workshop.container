@@ -3,6 +3,7 @@ As we have seen, Docker images may built from multiple layers, each of them depe
 So let's look deeper into a minimal docker image consisting of one single layer.
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
+## Exporting 
 
 ## Under the hood
 ```bash
@@ -49,6 +50,6 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzI5MTYxOSwtMTA3MDc1MDQxOSwxMz
+eyJoaXN0b3J5IjpbLTE4NjIxMjU5MSwtMTA3MDc1MDQxOSwxMz
 IzMDk5OTY2XX0=
 -->
