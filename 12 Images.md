@@ -138,10 +138,13 @@ mytoolbox    stable    a2424c9c517b   15 minutes ago   53.5MB
 alpine       3.13      6dbb9cc54074   6 weeks ago      5.61MB
 alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
 
+### And now lets make this image public available
+* My Dockerhub namespace is <tt>christian773</tt>, please replace this with your namespace name.
+```bash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNDc5NjM5LDE4MjgzODQ4ODcsMTgzMD
-k5NTAyNywxMTQ5NjE1Mzk0LDc3MzEzODAwNiwtOTkxNDIzMTk4
-LDM5NjI5NTA2LDE0MDg3MDQxMTcsLTYwNjg3MjQyMywtMTA3MD
-c1MDQxOSwxMzIzMDk5OTY2XX0=
+eyJoaXN0b3J5IjpbLTE2Mjc4OTcwODQsMTgyODM4NDg4NywxOD
+MwOTk1MDI3LDExNDk2MTUzOTQsNzczMTM4MDA2LC05OTE0MjMx
+OTgsMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2ODcyNDIzLC0xMD
+cwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
