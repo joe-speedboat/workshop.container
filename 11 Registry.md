@@ -87,9 +87,17 @@ curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ra
 ```
 
 ### Authenticate and verify limits again
-
+```bash
+TOKEN=$(curl --user 'username:password' "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
+curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ratelimitpreview
+	...
+	date: Tue, 01 Jun 2021 06:06:39 GMT
+	strict-transport-security: max-age=31536000
+	ratelimit-limit: 200;w=21600
+	ratelimit-remaining: 200;w=21600
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjk5NjkxLDE3MTIwNTc2ODcsNjY2ND
-g2MTcxLDEwMDkxNDQ1MTYsMTkzODUzNTQ3MiwxNTI1NDk2NDUy
-XX0=
+eyJoaXN0b3J5IjpbLTIwOTQ5Njk3MTAsMTIzMjk5NjkxLDE3MT
+IwNTc2ODcsNjY2NDg2MTcxLDEwMDkxNDQ1MTYsMTkzODUzNTQ3
+MiwxNTI1NDk2NDUyXX0=
 -->
