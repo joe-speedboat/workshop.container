@@ -1,5 +1,5 @@
 # Containers
-
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. ... Standard: Docker created the industry standard for containers, so they could be portable anywhere.
 
 ## Running Containers interactively
 So lets start a first command inside the container
@@ -16,5 +16,5 @@ docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 If you compare the IP you got with the OS IP, you can see that they are different.
 We will look later deeper into the shared and/other separated components of a container.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzU1NTkzMV19
+eyJoaXN0b3J5IjpbMTU4MTc1NjY2Ml19
 -->
