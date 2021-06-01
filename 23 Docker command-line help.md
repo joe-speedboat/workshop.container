@@ -25,8 +25,9 @@ docker inspect --format="{{json .Config.ExposedPorts }}"  nodered/node-red
 ```bash 
 # let us start a container, just to see how we can jump into
 
+docker container inspect $id | jq
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzgyMzYwMV19
+eyJoaXN0b3J5IjpbMTczODcwMzgxOCwtODU3ODIzNjAxXX0=
 -->
