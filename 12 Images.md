@@ -45,7 +45,7 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 ```
 
 ## Customize an existing Docker Image
-* Prepare your Docker Project
+### Prepare your Docker Project
 ```bash
 mkdir src/docker.toolbox
 cd src/docker.toolbox
@@ -73,10 +73,22 @@ ADD https://raw.githubusercontent.com/joe-speedboat/shell.scripts/master/nc_benc
 RUN chmod 755 /usr/bin/nc_benchmark.sh
 ```
 * build it
-* 
+```bash
+docker build --network=host -t mytoolbox:0.01 .
+Sending build context to Docker daemon   2.56kB
+Step 1/12 : FROM alpine:3.13
+ ---> 6dbb9cc54074
+...
+Removing intermediate container 7dcc1bf8ab68
+ ---> a2424c9c517b
+Successfully built a2424c9c517b
+Successfully tagged mytoolbox:0.01
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTYxNTM5NCw3NzMxMzgwMDYsLTk5MT
-QyMzE5OCwzOTYyOTUwNiwxNDA4NzA0MTE3LC02MDY4NzI0MjMs
-LTEwNzA3NTA0MTksMTMyMzA5OTk2Nl19
+eyJoaXN0b3J5IjpbLTY3NzI1MjM3LDExNDk2MTUzOTQsNzczMT
+M4MDA2LC05OTE0MjMxOTgsMzk2Mjk1MDYsMTQwODcwNDExNywt
+NjA2ODcyNDIzLC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
