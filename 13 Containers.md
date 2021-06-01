@@ -80,12 +80,14 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ## Run container like a service?
 The most of us will probably want to start the containers like a service.
 For this we have several options as well. Let us look at a common one:
-
+```bash
+docker run -d --restart unless-stopped
+```
 
 
 
 ## Stopping containers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzI2NjY1MCwtMTI4MDAyNDkzNiwtMT
-MwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbMTc5MTA2NjY1LDEzNzcyNjY2NTAsLTEyOD
+AwMjQ5MzYsLTEzMDg1NjYzOV19
 -->
