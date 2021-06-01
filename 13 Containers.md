@@ -79,8 +79,9 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 ## Run container like a service?
 The most of us will probably want to start the containers like a service.
-For this we have several options as well. Let us look at a common one
+For this we have several options as well. Let us look at a common one:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk1MjE3MjIsLTEyODAwMjQ5MzYsLT
-EzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbMTUxNDU3NzkyMiwtMTI4MDAyNDkzNiwtMT
+MwODU2NjM5XX0=
 -->
