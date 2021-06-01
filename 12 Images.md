@@ -51,8 +51,26 @@ cd src/docker.toolbox
 ```
 * <tt>vi Dockerfile</tt>
 
+> FROM alpine:3.13 LABEL maintainer="Chris Ruettimann
+> <chris@bitbull.ch>"
+> 
+> ###### This vars will be visible in running container ###### ARG MY_VERSION=0.01 ARG APK_FLAGS_COMMON="" ARG
+> APK_FLAGS_PERSISTENT="${APK_FLAGS_COMMON} --clean-protected
+> --no-cache" ARG APK_FLAGS_DEV="${APK_FLAGS_COMMON} --no-cache"
+> 
+> STOPSIGNAL SIGTERM
+> 
+> USER root WORKDIR /tmp
+> 
+> RUN apk add ${APK_FLAGS_DEV} bash bind-tools curl iftop openssl bc jq
+> wget coreutils nmap-ncat nmap nmap-scripts 
+> 
+> ADD
+> https://raw.githubusercontent.com/joe-speedboat/shell.scripts/master/nc_benchmark.sh
+> /usr/bin/nc_benchmark.sh  RUN chmod 755 /usr/bin/nc_benchmark.sh
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEyNDg1NjYsNzczMTM4MDA2LC05OT
+eyJoaXN0b3J5IjpbLTEyNjU1NDkyNDIsNzczMTM4MDA2LC05OT
 E0MjMxOTgsMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2ODcyNDIz
 LC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
