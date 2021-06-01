@@ -34,7 +34,8 @@ This means that the container should be removed once it has entered the exit sta
 But what is the meaning and value of this option?
 So let us try that by an example and discuss later on the results:
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAzNjgwMzMsLTEyODAwMjQ5MzYsLT
-EzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbLTYzMDEwMTQyNywtMTI4MDAyNDkzNiwtMT
+MwODU2NjM5XX0=
 -->
