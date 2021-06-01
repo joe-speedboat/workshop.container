@@ -77,9 +77,10 @@ eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-## Container like Service
-The most useful case to start a container is to start it as a service
+## Run container like a service?
+The most of us will probably want to start the containers like a service.
+For this we have several options as well. Let us look at a common one
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODU0OTU3OSwtMTI4MDAyNDkzNiwtMT
-MwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbLTExOTk1MjE3MjIsLTEyODAwMjQ5MzYsLT
+EzMDg1NjYzOV19
 -->
