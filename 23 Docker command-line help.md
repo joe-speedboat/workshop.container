@@ -28,8 +28,17 @@ docker container inspect $container_id | jq
 # let us start a container, just to see how we can jump into
 docker run -d --restart unless-stopped -P nodered/node-red
 
+docker exec -it 3e015af2b08d6d bash
+	bash-5.0$ ps -ef
+	PID   USER     TIME  COMMAND
+	    1 node-red  0:00 npm
+	   17 node-red  0:01 node-red
+	  217 node-red  0:00 bash
+	  241 node-red  0:00 ps -ef
+	bash-5.0$ id
+	uid=1000(node-red) gid=1000(node-red)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc4MTQ0NTQsLTg1NzgyMzYwMV19
+eyJoaXN0b3J5IjpbLTEwMzQzMTg4NSwtODU3ODIzNjAxXX0=
 -->
