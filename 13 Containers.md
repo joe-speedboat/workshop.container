@@ -159,8 +159,10 @@ Can you explain the benefit and disadvantage of it?
 ## Stopping containers
 If you need to stop a runing container, you might want to let the container finish its work and clean up the data.
 So <tt>stop</tt> should be your preferred option.
-You can as well use the <tt>kill</tt>option, but then you give the container no time to 
+You can as well use the <tt>kill</tt>option, but then you give the container no time to finish its work.
+Here we g
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MTAwMjEzLDY1MTIwNTk1NiwxMzc3Mj
+eyJoaXN0b3J5IjpbOTk2MTUyMTc4LDY1MTIwNTk1NiwxMzc3Mj
 Y2NjUwLC0xMjgwMDI0OTM2LC0xMzA4NTY2MzldfQ==
 -->
