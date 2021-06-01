@@ -20,9 +20,14 @@ We will look later deeper into the shared and/other separated components of a co
 ## Container start options
 Did you notice that the container immediately returned to the  operating system after executing the desired command?
 A container image may suggest the process that get started after container is going up, but we can always override this settings.
-So let us take a look of some of this options to get a better understanding.
+So let us take a look of some of this options to get a better understanding:
 
+
+### docker container run
+This means we start a new container out of an image.
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjQ0OTg2NywtMTI4MDAyNDkzNiwtMT
-MwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbLTE1OTY3Nzk1NjIsLTEyODAwMjQ5MzYsLT
+EzMDg1NjYzOV19
 -->
