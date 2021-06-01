@@ -10,7 +10,7 @@ CE can run on Windows 10 and Mac, on Azure and AWS, as well as CentOS, Debian, F
 
 Docker EE, on the other hand, is a premium version of CE. Docker EE is an integrated, fully supported, and certified container platform that runs on Red Hat Enterprise Linux (RHEL), SUSE Linux Enterprise Server (SLES), Oracle Linux, Ubuntu, Windows Server 2016, as well as Azure and AWS.
 
-## Setup a Docker CE  atomic host on CentOS8
+## Setup a Docker CE host on CentOS8
 This user can be used later on to manage Docker, but will have no privileges to manage the underlying operating system.
 
 ### Install Docker CE
@@ -24,8 +24,8 @@ systemctl enable docker
 ```
 ### Create Docker Admin
 ```
-useradd atomic
-usermod -aG docker atomic
+useradd dadmin
+usermod -aG docker dadmin
 ```
 
 ### Configure Firewalling
@@ -44,5 +44,5 @@ firewall-cmd --reload
 dnf -y install vim tar wget jq git bash-completion
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc2NTAwNTRdfQ==
+eyJoaXN0b3J5IjpbMTgzNzc5MDAzMSwtMTk3NzY1MDA1NF19
 -->
