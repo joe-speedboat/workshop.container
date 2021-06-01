@@ -49,9 +49,10 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 mkdir src/docker.toolbox
 cd src/docker.toolbox
 ```
+* <tt>vi Dockerfile</tt>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMTM4MDA2LC05OTE0MjMxOTgsMzk2Mj
-k1MDYsMTQwODcwNDExNywtNjA2ODcyNDIzLC0xMDcwNzUwNDE5
-LDEzMjMwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDEyNDg1NjYsNzczMTM4MDA2LC05OT
+E0MjMxOTgsMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2ODcyNDIz
+LC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
