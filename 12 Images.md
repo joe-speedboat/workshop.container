@@ -137,6 +137,7 @@ mytoolbox    0.01      a2424c9c517b   15 minutes ago   53.5MB
 mytoolbox    stable    a2424c9c517b   15 minutes ago   53.5MB
 alpine       3.13      6dbb9cc54074   6 weeks ago      5.61MB
 alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
+```
 
 ### And now lets make this image public available
 * My Dockerhub namespace is <tt>christian773</tt>, please replace this with your namespace name.
@@ -158,9 +159,11 @@ The push refers to repository [docker.io/christian773/mytoolbox]
 b2d5eeeaba3a: Mounted from library/alpine 
 stable: digest: sha256:e177e2ceb9c980086536a5a09e93b6685f1c9ca7761cb579e747979c6c059513 size: 1156
 ```
+### let us now check if the image is available
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4OTkyNDY4LDE4MjgzODQ4ODcsMTgzMD
-k5NTAyNywxMTQ5NjE1Mzk0LDc3MzEzODAwNiwtOTkxNDIzMTk4
-LDM5NjI5NTA2LDE0MDg3MDQxMTcsLTYwNjg3MjQyMywtMTA3MD
-c1MDQxOSwxMzIzMDk5OTY2XX0=
+eyJoaXN0b3J5IjpbMTc5NjU5NDQyNCwxODI4Mzg0ODg3LDE4Mz
+A5OTUwMjcsMTE0OTYxNTM5NCw3NzMxMzgwMDYsLTk5MTQyMzE5
+OCwzOTYyOTUwNiwxNDA4NzA0MTE3LC02MDY4NzI0MjMsLTEwNz
+A3NTA0MTksMTMyMzA5OTk2Nl19
 -->
