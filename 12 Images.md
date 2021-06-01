@@ -44,9 +44,11 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 	}
 ```
 
+## Customize an existing Docker Image
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2OD
-cyNDIzLC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbLTk5MTQyMzE5OCwzOTYyOTUwNiwxNDA4Nz
+A0MTE3LC02MDY4NzI0MjMsLTEwNzA3NTA0MTksMTMyMzA5OTk2
+Nl19
 -->
