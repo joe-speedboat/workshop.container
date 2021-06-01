@@ -26,7 +26,7 @@ docker container inspect $container_id | jq
 ### Jump into a running container 
 ```bash 
 # let us start a container, just to see how we can jump into
-docker run -d --restart unless-stopped -P nodered/node-red
+docker run -d --restart unless-stopped -v myNodeREDdata:/data -P nodered/node-red
 
 docker exec -it 3e015af2b08d6d bash
 	bash-5.0$ ps -ef
@@ -40,6 +40,6 @@ docker exec -it 3e015af2b08d6d bash
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQzMTg4NSwtNTkzNDI5NzEsLTEwMz
-QzMTg4NSwtODU3ODIzNjAxXX0=
+eyJoaXN0b3J5IjpbLTE3ODg0MDcxMTYsLTEwMzQzMTg4NSwtNT
+kzNDI5NzEsLTEwMzQzMTg4NSwtODU3ODIzNjAxXX0=
 -->
