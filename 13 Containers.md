@@ -17,7 +17,9 @@ docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 If you compare the IP you got with the operating system IP, you can see that they are different.
 We will look later deeper into the shared and/other separated components of a container.
 
-Did you notice that the container immediately returned to the  
+Did you notice that the container immediately returned to the  operating system after executing the desired command?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAwMjQ5MzYsLTEzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbLTEyODYyMjkxODcsLTEyODAwMjQ5MzYsLT
+EzMDg1NjYzOV19
 -->
