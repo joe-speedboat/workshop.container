@@ -101,17 +101,17 @@ curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ra
 This will make your private images accessible and avoid hitting anonymous pull limitations
 ```bash
 docker login
-Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
-Username: 
-Password: 
-WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
-Configure a credential helper to remove this warning. See
-https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+	Login with your Docker ID to push and pull images from Docker Hub....
+	Username: 
+	Password: 
+	WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+	Configure a credential helper to remove this warning. See
+	https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
-Login Succeeded
-
+	Login Succeeded
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzk4MTUsMTIzMjk5NjkxLDE3MTIwNT
-c2ODcsNjY2NDg2MTcxLDEwMDkxNDQ1MTYsMTkzODUzNTQ3Miwx
-NTI1NDk2NDUyXX0=
+eyJoaXN0b3J5IjpbLTE2ODI0MjgzMzYsLTUyMzk4MTUsMTIzMj
+k5NjkxLDE3MTIwNTc2ODcsNjY2NDg2MTcxLDEwMDkxNDQ1MTYs
+MTkzODUzNTQ3MiwxNTI1NDk2NDUyXX0=
 -->
