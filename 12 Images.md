@@ -72,7 +72,7 @@ RUN apk add ${APK_FLAGS_DEV} bash bind-tools curl iftop openssl bc jq wget coreu
 ADD https://raw.githubusercontent.com/joe-speedboat/shell.scripts/master/nc_benchmark.sh /usr/bin/nc_benchmark.sh 
 RUN chmod 755 /usr/bin/nc_benchmark.sh
 ```
-### build it
+### Build it
 ```bash
 docker build --network=host -t mytoolbox:0.01 .
 Sending build context to Docker daemon   2.56kB
@@ -88,7 +88,7 @@ Successfully tagged mytoolbox:0.01
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMzAxMjM1LDExNDk2MTUzOTQsNzczMT
-M4MDA2LC05OTE0MjMxOTgsMzk2Mjk1MDYsMTQwODcwNDExNywt
-NjA2ODcyNDIzLC0xMDcwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbMTgzMDk5NTAyNywxMTQ5NjE1Mzk0LDc3Mz
+EzODAwNiwtOTkxNDIzMTk4LDM5NjI5NTA2LDE0MDg3MDQxMTcs
+LTYwNjg3MjQyMywtMTA3MDc1MDQxOSwxMzIzMDk5OTY2XX0=
 -->
