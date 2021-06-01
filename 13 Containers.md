@@ -75,9 +75,8 @@ eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02
 
 [root@stream toolbox]# docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4ODQ1NzEzLC0xMjgwMDI0OTM2LC0xMz
-A4NTY2MzldfQ==
+eyJoaXN0b3J5IjpbLTE1Mzg3MzYwNjUsLTEyODAwMjQ5MzYsLT
+EzMDg1NjYzOV19
 -->
