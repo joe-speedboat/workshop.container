@@ -96,8 +96,11 @@ curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ra
 	ratelimit-limit: 200;w=21600
 	ratelimit-remaining: 200;w=21600
 ```
+
+### Authenticate with docker client
+This will make your private images accessible and avoid hitting anonymous p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ5Njk3MTAsMTIzMjk5NjkxLDE3MT
-IwNTc2ODcsNjY2NDg2MTcxLDEwMDkxNDQ1MTYsMTkzODUzNTQ3
-MiwxNTI1NDk2NDUyXX0=
+eyJoaXN0b3J5IjpbLTg5Njg3MzI4NSwxMjMyOTk2OTEsMTcxMj
+A1NzY4Nyw2NjY0ODYxNzEsMTAwOTE0NDUxNiwxOTM4NTM1NDcy
+LDE1MjU0OTY0NTJdfQ==
 -->
