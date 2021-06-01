@@ -50,7 +50,7 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 mkdir src/docker.toolbox
 cd src/docker.toolbox
 ```
-* Create the Container Des
+* Create the container building information
 <tt>vi Dockerfile</tt>
 ```
 FROM alpine:3.13
@@ -72,10 +72,11 @@ RUN apk add ${APK_FLAGS_DEV} bash bind-tools curl iftop openssl bc jq wget coreu
 ADD https://raw.githubusercontent.com/joe-speedboat/shell.scripts/master/nc_benchmark.sh /usr/bin/nc_benchmark.sh 
 RUN chmod 755 /usr/bin/nc_benchmark.sh
 ```
-
+* build it
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTc1NjQ4NSw3NzMxMzgwMDYsLTk5MT
+eyJoaXN0b3J5IjpbMTE0OTYxNTM5NCw3NzMxMzgwMDYsLTk5MT
 QyMzE5OCwzOTYyOTUwNiwxNDA4NzA0MTE3LC02MDY4NzI0MjMs
 LTEwNzA3NTA0MTksMTMyMzA5OTk2Nl19
 -->
