@@ -75,7 +75,9 @@ As you can see, tags can be used to label image versions.
 ### Authenticate against Registry Service
 Dockerhub public image registry used to be free for any usage ... but since they reached it's capacity limits, you have to authenticate for bypassing the publick limits:
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjA1NzY4Nyw2NjY0ODYxNzEsMTAwOT
-E0NDUxNiwxOTM4NTM1NDcyLDE1MjU0OTY0NTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NDY0MTg3NDcsMTcxMjA1NzY4Nyw2Nj
+Y0ODYxNzEsMTAwOTE0NDUxNiwxOTM4NTM1NDcyLDE1MjU0OTY0
+NTJdfQ==
 -->
