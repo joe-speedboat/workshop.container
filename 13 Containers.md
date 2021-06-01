@@ -20,8 +20,9 @@ We will look later deeper into the shared and/other separated components of a co
 ## Container start options
 Did you notice that the container immediately returned to the  operating system after executing the desired command?
 A container image may suggest the process that get started after container is going up, but we can always override this settings.
+So let us take a look of some of this options to get a better understanding.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDc3MzIwNywtMTI4MDAyNDkzNiwtMT
+eyJoaXN0b3J5IjpbMTE5MjQ0OTg2NywtMTI4MDAyNDkzNiwtMT
 MwODU2NjM5XX0=
 -->
