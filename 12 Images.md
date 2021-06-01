@@ -141,10 +141,26 @@ alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
 ### And now lets make this image public available
 * My Dockerhub namespace is <tt>christian773</tt>, please replace this with your namespace name.
 ```bash
+[root@node toolbox]# docker tag mytoolbox:stable docker.io/christian773/mytoolbox:stable
 
+[root@node toolbox]# docker login
+Authenticating with existing credentials...
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+Login Succeeded
+
+[root@node toolbox]# docker push docker.io/christian773/mytoolbox:stable
+The push refers to repository [docker.io/christian773/mytoolbox]
+25f46b9aaadb: Pushed 
+2be52c6a6a9f: Pushed 
+08ba6168a320: Pushed 
+b2d5eeeaba3a: Mounted from library/alpine 
+stable: digest: sha256:e177e2ceb9c980086536a5a09e93b6685f1c9ca7761cb579e747979c6c059513 size: 1156
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc4OTcwODQsMTgyODM4NDg4NywxOD
-MwOTk1MDI3LDExNDk2MTUzOTQsNzczMTM4MDA2LC05OTE0MjMx
-OTgsMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2ODcyNDIzLC0xMD
-cwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
+eyJoaXN0b3J5IjpbNzk4OTkyNDY4LDE4MjgzODQ4ODcsMTgzMD
+k5NTAyNywxMTQ5NjE1Mzk0LDc3MzEzODAwNiwtOTkxNDIzMTk4
+LDM5NjI5NTA2LDE0MDg3MDQxMTcsLTYwNjg3MjQyMywtMTA3MD
+c1MDQxOSwxMzIzMDk5OTY2XX0=
 -->
