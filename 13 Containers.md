@@ -152,11 +152,13 @@ docker rmi yeasy/simple-web
 docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
+
 Do you remember the <tt>--rm</tt> option. 
+Can you explain the benefit and disadvantage of it?  
 
 
 ## Stopping containers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMjA1OTU2LDEzNzcyNjY2NTAsLTEyOD
-AwMjQ5MzYsLTEzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbMTgzMjYyMTg4MSw2NTEyMDU5NTYsMTM3Nz
+I2NjY1MCwtMTI4MDAyNDkzNiwtMTMwODU2NjM5XX0=
 -->
