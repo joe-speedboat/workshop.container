@@ -81,13 +81,13 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 The most of us will probably want to start the containers like a service.
 For this we have several options as well. Let us look at a common one:
 ```bash
-docker run -d --restart unless-stopped
+docker run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
 ```
 
 
 
 ## Stopping containers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTA2NjY1LDEzNzcyNjY2NTAsLTEyOD
+eyJoaXN0b3J5IjpbMjU0NTE3NDI4LDEzNzcyNjY2NTAsLTEyOD
 AwMjQ5MzYsLTEzMDg1NjYzOV19
 -->
