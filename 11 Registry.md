@@ -6,7 +6,7 @@ A Docker registry is organized into Docker repositories , where a repository hol
 
 By default, the Docker engine interacts with DockerHub , Docker’s public registry instance. However, it is possible to run on-premise the open-source Docker registry/distribution, as well as a commercially supported version called Docker Trusted Registry . There are other public registries available online.
 
-## Search the Registry
+## Search the Registry for repositories
 ```bash
 docker search busybox
 	NAME                      DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
@@ -75,7 +75,7 @@ As you can see, tags can be used to label image versions.
 ## Authenticate against Registry Service
 Dockerhub public image registry used to be free for any usage ... but since they reached it's capacity limits, you have to authenticate for bypassing the publick limits:
 
-### Verify anonymous dockerhub limitations
+### Anonymous dockerhub limitations
 ```bash
 TOKEN=$(curl "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
 curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ratelimitpreview/test/manifests/latest
@@ -111,7 +111,7 @@ docker login
 	Login Succeeded
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc1MDg3LC0xNjgyNDI4MzM2LC01Mj
+eyJoaXN0b3J5IjpbNTc2OTk3NjAzLC0xNjgyNDI4MzM2LC01Mj
 M5ODE1LDEyMzI5OTY5MSwxNzEyMDU3Njg3LDY2NjQ4NjE3MSwx
 MDA5MTQ0NTE2LDE5Mzg1MzU0NzIsMTUyNTQ5NjQ1Ml19
 -->
