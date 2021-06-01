@@ -160,10 +160,14 @@ b2d5eeeaba3a: Mounted from library/alpine
 stable: digest: sha256:e177e2ceb9c980086536a5a09e93b6685f1c9ca7761cb579e747979c6c059513 size: 1156
 ```
 ### let us now check if the image is available
+After about 5 minutes you should be able to see the new image in your dockerhub profile:
+https://hub.docker.com/u/christian773
+
+Of cours
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjU5NDQyNCwxODI4Mzg0ODg3LDE4Mz
-A5OTUwMjcsMTE0OTYxNTM5NCw3NzMxMzgwMDYsLTk5MTQyMzE5
-OCwzOTYyOTUwNiwxNDA4NzA0MTE3LC02MDY4NzI0MjMsLTEwNz
-A3NTA0MTksMTMyMzA5OTk2Nl19
+eyJoaXN0b3J5IjpbLTU1MDUwNzE1MSwxNzk2NTk0NDI0LDE4Mj
+gzODQ4ODcsMTgzMDk5NTAyNywxMTQ5NjE1Mzk0LDc3MzEzODAw
+NiwtOTkxNDIzMTk4LDM5NjI5NTA2LDE0MDg3MDQxMTcsLTYwNj
+g3MjQyMywtMTA3MDc1MDQxOSwxMzIzMDk5OTY2XX0=
 -->
