@@ -3,7 +3,7 @@ A container is a standard unit of software that packages up code and all its dep
 Container images become containers at runtime and in the case of Docker containers - images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
 
 ## Running Containers interactively
-So lets start a first command inside the container
+So let us first start a first command inside the container
 ```bash
 docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 	eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
@@ -16,6 +16,8 @@ docker container run --interactive --tty --rm busybox:latest ifconfig eth0
 ```
 If you compare the IP you got with the operating system IP, you can see that they are different.
 We will look later deeper into the shared and/other separated components of a container.
+
+Did you notice that the container immediately returned to the  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbLTEyODAwMjQ5MzYsLTEzMDg1NjYzOV19
 -->
