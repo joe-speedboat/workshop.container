@@ -34,8 +34,50 @@ This means that the container should be removed once it has entered the exit sta
 But what is the meaning and value of this option?
 So let us try that by an example and discuss later on the results:
 
+```bash
+[root@node]# docker container run --interactive --tty --rm busybox:latest ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
+          inet addr:172.17.0.2  Bcast:172.17.255.255  Mask:255.255.0.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:180 (180.0 B)  TX bytes:0 (0.0 B)
 
+[root@node]# docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+
+[root@stream toolbox]# docker container run --interactive --tty busybox:latest ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
+          inet addr:172.17.0.2  Bcast:172.17.255.255  Mask:255.255.0.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:180 (180.0 B)  TX bytes:0 (0.0 B)
+
+[root@node]# docker ps -a
+CONTAINER ID   IMAGE            COMMAND           CREATED         STATUS                     PORTS     NAMES
+12b32a047897   busybox:latest   "ifconfig eth0"   7 seconds ago   Exited (0) 6 seconds ago             zealous_matsumoto
+
+[root@node]# docker logs 12b32a047897
+eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
+          inet addr:172.17.0.2  Bcast:172.17.255.255  Mask:255.255.0.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:180 (180.0 B)  TX bytes:0 (0.0 B)
+
+[root@stream toolbox]# docker rm 12b32a047897
+12b32a047897
+
+[root@stream toolbox]# docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDEwMTQyNywtMTI4MDAyNDkzNiwtMT
-MwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbNzg4ODQ1NzEzLC0xMjgwMDI0OTM2LC0xMz
+A4NTY2MzldfQ==
 -->
