@@ -85,10 +85,12 @@ Successfully built a2424c9c517b
 Successfully tagged mytoolbox:0.01
 ```
 ### Test it
+```bash
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDk5NTAyNywxMTQ5NjE1Mzk0LDc3Mz
-EzODAwNiwtOTkxNDIzMTk4LDM5NjI5NTA2LDE0MDg3MDQxMTcs
-LTYwNjg3MjQyMywtMTA3MDc1MDQxOSwxMzIzMDk5OTY2XX0=
+eyJoaXN0b3J5IjpbMTgyODM4NDg4NywxODMwOTk1MDI3LDExND
+k2MTUzOTQsNzczMTM4MDA2LC05OTE0MjMxOTgsMzk2Mjk1MDYs
+MTQwODcwNDExNywtNjA2ODcyNDIzLC0xMDcwNzUwNDE5LDEzMj
+MwOTk5NjZdfQ==
 -->
