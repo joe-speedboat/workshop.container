@@ -119,7 +119,7 @@ docker container ps
 ```
 As you can see, the container has now a **lower uptime** because of the automated restart.
 
-## Stop a container running in b
+## Stop a container running in background
 ```bash
 docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
@@ -141,6 +141,7 @@ docker container rm a0260d433daf
 docker images
 	REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
 	yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
+
 docker rmi yeasy/simple-web
 	Untagged: yeasy/simple-web:latest
 	Untagged: yeasy/simple-web@sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
@@ -151,11 +152,11 @@ docker rmi yeasy/simple-web
 docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
-
+Do you remember the <tt>--rm</tt> option. 
 
 
 ## Stopping containers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODg4MzIwMSwxMzc3MjY2NjUwLC0xMj
-gwMDI0OTM2LC0xMzA4NTY2MzldfQ==
+eyJoaXN0b3J5IjpbNjUxMjA1OTU2LDEzNzcyNjY2NTAsLTEyOD
+AwMjQ5MzYsLTEzMDg1NjYzOV19
 -->
