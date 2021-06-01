@@ -37,8 +37,10 @@ docker exec -it 3e015af2b08d6d bash
 	  241 node-red  0:00 ps -ef
 	bash-5.0$ id
 	uid=1000(node-red) gid=1000(node-red)
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQzMTg4NSwtODU3ODIzNjAxXX0=
+eyJoaXN0b3J5IjpbLTU5MzQyOTcxLC0xMDM0MzE4ODUsLTg1Nz
+gyMzYwMV19
 -->
