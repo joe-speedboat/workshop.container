@@ -19,15 +19,17 @@ docker pull nodered/node-red
 
 docker inspect --format="{{json .Config.ExposedPorts }}"  nodered/node-red
 	{"1880/tcp":{}}
+# you can do this as well with a running container
+docker container inspect $container_id | jq
 ```
 
 ### Jump into a running container 
 ```bash 
 # let us start a container, just to see how we can jump into
+docker run -d --restart unless-stopped -P nodered/node-red
 
-docker container inspect $id | jq
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODcwMzgxOCwtODU3ODIzNjAxXX0=
+eyJoaXN0b3J5IjpbLTE4ODc4MTQ0NTQsLTg1NzgyMzYwMV19
 -->
