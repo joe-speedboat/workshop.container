@@ -3,6 +3,7 @@ As we have seen, Docker images may built from multiple layers, each of them depe
 So let's look deeper into a minimal docker image consisting of one single layer.
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
+
 ## Under the hood
 ```bash
 mkdir tmp
@@ -20,7 +21,7 @@ tar vtf busybox.tar
 	-rw-r--r-- 0/0              90 1970-01-01 01:00 repositories
 ```
 
-### Importing Images from tar file
+## Importing Images from tar file
 This tar file looks interesting, but what can we do with it?
 
 So we import it and hopefully we have a container later on?
@@ -48,6 +49,6 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMzNjkwODgsLTEwNzA3NTA0MTksMT
-MyMzA5OTk2Nl19
+eyJoaXN0b3J5IjpbMTA4NzI5MTYxOSwtMTA3MDc1MDQxOSwxMz
+IzMDk5OTY2XX0=
 -->
