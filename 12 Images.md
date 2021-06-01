@@ -121,10 +121,12 @@ CONTAINER ID   IMAGE            COMMAND                  CREATED              ST
 05bc3bff027b   mytoolbox:0.01   "bash"                   About a minute ago   Exited (0) 5 seconds ago               dreamy_davinci
 ```
 ### Tag the image
-We might find this image useful, but want 
+We might find this image useful, and want to mark it as a working release.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Nzg5OTI1MSwxODI4Mzg0ODg3LDE4Mz
-A5OTUwMjcsMTE0OTYxNTM5NCw3NzMxMzgwMDYsLTk5MTQyMzE5
-OCwzOTYyOTUwNiwxNDA4NzA0MTE3LC02MDY4NzI0MjMsLTEwNz
-A3NTA0MTksMTMyMzA5OTk2Nl19
+eyJoaXN0b3J5IjpbLTE2MDc5MjA1NTMsMTgyODM4NDg4NywxOD
+MwOTk1MDI3LDExNDk2MTUzOTQsNzczMTM4MDA2LC05OTE0MjMx
+OTgsMzk2Mjk1MDYsMTQwODcwNDExNywtNjA2ODcyNDIzLC0xMD
+cwNzUwNDE5LDEzMjMwOTk5NjZdfQ==
 -->
