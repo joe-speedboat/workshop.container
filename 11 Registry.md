@@ -78,22 +78,18 @@ Dockerhub public image registry used to be free for any usage ... but since they
 ### Verify anonymous dockerhub limitations
 ```bash
 TOKEN=$(curl "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
-
 curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ratelimitpreview/test/manifests/latest
-HTTP/1.1 200 OK
-content-length: 2782
-content-type: application/vnd.docker.distribution.manifest.v1+prettyjws
-docker-content-digest: sha256:767a3815c34823b355bed31760d5fa3daca0aec2ce15b217c9cd83229e0e2020
-docker-distribution-api-version: registry/2.0
-etag: "sha256:767a3815c34823b355bed31760d5fa3daca0aec2ce15b217c9cd83229e0e2020"
-date: Tue, 01 Jun 2021 05:55:56 GMT
-strict-transport-security: max-age=31536000
-ratelimit-limit: 100;w=21600
-ratelimit-remaining: 99;w=21600
+	...
+	date: Tue, 01 Jun 2021 05:55:56 GMT
+	strict-transport-security: max-age=31536000
+	ratelimit-limit: 100;w=21600
+	ratelimit-remaining: 99;w=21600
+```
 
+### Authenticate and verify limits again
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEyNDMzMCwxNzEyMDU3Njg3LDY2Nj
-Q4NjE3MSwxMDA5MTQ0NTE2LDE5Mzg1MzU0NzIsMTUyNTQ5NjQ1
-Ml19
+eyJoaXN0b3J5IjpbMTIzMjk5NjkxLDE3MTIwNTc2ODcsNjY2ND
+g2MTcxLDEwMDkxNDQ1MTYsMTkzODUzNTQ3MiwxNTI1NDk2NDUy
+XX0=
 -->
