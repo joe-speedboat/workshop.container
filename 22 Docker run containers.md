@@ -1,40 +1,11 @@
-# Docker: Run containers
 
-
-
-
-## Pull and start an image from Dockerhub
-```bash
-docker container run -it -p 80:80 yeasy/simple-web:latest
-```
 Now go and try to access the port 80 of your VM with a webbrowser!
 You should see something like that:
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/http_simple_web.png)
-Since you started the container in interactive mode, it will exit if you type CTRL-C, please do so now.
 
-Now let us inspect the current status of docker and clean up.
+Now let us inspect the current status of docker.
 ```bash
-docker container ps 
-	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
-docker container ps -a
-	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS                     PORTS     NAMES
-	f4a758984ac0   yeasy/simple-web:latest   "/bin/sh -c 'python …"   3 minutes ago   Exited (0) 3 minutes ago             dreamy_diffie
-
-docker container rm f4a758984ac0
-	f4a758984ac0
-docker images
-	REPOSITORY         TAG       IMAGE ID       CREATED       SIZE
-	yeasy/simple-web   latest    172c78152bf6   3 years ago   679MB
-
-docker rmi yeasy/simple-web
-	Untagged: yeasy/simple-web:latest
-	Untagged: yeasy/simple-web@sha256:356de309052fe233ba08eb4c9ad85ab89398f31555e8777326d57307ac913727
-	Deleted: sha256:172c78152bf688785a3886063f586af38dbb18c59587f0a90bd57490ef06c251
-	...
-	Deleted: sha256:8fad67424c4e7098f255513e160caa00852bcff347bc9f920a82ddf3f60229de
-docker images
-	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
 As with real operating systems services, we can decide if containers should restart, run in background, and so on.
@@ -114,5 +85,6 @@ docker images
 	REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MDI1MDg3LDU2MzYzNDkxMl19
+eyJoaXN0b3J5IjpbLTE4NTQxNzgwNTYsMjc5MDI1MDg3LDU2Mz
+YzNDkxMl19
 -->
