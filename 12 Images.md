@@ -90,16 +90,15 @@ Successfully tagged mytoolbox:0.01
 192.168.116.102
 
 [root@node toolbox]# docker run -it mytoolbox:0.01 bash
-bash-5.1# /usr/bin/nmap -T5 -P0 -sS 127.0.0.1
+**bash-5.1# /usr/bin/nmap -T5 -P0 -sS 127.0.0.1**
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-01 17:33 UTC
 Nmap scan report for localhost (127.0.0.1)
 Host is up (0.0000010s latency).
 All 1000 scanned ports on localhost (127.0.0.1) are closed
-
 Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
 
-**bash-5.1# /usr/bin/nmap -T5 -P0 -sS 192.168.116.102**
+bash-5.1# /usr/bin/nmap -T5 -P0 -sS 192.168.116.102**
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-01 17:33 UTC
 Nmap scan report for 192.168.116.102
@@ -110,20 +109,22 @@ PORT     STATE  SERVICE
 80/tcp   closed http
 443/tcp  closed https
 9090/tcp closed zeus-admin
-
 Nmap done: 1 IP address (1 host up) scanned in 16.30 seconds
+
 bash-5.1# hostname
 05bc3bff027b
+
 bash-5.1# exit
-exit
+
 [root@stream toolbox]# docker ps -a
 CONTAINER ID   IMAGE            COMMAND                  CREATED              STATUS                       PORTS     NAMES
 05bc3bff027b   mytoolbox:0.01   "bash"                   About a minute ago   Exited (0) 5 seconds ago               dreamy_davinci
-
-
+```
+### Tag the image
+We might find this image useful, but want 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NjY0MDg2LDE4MjgzODQ4ODcsMTgzMD
-k5NTAyNywxMTQ5NjE1Mzk0LDc3MzEzODAwNiwtOTkxNDIzMTk4
-LDM5NjI5NTA2LDE0MDg3MDQxMTcsLTYwNjg3MjQyMywtMTA3MD
-c1MDQxOSwxMzIzMDk5OTY2XX0=
+eyJoaXN0b3J5IjpbLTc1Nzg5OTI1MSwxODI4Mzg0ODg3LDE4Mz
+A5OTUwMjcsMTE0OTYxNTM5NCw3NzMxMzgwMDYsLTk5MTQyMzE5
+OCwzOTYyOTUwNiwxNDA4NzA0MTE3LC02MDY4NzI0MjMsLTEwNz
+A3NTA0MTksMTMyMzA5OTk2Nl19
 -->
