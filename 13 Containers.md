@@ -89,15 +89,14 @@ You should see something like that:
 
 Now let us inspect the current status of docker.
 ```bash
-docker container run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
-
 docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 seconds ago   Up 9 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
 If you now logout and login back again, you can see that the container is still running.
 
-Now let us jump into the container and kill the application:
+### Simulate a internal error within the container
+Now let us jump into the container and kill the application manually:
 ```bash
 docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
@@ -118,9 +117,9 @@ docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   7 minutes ago   Up 6 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
-As you can see, the container has now a lower uptime because of the automated restart.
+As you can see, the container has now a **lower uptime** because of the automated restart.
 
-Let us clean up again
+## Stop a container running in b
 ```bash
 docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
@@ -157,6 +156,6 @@ docker images
 
 ## Stopping containers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODM3NTU4LDEzNzcyNjY2NTAsLTEyOD
-AwMjQ5MzYsLTEzMDg1NjYzOV19
+eyJoaXN0b3J5IjpbMTg4ODg4MzIwMSwxMzc3MjY2NjUwLC0xMj
+gwMDI0OTM2LC0xMzA4NTY2MzldfQ==
 -->
