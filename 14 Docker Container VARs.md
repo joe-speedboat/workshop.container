@@ -50,7 +50,7 @@ Here is a basic Dockerfile, using hard-coded default values:
 
 ```
 # no default value
-ENV hey
+ENV myenv
 # a default value
 ENV foo /bar
 # or ENV foo=/bar
@@ -59,7 +59,6 @@ ENV foo /bar
 ADD . $foo
 # or ADD . ${foo}
 # translates to: ADD . /bar
-
 ```
 
 [relevant docs](https://docs.docker.com/engine/reference/builder/#env)
@@ -112,5 +111,5 @@ $ docker run -e env_var_name alpine env
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODk3ODM0LC05NDc4Mzc1NjNdfQ==
+eyJoaXN0b3J5IjpbMTQ1MTI0NTI0NywtOTQ3ODM3NTYzXX0=
 -->
