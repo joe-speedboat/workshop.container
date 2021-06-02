@@ -60,11 +60,9 @@ ADD . $foo
 # or ADD . ${foo}
 # translates to: ADD . /bar
 ```
-
 [relevant docs](https://docs.docker.com/engine/reference/builder/#env)
 
 And here is a snippet for a Dockerfile, using dynamic on-build env values:
-
 ```
 # expect a build-time variable
 ARG A_VARIABLE
@@ -81,33 +79,14 @@ It depends on your application whether that’ll do anything however.
 From the commandline, use the -e flag:
 ```
 $ docker run -e "env_var_name=another_value" alpine env
-
 ```
 [relevant docs](https://docs.docker.com/engine/reference/builder/#environment-replacement)
 
-From a docker-compose.yml file:
-
-```
-version: '3'
-
-services:
-  plex:
-    image: linuxserver/plex
-      environment:
-        - env_var_name=another_value
-
-```
-
-[Relevant docs](https://docs.docker.com/compose/compose-file/#environment)
-
 ### 2. Pass environment variable values from your host
-
 It’s the same as the above method. The only difference is, you don’t provide a value, but just name the variable. This will make Docker access the current value in the host environment and pass it on to the container.
-
 ```
 $ docker run -e env_var_name alpine env
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDA5NzcwNSwtOTQ3ODM3NTYzXX0=
+eyJoaXN0b3J5IjpbNDQzNjQ5NjgyLC05NDc4Mzc1NjNdfQ==
 -->
