@@ -1,4 +1,4 @@
-# Containers
+# Docker Containers
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 Container images become containers at runtime and in the case of Docker containers - images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
 
@@ -166,7 +166,7 @@ docker stop -t 30 <container-id>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMxNzk5NywxNzk3MDI5NTAyLDY1MT
+eyJoaXN0b3J5IjpbMjA1Mjg0MzEwMSwxNzk3MDI5NTAyLDY1MT
 IwNTk1NiwxMzc3MjY2NjUwLC0xMjgwMDI0OTM2LC0xMzA4NTY2
 MzldfQ==
 -->
