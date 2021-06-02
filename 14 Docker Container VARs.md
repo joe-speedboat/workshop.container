@@ -12,12 +12,12 @@ If you don’t provide a value to expected ARG variables which don’t have a de
 Here is a Dockerfile example, both for default values and without them:
 
 ```
-ARG some_variable_name
+ARG myvar
 # or with a hard-coded default:
-#ARG some_variable_name=default_value
+#ARG myvar=default_value
 
-RUN echo "Oh dang look at that $some_variable_name"
-# you could also use braces - ${some_variable_name}
+RUN echo "Oh dang look at that $myvar"
+# you could also use braces - ${myvar}
 
 ```
 
@@ -26,7 +26,7 @@ RUN echo "Oh dang look at that $some_variable_name"
 When building a Docker image from the commandline, you can set **ARG** values using _–build-arg_:
 
 ```
-$ docker build --build-arg some_variable_name=a_value
+$ docker build --build-arg myvar=a_value
 
 ```
 
@@ -37,5 +37,5 @@ Oh dang look at that a_value
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzUyMTU2NywtOTQ3ODM3NTYzXX0=
+eyJoaXN0b3J5IjpbNDk0MDA2MzM3LC05NDc4Mzc1NjNdfQ==
 -->
