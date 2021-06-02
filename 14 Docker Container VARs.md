@@ -16,7 +16,7 @@ ARG myvar
 # or with a hard-coded default:
 #ARG myvar=default_value
 
-RUN echo "Oh dang look at that $myvar"
+RUN echo "OMG look at that $myvar"
 # you could also use braces - ${myvar}
 
 ```
@@ -33,9 +33,9 @@ $ docker build --build-arg myvar=a_value
 Running that command, with the above Dockerfile, will result in the following line being printed (among others):
 
 ```
-Oh dang look at that a_value
+OMG look at that a_value
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MDA2MzM3LC05NDc4Mzc1NjNdfQ==
+eyJoaXN0b3J5IjpbNzg3NTA4MjUsLTk0NzgzNzU2M119
 -->
