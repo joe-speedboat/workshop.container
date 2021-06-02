@@ -93,9 +93,9 @@ docker container ps
 	CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS         PORTS                               NAMES
 	a0260d433daf   yeasy/simple-web:latest   "/bin/sh -c 'python …"   13 seconds ago   Up 9 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   laughing_taussig
 ```
-If you now logout and login back again, you can see that the container is still running.
+You can see that the container is still running.
 
-### Simulate a internal error within the container
+### Simulate a internal error from within the container
 Now let us jump into the container and kill the application manually:
 ```bash
 docker container ps
@@ -166,6 +166,7 @@ docker stop -t 30 container-id
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzAyOTUwMiw2NTEyMDU5NTYsMTM3Nz
-I2NjY1MCwtMTI4MDAyNDkzNiwtMTMwODU2NjM5XX0=
+eyJoaXN0b3J5IjpbMTQwMDU4MDIyMywxNzk3MDI5NTAyLDY1MT
+IwNTk1NiwxMzc3MjY2NjUwLC0xMjgwMDI0OTM2LC0xMzA4NTY2
+MzldfQ==
 -->
