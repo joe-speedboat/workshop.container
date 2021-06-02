@@ -12,12 +12,12 @@ If you don’t provide a value to expected ARG variables which don’t have a de
 Here is a Dockerfile example, both for default values and without them:
 
 ```
-ARG myvar
+ARG myarg
 # or with a hard-coded default:
-#ARG myvar=default_value
+#ARG myarg=default_value
 
-RUN echo "OMG look at that $myvar"
-# you could also use braces - ${myvar}
+RUN echo "OMG look at that $myarg"
+# you could also use braces - ${myarg}
 
 ```
 
@@ -26,7 +26,7 @@ RUN echo "OMG look at that $myvar"
 When building a Docker image from the commandline, you can set **ARG** values using _–build-arg_:
 
 ```
-$ docker build --build-arg myvar=custom_value
+$ docker build --build-arg myarg=custom_value
 
 ```
 
@@ -40,9 +40,13 @@ OMG look at that custom_value
 ## Setting ENV Values
 
 So, how to set ENV values? 
-You can do it when starting your containers (and we’ll look at this a bit below), but you can also provide default ENV values directly in your Dockerfile by hard-coding them. Also, you can set dynamic default values for environment variables!
+You can do it when starting your containers, but you can also provide default ENV values directly in your Dockerfile by hard-coding them. Also, you can set dynamic default values for environment variables!
 
-When building an image, the only thing you can provide are ARG values, as described above. You can’t provide values for ENV variables directly. However, both ARG and ENV can work together. You can use ARG to set the default values of ENV vars. Here is a basic Dockerfile, using hard-coded default values:
+When building an image, the only thing you can provide are ARG values, as described above. 
+You can’t provide values for ENV variables directly. 
+However, both ARG and ENV can work together. 
+You can use ARG to set the default values of ENV vars. 
+Here is a basic Dockerfile, using hard-coded default values:
 
 ```
 # no default value
@@ -108,5 +112,5 @@ $ docker run -e env_var_name alpine env
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjIxODI1NSwtOTQ3ODM3NTYzXX0=
+eyJoaXN0b3J5IjpbLTU2ODk3ODM0LC05NDc4Mzc1NjNdfQ==
 -->
