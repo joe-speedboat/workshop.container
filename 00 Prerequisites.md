@@ -6,7 +6,7 @@
 	* Memory: 4GB
 	* Disk: 20GB or more
 	* Networking (VM must be accessible by your Desktop OS)
--* Make a Snapshot of your fresh installed VM, we will need it during the course**
+*** Make a Snapshot of your fresh installed VM, we will need it in course exercises***
 
 ## Dockerhub
 * https://hub.docker.com/
@@ -15,6 +15,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTU0MTY0NywtMTM3NDMxOTQ1MywxND
-M5MTcwMTY5LDc3MTY4MTc1MSw0NzYzNzQxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4ODE3MDY3OTQsLTEzNzQzMTk0NTMsMT
+QzOTE3MDE2OSw3NzE2ODE3NTEsNDc2Mzc0MTE2XX0=
 -->
