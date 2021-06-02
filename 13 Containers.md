@@ -162,11 +162,11 @@ So <tt>stop</tt> should be your preferred option.
 You can as well use the <tt>kill</tt>option, but then you give the container no time to finish its work.
 To give the container a limit to finish its work and if it do not, kill it, might be a good practice:
 ```bash
-docker stop -t 30 container-id
+docker stop -t 30 <container-id>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDU4MDIyMywxNzk3MDI5NTAyLDY1MT
+eyJoaXN0b3J5IjpbLTIwMTMxNzk5NywxNzk3MDI5NTAyLDY1MT
 IwNTk1NiwxMzc3MjY2NjUwLC0xMjgwMDI0OTM2LC0xMzA4NTY2
 MzldfQ==
 -->
