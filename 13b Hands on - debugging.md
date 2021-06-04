@@ -80,11 +80,17 @@ Let's take a closer look.
 this is for sure not persitent
 ```
 ## Get the Logs of a container
+```bash
+[root@node ~]# docker logs web
+2021-06-04 09:35:54: (server.c.1513) server started (lighttpd/1.4.57)
+2021-06-04 09:36:06: (server.c.1975) server stopped by UID = 0 PID = 0
+```
+You can add the -f option which is following the logs 
 
 
 The overlay-fs and the logs stay if the container is in stopped mode.
 Be aware that if you use the `--rm` option when starting a container, everything about the container get removed immediately.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczNTEyMDM0LC01NTUyOTUzMzYsLTE5MD
-g4Mzg2OTJdfQ==
+eyJoaXN0b3J5IjpbMTA2NTgzMzE5OCwtNTU1Mjk1MzM2LC0xOT
+A4ODM4NjkyXX0=
 -->
