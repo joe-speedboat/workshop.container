@@ -1,6 +1,11 @@
 # Docker Container Storage - hands on
 
-## Bind mount
+
+
+
+
+
+## Bind mount (avoid using bind mounts if you can)
 ### Cleanup your previous work before you continue
 ```bash
 [root@node ~]# docker ps -a
@@ -16,6 +21,8 @@
 
 ### Store persistent data of container
 ```bash
+[root@node ~]# mkdir $PWD/webroot
+
 [root@node ~]# docker run -d -it -p 80:8080 --restart unless-stopped --mount type=bind,source=$PWD/webroot,target=/var/lib/tiddlywiki --name wiki mazzolino/tiddlywiki
 	Unable to find image 'mazzolino/tiddlywiki:latest' locally
 	latest: Pulling from mazzolino/tiddlywiki
@@ -59,10 +66,11 @@ PW: wiki
 
 
 * now start over and see if content got restored
+```bash
 [root@node ~]# docker run -d -it -p 80:8080 --restart unless-stopped --mount type=bind,source=$PWD/webroot,target=/var/lib/tiddlywiki --name wiki mazzolino/tiddlywiki
-5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
-
+	5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MTE5NjcyLC03MTk4MTU0NDgsMjA5MD
-E5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4MDddfQ==
+eyJoaXN0b3J5IjpbLTY1MDI2MTgzNywtNzE5ODE1NDQ4LDIwOT
+AxOTEzMjgsMTc3MjgwMjQ1NiwxNjgxNzgxODA3XX0=
 -->
