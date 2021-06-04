@@ -9,6 +9,7 @@ TIME: 30 min
 	* Do not attach any Volumes
 
 * Access the page with your browser
+You may get an 
 
 * Discuss the tasks and outcome with the class
 
@@ -18,5 +19,6 @@ Try to get over that problem on your own, it's easy
 Ask your teacher if you get stuck.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODY1MDUzOCwxMjAwMjk3OTddfQ==
+eyJoaXN0b3J5IjpbOTI4Mzk4Mzk3LDIxMjg2NTA1MzgsMTIwMD
+I5Nzk3XX0=
 -->
