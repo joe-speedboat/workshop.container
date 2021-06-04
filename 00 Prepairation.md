@@ -14,8 +14,8 @@
 
 # Exercises
 Most of the code you will see is meant as an exercise.
-To make it easier finding out which one you have to 
+To make it easier finding out which one you have to execute in your LAB/VM, I will mark the this topics blue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MTI1NTM1XX0=
+eyJoaXN0b3J5IjpbLTI4NDI1NDU3MF19
 -->
