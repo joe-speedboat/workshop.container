@@ -5,11 +5,11 @@ TIME: 30 min
 * Try to run the image (`sebp/lighttpd:latest`) with following settings
 	* Run the container in `background`
 	* Use the "restart policy" `unless-stopped`
-	* Expose the ports you explored in previous lab
-	* Do not attach any Volumes
+	* Expose the `ports` you explored in previous lab
+	* Do not attach any `Volumes`
 
 * Access the page with your browser
-You may get an 
+	You may get an `403 Forbidden` message, why?
 
 * Discuss the tasks and outcome with the class
 
@@ -19,6 +19,6 @@ Try to get over that problem on your own, it's easy
 Ask your teacher if you get stuck.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4Mzk4Mzk3LDIxMjg2NTA1MzgsMTIwMD
+eyJoaXN0b3J5IjpbNjQ0Njc0MDY5LDIxMjg2NTA1MzgsMTIwMD
 I5Nzk3XX0=
 -->
