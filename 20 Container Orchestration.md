@@ -21,8 +21,8 @@ As you learned in this course, VMs and Containers have complete different approa
 - Application Rollback
 - Application Migration
 
-# Kubernetes, the new star
-Kubernetes got is the new standard in Container management and orchestration.
+# Kubernetes, everythin gets better or at least different?
+Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjIzODAxNF19
+eyJoaXN0b3J5IjpbLTE4MTE4NzE2NjJdfQ==
 -->
