@@ -47,13 +47,26 @@ If you can't do so, you have to create entries in your hosts file for every appl
 No problem, but not really nerdy! ;-/
 
 
-##
+## Install Helm
+```bash
  curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | sh
  grep 'helm completion bash' $HOME/.bashrc || echo 'source <(helm completion bash)' >> $HOME/.bashrc
-
  grep KUBECONFIG $HOME/.bashrc || echo 'export KUBECONFIG=/etc/rancher/k3s/k3s.yaml' >> $HOME/.bashrc
+```
+
+## Prepare Bash environment
+```bash
+source <(kubectl completion bash)
+
+export PS1='### \D{%d.%m.%Y_%H:%M} \u@\e[1;32m\h\e[m:\w \e[1;33m✯ $(kubectl config view -o jsonpath="{.contexts[].context.namespace}")\e[m \n# '
+
+genpasswd() {
+   local l=$1
+   [ "$l" == "" ] && l=16
+   tr -dc A-Za-z0-9_=., < /dev/urandom | head -c ${l} | xargs 
+}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDk5NDI0MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTk5Njg0NTYxNSw3MzA5OTgxMTZdfQ==
 -->
