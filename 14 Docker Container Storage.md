@@ -21,11 +21,18 @@ Types of mounts and where they live on the Docker host.
 No matter which type of mount you choose to use, the data looks the same from within the container. 
 It is exposed as either a directory or an individual file in the container’s filesystem.
 
-# Bind mounts
-
 # Volumes
+[read the docs](https://docs.docker.com/storage/volumes/)
+
+
+# Bind mounts
+[read the docs](https://docs.docker.com/storage/bind-mounts/)
+
+# tmpfs
+
 
 # Config files
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkyODY1NTVdfQ==
+eyJoaXN0b3J5IjpbMTIyOTczNzk5MywtMTM4OTI4NjU1NV19
 -->
