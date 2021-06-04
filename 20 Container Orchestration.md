@@ -34,6 +34,7 @@ Kubernetes does orchestrate the whole container lifecycle:
 Operators are a big step into this direction, since the migration of Docker applications into new versions needed often some attention. Operators are containerized system administrators that maintain a kind of workload.
 This might be `prometheus` (which initially developed the operator concept).
 AWX which is the OpenSource Version of the Ansible Tower.
+Operators 
 If you look into a running OpenShift cluster you can see some more operators:
 
 
@@ -42,5 +43,5 @@ If you look into a running OpenShift cluster you can see some more operators:
 If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
 At least for the next five to ten years, we will have some VMs running that have to interact with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Njc5NDYyM119
+eyJoaXN0b3J5IjpbLTY5MzkxMDU5NF19
 -->
