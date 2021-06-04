@@ -29,38 +29,40 @@
 ```
 
 * Now go and write some content into the web page
+[read the docs](https://hub.docker.com/r/mazzolino/tiddlywiki)
+User: user
+PW: wiki
 
+* Stop and remove the container
 ```bash
 [root@node ~]# find webroot/
-webroot/
-webroot/mywiki
-webroot/mywiki/tiddlywiki.info
-webroot/mywiki/tiddlers
-webroot/mywiki/tiddlers/$__StoryList.tid
-webroot/mywiki/tiddlers/here we go.tid
+	webroot/
+	webroot/mywiki
+	webroot/mywiki/tiddlywiki.info
+	webroot/mywiki/tiddlers
+	webroot/mywiki/tiddlers/$__StoryList.tid
+	webroot/mywiki/tiddlers/here we go.tid
 
 [root@node ~]# docker stop wiki
-wiki
+	wiki
 
 [root@node ~]# docker ps -a
-CONTAINER ID   IMAGE                  COMMAND                  CREATED              STATUS                       PORTS     NAMES
-dc753678d06b   mazzolino/tiddlywiki   "docker-entrypoint.s…"   About a minute ago   Exited (137) 4 seconds ago             wiki
+	CONTAINER ID   IMAGE                  COMMAND                  CREATED              STATUS                       PORTS     NAMES
+	dc753678d06b   mazzolino/tiddlywiki   "docker-entrypoint.s…"   About a minute ago   Exited (137) 4 seconds ago             wiki
 
 [root@node ~]# docker rm wiki
-wiki
+	wiki
 
 [root@node ~]# docker ps -a
 	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 
-* now start over and see 
+* now start over and see if content got restored
 [root@node ~]# docker run -d -it -p 80:8080 --restart unless-stopped --mount type=bind,source=$PWD/webroot,target=/var/lib/tiddlywiki --name wiki mazzolino/tiddlywiki
 5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTAwNjE2LC03MTk4MTU0NDgsMjA5MD
+eyJoaXN0b3J5IjpbMzg2MTE5NjcyLC03MTk4MTU0NDgsMjA5MD
 E5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4MDddfQ==
 -->
