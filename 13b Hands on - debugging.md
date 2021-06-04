@@ -73,14 +73,14 @@ CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS             
 Okay, we can see now that the container is not in running state any more.
 Let's take a closer look.
 
-### Copy content from/to
+## Copy content from/to container filesystem
 ```bash
 [root@node ~]# docker cp web:/var/www/localhost/htdocs/index.html .
 [root@node ~]# cat index.html 
 this is for sure not persitent
 ```
-
+So the overlayfs is kept if the containe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODMxMjI5MSwtNTU1Mjk1MzM2LC0xOT
+eyJoaXN0b3J5IjpbMTE3MTA4NDk0MSwtNTU1Mjk1MzM2LC0xOT
 A4ODM4NjkyXX0=
 -->
