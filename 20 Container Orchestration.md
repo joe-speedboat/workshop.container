@@ -3,7 +3,7 @@
 ## The past and the future
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/evol.png)
-If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
+If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter how you orchestrate your Container workloa
 
 Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
 Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
@@ -82,5 +82,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDczNDExMDNdfQ==
+eyJoaXN0b3J5IjpbMjU2MDU5OTc5XX0=
 -->
