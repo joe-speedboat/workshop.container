@@ -1,4 +1,4 @@
-# Docker Registry hands on
+# Docker Registry - hands on
 TIME: 20min
 
 * Explore the docker-cli options with:
@@ -15,5 +15,5 @@ man -k docker
 
 * Discuss the tasks and outcome with the class
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTY2MDU1Nl19
+eyJoaXN0b3J5IjpbNDQ3ODQ2NTU5XX0=
 -->
