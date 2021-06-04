@@ -87,10 +87,19 @@ this is for sure not persitent
 ```
 You can add the `-f` option which is following the live logs, finish that view with CTRL-C
 
-## Comprehen
+## Do you understand?
+```bash
+[root@node ~]# docker rm web
+web
+[root@node ~]# docker cp web:/var/www/localhost/htdocs/index.html .
+Error: No such container:path: web:/var/www/localhost/htdocs/index.html
+```
 The overlay-fs and the logs stay if the container is in stopped mode.
 Be aware that if you use the `--rm` option when starting a container, everything about the container get removed immediately.
+
+# Fun exercise
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTQ3NDIzLC01NTUyOTUzMzYsLTE5MD
-g4Mzg2OTJdfQ==
+eyJoaXN0b3J5IjpbLTE0OTUzNzM2NTUsLTU1NTI5NTMzNiwtMT
+kwODgzODY5Ml19
 -->
