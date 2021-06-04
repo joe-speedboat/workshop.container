@@ -34,6 +34,7 @@ PID   USER     TIME  COMMAND
 go away
 / # exit
 ```
+
 * Now try to access the web service on the node again, do you see the change?
 
 * Do you understand what happened?
@@ -44,7 +45,16 @@ go away
 
 ### one shot execution
 Sometimes you have to execute a single command in a running container, eg: DB shema deploy, ...
-You can do thi
+You can do this as well with the `exec` option
+```bash
+docker exec web sh -c "/bin/echo this is for sure not persitent > /var/www/localhost/htdocs/index.html"
+```
+
+* Now try to access the web service on the node again, do you see the change?
+
+* Do you understand what happened?
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkyODg4NiwtMTkwODgzODY5Ml19
+eyJoaXN0b3J5IjpbLTU1NTI5NTMzNiwtMTkwODgzODY5Ml19
 -->
