@@ -100,9 +100,13 @@ Be aware that if you use the `--rm` option when starting a container, everything
 # Fun exercise
 * Cleanup the `web` container used in previous labs
 * Start the lighttpd container again:
-    docker run -d -it -p 80:80 --name web sebp/lighttpd
+```bash
+docker run -d -it -p 80:80 --name web sebp/lighttpd
+docker exec -it web sh
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Mjg5Njg3NywtNTU1Mjk1MzM2LC0xOT
+eyJoaXN0b3J5IjpbLTE4NTk4NDIxNSwtNTU1Mjk1MzM2LC0xOT
 A4ODM4NjkyXX0=
 -->
