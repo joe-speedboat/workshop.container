@@ -19,7 +19,7 @@ As you learned in this course, VMs and Containers have complete different approa
 ## The past and the future
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/evol.png)
-If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter how you orchestrate your Container workload ... Everywhere, 
+If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter how you orchestrate your Container workload ... Everywhere, Kubernetes is inside.
 
 Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
 Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
@@ -29,6 +29,7 @@ As you can see in first
 ## Kubernetes and VMs, everythin gets better or at least different?
 Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
 So all the Docker workload is moving into a Kubernetes Cluster ... sooner or later!
+
 Kubernetes does orchestrate the whole container lifecycle:
 - Deployment
 - Configuration
@@ -37,9 +38,9 @@ Kubernetes does orchestrate the whole container lifecycle:
 - Security
 - Lifecycle
 
-Operators are a big step into this direction, since the migration of Docker applications into new versions needed often some attention. Operators are containerized system administrators that maintain a kind of workload.
+Kubernetes operators are a big step into this direction, since the migration of Docker applications into new versions needed often some attention. Operators are containerized system administrators that maintain a kind of workload.
 This might be `prometheus` (which initially developed the operator concept).
-AWX which is the OpenSource Version of the Ansible Tower.
+`AWX` which is the OpenSource Version of the Ansible Tower.
 Operators are the answer to missing kubernetes know-how and the leak of system administrators.
 If you look into a running OpenShift cluster you can get an idea of where we will end:
 ```
@@ -84,5 +85,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI4ODAxOTddfQ==
+eyJoaXN0b3J5IjpbLTg0MTM4NTAwMV19
 -->
