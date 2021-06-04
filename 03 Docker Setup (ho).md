@@ -43,7 +43,6 @@ firewall-cmd --reload
 dnf -y install vim tar wget jq git bash-completion
 ```
 
-## Do a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjU5MjkxMiw1MTgzNjA3MDNdfQ==
+eyJoaXN0b3J5IjpbLTY3MjcwMzkyNiw1MTgzNjA3MDNdfQ==
 -->
