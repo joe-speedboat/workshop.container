@@ -26,8 +26,10 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 * Restore the VM snapshot of your docker node
 * Install docker
 * Unpack your archive
-* Start the container
+* Start the containers
+* Verify the content
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjYxNjgxLC0xMDY3NDUxNTMzXX0=
+eyJoaXN0b3J5IjpbLTE3NjcxNzUxNjUsLTEwNjc0NTE1MzNdfQ
+==
 -->
