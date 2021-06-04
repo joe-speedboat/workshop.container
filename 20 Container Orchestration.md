@@ -31,10 +31,11 @@ Kubernetes does orchestrate the whole container lifecycle:
 - Networking
 - Security
 - Lifecycle
+Operators are a big step into this direction, since the migration of Docker applications into new versions needed often 
 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
 At least for the next five to ten years, we will have some VMs running that have to interact with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM1ODU1ODBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjI2NTcyOF19
 -->
