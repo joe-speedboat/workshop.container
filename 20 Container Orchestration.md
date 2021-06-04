@@ -1,6 +1,6 @@
 # Application Orchestration Technologies
 
-## The Virtual Machine vs Containers problem
+## The Virtual Machine vs/and Containers problem
 Even if the deployment of an VM got automated this days, lot of manual work is needed to configure complex applications.
 This makes it difficult to document, update, migrate your applications.
 
@@ -23,7 +23,7 @@ If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't mat
 
 Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
 Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
-As you can see in first 
+As you can see in most right image above.
 
 
 ## Kubernetes and VMs, everythin gets better or at least different?
@@ -85,5 +85,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTM4NTAwMV19
+eyJoaXN0b3J5IjpbMTk1NDIzODQ3MF19
 -->
