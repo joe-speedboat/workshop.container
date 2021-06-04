@@ -77,14 +77,13 @@ PW: wiki
 ### Cleanup your previous work before you continue
 ```bash
 [root@node ~]# docker ps -a
-	CONTAINER ID   IMAGE           COMMAND      CREATED         STATUS         PORTS                               NAMES
-	9c8e05bbfe05   sebp/lighttpd   "start.sh"   4 seconds ago   Up 2 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   web
-[root@node ~]# docker stop web
-	dweb
-[root@node ~]# docker rm web
-	web
-[root@node ~]# docker ps -a
-	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+	CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS                                   NAMES
+	5a425a91d63c   mazzolino/tiddlywiki   "docker-entrypoint.s…"   16 minutes ago   Up 16 minutes   0.0.0.0:80->8080/tcp, :::80->8080/tcp   wiki
+[root@node ~]# docker kill wiki
+	5a425a91d63c
+[root@node ~]# docker rm wiki
+	wiki
+[root@node ~]# rm -rf webroot
 ```
 
 ### Store persistent data of container via bind mount
@@ -138,7 +137,7 @@ PW: wiki
 	5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDYzNDMzNSwtNjUwMjYxODM3LC03MT
-k4MTU0NDgsMjA5MDE5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4
-MDddfQ==
+eyJoaXN0b3J5IjpbLTE0MzgyNDc3OTIsLTY1MDI2MTgzNywtNz
+E5ODE1NDQ4LDIwOTAxOTEzMjgsMTc3MjgwMjQ1NiwxNjgxNzgx
+ODA3XX0=
 -->
