@@ -6,7 +6,10 @@ Services are presented by forwarding ports, which can be done by the docker cli.
 
 We have already used this in the labs we finished so far.
 
-Let's look us into an real world docker deployment with separated networks to get an overview about what would be useful
+Let's look us into an real world docker deployment with separated networks to get an overview about what would be useful.
+
+## Create backend network
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU1ODUxMjNdfQ==
+eyJoaXN0b3J5IjpbLTE1MjE5NjUxODVdfQ==
 -->
