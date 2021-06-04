@@ -40,9 +40,9 @@ firewall-cmd --reload
 ### Install helpers
 
 ```bash
-dnf -y install vim tar wget jq git bash-completion
+dnf -y install vim tar wget jq git bash-completion lsof
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjcwMzkyNiw1MTgzNjA3MDNdfQ==
+eyJoaXN0b3J5IjpbMTI5MzEwMjc5Miw1MTgzNjA3MDNdfQ==
 -->
