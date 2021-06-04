@@ -12,7 +12,9 @@ For a running container, docker will as well assign a random unique id, which is
 [root@node ~]# docker ps
 CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS          PORTS                               NAMES
 3e7503e5577e   sebp/lighttpd   "start.sh"   14 minutes ago   Up 13 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   nice_swanson
+
 [root@node ~]# docker container rename 3e7503e5577e web
+
 [root@node ~]# docker ps
 CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS          PORTS                               NAMES
 3e7503e5577e   sebp/lighttpd   "start.sh"   14 minutes ago   Up 14 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   web
@@ -20,7 +22,10 @@ CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS          POR
 
 
 ### Jump into running container
+```bash
+docker exec -it web sh
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk2MTM5MzNdfQ==
+eyJoaXN0b3J5IjpbLTQwNDkxMzc1XX0=
 -->
