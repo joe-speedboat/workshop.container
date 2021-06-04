@@ -5,8 +5,11 @@ TIME: 15 min
 * Use `man` to explore the `docker exec` argument
 * Try to jump into the running `lighttpd` containers `shell`
 
+### change container name to make this exercise working
+If you do not provide the 
+
 ### Jump into running container
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTA3MjMxNl19
+eyJoaXN0b3J5IjpbMjU2NjA2NDA3XX0=
 -->
