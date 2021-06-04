@@ -32,8 +32,7 @@ usermod -aG docker dadmin
 ```bash
 dnf -y install firewalld
 systemctl enable firewalld --now
-firewall-cmd --permanent --zone=public --add-service=http
-firewall-cmd --permanent --zone=public --add-service=https
+firewall-cmd --permanent --zone=public --set-target=ACCEPT
 firewall-cmd --zone=public --add-masquerade --permanent
 firewall-cmd --reload
 ```
@@ -43,6 +42,8 @@ firewall-cmd --reload
 ```bash
 dnf -y install vim tar wget jq git bash-completion
 ```
+
+## Do a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MzYwNzAzXX0=
+eyJoaXN0b3J5IjpbLTU0NjU5MjkxMiw1MTgzNjA3MDNdfQ==
 -->
