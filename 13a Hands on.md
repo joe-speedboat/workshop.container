@@ -13,10 +13,10 @@ TIME: 30 min
 * Discuss the tasks and outcome with the class
 
 **NOTE:** 
-You will probably face an error when starting the container.
+You will probably face some problems when starting the container.
 Try to get over that problem on your own, it's easy
-Ask your teacher if you stuck.
+Ask your teacher if you get stuck.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDI5Nzk3XX0=
+eyJoaXN0b3J5IjpbMjEyODY1MDUzOCwxMjAwMjk3OTddfQ==
 -->
