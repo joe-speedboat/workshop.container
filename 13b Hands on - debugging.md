@@ -24,8 +24,19 @@ CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS          POR
 ### Jump into running container
 ```bash
 docker exec -it web sh
+/ # ps -ef
+PID   USER     TIME  COMMAND
+    1 lighttpd  0:00 lighttpd -D -f /etc/lighttpd/lighttpd.conf
+  113 root      0:00 sh
+  120 root      0:00 ps -ef
+/ # echo go away > /var/www/localhost/htdocs/index.html
+/ # cat /var/www/localhost/htdocs/index.html
+go away
+/ # exit
 ```
-
+* Now try to access the web service on the node again, do you see the change?
+* Do you understand what happended
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDkxMzc1XX0=
+eyJoaXN0b3J5IjpbLTE1NDY1NDA0MzddfQ==
 -->
