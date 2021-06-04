@@ -20,7 +20,14 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 * deploy the application again
 * verify if you can access the content again
 
+## Addon
+* Pack the db directory into a tar.gz and move it to your desktop
+* Note the comands you used to deploy the wikijs with mariadb in a save place
+* Restore the VM snapshot of your docker node
+* Install docker
+* Unpack your archive
+* Start the container
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODI0MjkyNCwtMTA2NzQ1MTUzM119
+eyJoaXN0b3J5IjpbLTg3MjYxNjgxLC0xMDY3NDUxNTMzXX0=
 -->
