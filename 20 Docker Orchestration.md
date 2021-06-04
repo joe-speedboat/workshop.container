@@ -7,7 +7,9 @@ Even if you can repeat and automate your docker container deployments easily.
 It will become bigger and complexer with the amount of applications you maintain.
 
 ### The Virtual Machine problem
-
+Even if the deployment of an VM got automated this days, lot of manual work is needed to configure complex applications.
+This makes it difficult to document, update, migrate your applications.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDkwODYwNCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODI2NjA5ODMxLDEyNDQ5MDg2MDQsNzMwOT
+k4MTE2XX0=
 -->
