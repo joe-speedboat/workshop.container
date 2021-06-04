@@ -26,7 +26,11 @@
 	Copied edition 'server' to mywiki
 	 syncer-server-filesystem: Dispatching 'save' task: $:/StoryList 
 	Serving on http://0.0.0.0:8080
+```
 
+* Now go and write some content into the web page
+
+```bash
 [root@node ~]# find webroot/
 webroot/
 webroot/mywiki
@@ -44,17 +48,19 @@ dc753678d06b   mazzolino/tiddlywiki   "docker-entrypoint.s…"   About a minute 
 
 [root@node ~]# docker rm wiki
 wiki
+
+[root@node ~]# docker ps -a
+	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 
-[root@node ~]# docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+* now start over and see 
 [root@node ~]# docker run -d -it -p 80:8080 --restart unless-stopped --mount type=bind,source=$PWD/webroot,target=/var/lib/tiddlywiki --name wiki mazzolino/tiddlywiki
 5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNjU3MjU1LC03MTk4MTU0NDgsMjA5MD
+eyJoaXN0b3J5IjpbMTA5NTAwNjE2LC03MTk4MTU0NDgsMjA5MD
 E5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4MDddfQ==
 -->
