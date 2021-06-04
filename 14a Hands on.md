@@ -19,7 +19,7 @@
 	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-### Store persistent data of container
+### Store persistent data of container via bind mount
 ```bash
 [root@node ~]# mkdir $PWD/webroot
 
@@ -71,6 +71,7 @@ PW: wiki
 	5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDI2MTgzNywtNzE5ODE1NDQ4LDIwOT
-AxOTEzMjgsMTc3MjgwMjQ1NiwxNjgxNzgxODA3XX0=
+eyJoaXN0b3J5IjpbMTk0MTI2MDk4NSwtNjUwMjYxODM3LC03MT
+k4MTU0NDgsMjA5MDE5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4
+MDddfQ==
 -->
