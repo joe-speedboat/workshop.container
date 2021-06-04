@@ -13,8 +13,8 @@
 [root@node ~]# docker ps -a
 	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
-* Create a docker config from this file
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU2NTk2NDcsMTc3MjgwMjQ1NiwxNj
-gxNzgxODA3XX0=
+eyJoaXN0b3J5IjpbMjA5MDE5MTMyOCwxNzcyODAyNDU2LDE2OD
+E3ODE4MDddfQ==
 -->
