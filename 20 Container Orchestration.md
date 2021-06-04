@@ -21,10 +21,12 @@ As you learned in this course, VMs and Containers have complete different approa
 - Application Rollback
 - Application Migration
 
-## Kubernetes, everythin gets better or at least different?
+## Kubernetes and VMs, everythin gets better or at least different?
 Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
 So all the Docker workload is moving into a Kubernetes Cluster ... sooner or later!
-If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it does
+
+If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
+At least for the next five to ten years, we will have some VMs running that have to interact with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYzMzc2MTddfQ==
+eyJoaXN0b3J5IjpbMTIyMTc5NTQ3NF19
 -->
