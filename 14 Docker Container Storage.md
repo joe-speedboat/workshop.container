@@ -40,6 +40,9 @@ If your container generates non-persistent state data, consider using a [tmpfs m
 
 
 ## Config files
+[read the docs](https://docs.docker.com/engine/reference/commandline/config/)
+
+
 
 # Bind mounts
 [read the docs](https://docs.docker.com/storage/bind-mounts/)
@@ -55,6 +58,5 @@ When you create a container with a `tmpfs` mount, the container can create files
 As opposed to volumes and bind mounts, a `tmpfs` mount is temporary, and only persisted in the host memory. When the container stops, the `tmpfs` mount is removed, and files written there won’t be persisted.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk1MzUxOTcsLTEzODkyODY1NTVdfQ
-==
+eyJoaXN0b3J5IjpbLTE5NTA5MjQ4MCwtMTM4OTI4NjU1NV19
 -->
