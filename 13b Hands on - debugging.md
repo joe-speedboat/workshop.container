@@ -58,7 +58,22 @@ docker exec web sh -c "/bin/echo this is for sure not persitent > /var/www/local
 A running container acts somehow like a running operating system. But how looks a stopped container like?
 Let us get an idea by doing an exercise:
 
+```bash
+[root@node ~]# docker ps
+CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS          PORTS                               NAMES
+3e7503e5577e   sebp/lighttpd   "start.sh"   34 minutes ago   Up 34 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp   web
+
+[root@node ~]# docker stop web
+web
+
+[root@node ~]# docker ps -a
+CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS                      PORTS     NAMES
+3e7503e5577e   sebp/lighttpd   "start.sh"   34 minutes ago   Exited (1) 25 seconds ago             web
+```
+Okay, we can see now that the container is not in running state anymore.
+Let's take a closer look.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDAzMTIyLC01NTUyOTUzMzYsLTE5MD
-g4Mzg2OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyMTYzNjYxMTcsLTU1NTI5NTMzNiwtMT
+kwODgzODY5Ml19
 -->
