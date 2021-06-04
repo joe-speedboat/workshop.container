@@ -13,10 +13,16 @@ This makes it difficult to document, update, migrate your applications.
 As you learned in this course, VMs and Containers have complete different approaches and needs about its ressources/components:
 - Networking
 - Storage
+- Administration
+- Configuration
+- Documentation
 - Backup/Restore
-- Snapshoting
-- Rollback
+- Application Snapshoting
+- Application Rollback
+- Application Migration
+
+# Kubernetes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MzI5NDYxLDEyNDQ5MDg2MDQsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTY5NjcxMzI4OCwxMjQ0OTA4NjA0LDczMD
+k5ODExNl19
 -->
