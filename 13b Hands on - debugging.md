@@ -85,12 +85,12 @@ this is for sure not persitent
 2021-06-04 09:35:54: (server.c.1513) server started (lighttpd/1.4.57)
 2021-06-04 09:36:06: (server.c.1975) server stopped by UID = 0 PID = 0
 ```
-You can add the -f option which is following the logs 
+You can add the `-f` option which is following the live logs, finish that view with CTRL-C
 
-
+## Comprehen
 The overlay-fs and the logs stay if the container is in stopped mode.
 Be aware that if you use the `--rm` option when starting a container, everything about the container get removed immediately.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTgzMzE5OCwtNTU1Mjk1MzM2LC0xOT
-A4ODM4NjkyXX0=
+eyJoaXN0b3J5IjpbMTY3NTQ3NDIzLC01NTUyOTUzMzYsLTE5MD
+g4Mzg2OTJdfQ==
 -->
