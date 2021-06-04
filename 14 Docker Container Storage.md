@@ -38,12 +38,6 @@ In addition, volumes are often a better choice than persisting data in a contain
 
 If your container generates non-persistent state data, consider using a [tmpfs mount](https://docs.docker.com/storage/tmpfs/) to avoid storing the data anywhere permanently, and to increase the container’s performance by avoiding writing into the container’s writable layer.
 
-
-## Config files
-[read the docs](https://docs.docker.com/engine/reference/commandline/config/)
-This is a way to create a configuration file and inject it into multiple containers.
-Configs will live outside of the container and are a lightweight and fast way, to store small application specific files.
-
 # Bind mounts
 [read the docs](https://docs.docker.com/storage/bind-mounts/)
 
@@ -58,6 +52,5 @@ When you create a container with a `tmpfs` mount, the container can create files
 As opposed to volumes and bind mounts, a `tmpfs` mount is temporary, and only persisted in the host memory. When the container stops, the `tmpfs` mount is removed, and files written there won’t be persisted.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA3ODkzODQsLTEzODkyODY1NTVdfQ
-==
+eyJoaXN0b3J5IjpbNDA3NDkyMDgwLC0xMzg5Mjg2NTU1XX0=
 -->
