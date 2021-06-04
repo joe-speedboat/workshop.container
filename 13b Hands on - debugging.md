@@ -79,9 +79,12 @@ Let's take a closer look.
 [root@node ~]# cat index.html 
 this is for sure not persitent
 ```
-The overlayfs and the logs stay if the container is in stopped mode.
-Be aware that if you use the --rm option, the container, itl
+## Get the Logs of a container
+
+
+The overlay-fs and the logs stay if the container is in stopped mode.
+Be aware that if you use the `--rm` option when starting a container, everything about the container get removed immediately.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQyNzEwMSwtNTU1Mjk1MzM2LC0xOT
-A4ODM4NjkyXX0=
+eyJoaXN0b3J5IjpbMjczNTEyMDM0LC01NTUyOTUzMzYsLTE5MD
+g4Mzg2OTJdfQ==
 -->
