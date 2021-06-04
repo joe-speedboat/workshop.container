@@ -31,6 +31,7 @@ Kubernetes does orchestrate the whole container lifecycle:
 - Networking
 - Security
 - Lifecycle
+
 Operators are a big step into this direction, since the migration of Docker applications into new versions needed often some attention. Operators are containerized system administrators that maintain a kind of workload.
 This might be `prometheus` (which initially developed the operator concept).
 AWX which is the OpenSource Version of the Ansible Tower.
@@ -71,12 +72,13 @@ operator-lifecycle-manager-packageserver   4.7.0-0.okd-2021-05-22-050008   True 
 service-ca                                 4.7.0-0.okd-2021-05-22-050008   True        False         False      283d
 storage                                    4.7.0-0.okd-2021-05-22-050008   True        False         False      171d
 ```
-
+However, lets look into the minimal Kubernetes components to get an Idea of how it is organized.
+[read the d](https://kubernetes.io/docs/concepts/overview/components/)
 
 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
 At least for the next five to ten years, we will have some VMs running that have to interact with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDAxMjgxNF19
+eyJoaXN0b3J5IjpbLTE4ODkzMjk4MTJdfQ==
 -->
