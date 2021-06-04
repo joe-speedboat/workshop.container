@@ -5,7 +5,10 @@
 
 
 
-## Bind mount (avoid using bind mounts if you can)
+## Bind mount 
+
+ - [x] avoid using bind mounts if you can
+
 ### Cleanup your previous work before you continue
 ```bash
 [root@node ~]# docker ps -a
@@ -71,7 +74,7 @@ PW: wiki
 	5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTI2MDk4NSwtNjUwMjYxODM3LC03MT
-k4MTU0NDgsMjA5MDE5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4
-MDddfQ==
+eyJoaXN0b3J5IjpbLTE4ODIwNzQ4MzcsLTY1MDI2MTgzNywtNz
+E5ODE1NDQ4LDIwOTAxOTEzMjgsMTc3MjgwMjQ1NiwxNjgxNzgx
+ODA3XX0=
 -->
