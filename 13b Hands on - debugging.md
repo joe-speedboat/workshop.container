@@ -21,7 +21,7 @@ CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS          POR
 ```
 
 
-### Jump into running container
+### Jump into running container and do some work
 ```bash
 docker exec -it web sh
 / # ps -ef
@@ -36,11 +36,15 @@ go away
 ```
 * Now try to access the web service on the node again, do you see the change?
 
-* Do you understand what happened
+* Do you understand what happened?
+
 * If you start a new container instance.
 	* Will you see the "go away" page?
 	* Why?
+
+### one shot execution
+Sometimes you have to execute a single command in a running container, eg: DB shema deploy, ...
+You can do thi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcyMTEwMjYsLTE5MDg4Mzg2OTJdfQ
-==
+eyJoaXN0b3J5IjpbLTIxMjkyODg4NiwtMTkwODgzODY5Ml19
 -->
