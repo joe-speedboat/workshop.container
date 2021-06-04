@@ -7,7 +7,10 @@ TIME: 30 min
 	* Use the "restart policy" `unless-stopped`
 	* Expose the ports you explored in previous lab
 
-NOTE: You will probably face an error when starting the container.
+**NOTE:** 
+You will probably face an error when starting the container.
+Try to get over that problem on your own, it's easy
+Ask your teacher if you stuck.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTIxNDM4Ml19
+eyJoaXN0b3J5IjpbLTE3MjI5NzQxNjNdfQ==
 -->
