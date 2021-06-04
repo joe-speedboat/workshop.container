@@ -26,12 +26,11 @@ Docker Engine combines the **namespaces**, **control groups**, and **UnionFS** i
 
 Under the hood might not be the correct heading for this topic, but these are things which strike me when I first start using Docker.
 
-The usage and handling of Docker Containers 
-
+The usage and handling of Docker Containers is depending on several components, below I tried to describe it in a meaning way, so we can discuss it now...
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/docker_overview_bychris.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ4Mjg3MzksLTI2ODM2NDc2MiwtMT
-QyMDg4MjE0MF19
+eyJoaXN0b3J5IjpbMTU1OTA3MTg5OCwtMjY4MzY0NzYyLC0xND
+IwODgyMTQwXX0=
 -->
