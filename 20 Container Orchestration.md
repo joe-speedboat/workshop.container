@@ -34,7 +34,7 @@ So with KubeVirt, Kubernetes can as well drive VMs, which brings a great benefit
 	- Longhorn
 	- BlockDev
 	- ...
-
+While OKD/OpenShift with Red Hat did not spend lot of atta
 
 
 ## Kubernetes and VMs, everythin gets better or at least different?
@@ -96,5 +96,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQzMTMwNzVdfQ==
+eyJoaXN0b3J5IjpbMTc0Njc5MzgxMV19
 -->
