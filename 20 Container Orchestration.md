@@ -1,14 +1,5 @@
 # Application Orchestration Technologies
 
-## The past and the future
-
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/evol.png)
-If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter how you orchestrate your Container workloa
-
-Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
-Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
-As you can see in first 
-
 ## The Virtual Machine vs Containers problem
 Even if the deployment of an VM got automated this days, lot of manual work is needed to configure complex applications.
 This makes it difficult to document, update, migrate your applications.
@@ -23,6 +14,17 @@ As you learned in this course, VMs and Containers have complete different approa
 - Application Snapshoting
 - Application Rollback
 - Application Migration
+
+
+## The past and the future
+
+![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/evol.png)
+If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter how you orchestrate your Container workload ... Everywhere, 
+
+Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
+Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
+As you can see in first 
+
 
 ## Kubernetes and VMs, everythin gets better or at least different?
 Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
@@ -82,5 +84,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MDU5OTc5XX0=
+eyJoaXN0b3J5IjpbLTE0MzI4ODAxOTddfQ==
 -->
