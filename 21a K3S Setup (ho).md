@@ -38,6 +38,13 @@ kubectl get nodes
 kubectl get pods --all-namespaces
 ```
 
+## Create Wildcard DNS for ingress routing
+-   Create a CNAME
+
+    *.vm-name.domain.tld -> vm-name.domain.tld
+If you can't do so, you have to create entries in your hosts file for every application in the labs.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjEwNzA4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTE1OTM4NjI2MCw3MzA5OTgxMTZdfQ==
 -->
