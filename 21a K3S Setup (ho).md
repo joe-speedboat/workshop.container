@@ -55,6 +55,7 @@ No problem, but not really nerdy! ;-/
 ```
 
 ## Prepare Bash environment
+- Add this lines to your `$HOME/.bashrc`
 ```bash
 source <(kubectl completion bash)
 
@@ -65,8 +66,8 @@ genpasswd() {
    [ "$l" == "" ] && l=16
    tr -dc A-Za-z0-9_=., < /dev/urandom | head -c ${l} | xargs 
 }
-
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Njg0NTYxNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTEyNDY4Njg1LDczMDk5ODExNl19
 -->
