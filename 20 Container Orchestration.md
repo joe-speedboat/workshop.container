@@ -27,10 +27,15 @@ As you can see in most right image above.
 
 Linux worker nodes can as well virtualize VMs because of KVM (Kernel virtualization module).
 So with KubeVirt, Kubernetes can as well drive VMs, which brings a great benefit.
-- Native network isolation and segmentation, managed by Kubernetes
-- Shared and redundant Storage/Backup/Snapshot with Open Source technoligies like
+- Native `network isolation` and segmentation, managed by Kubernetes
+- Shared and redundant and automated `Storage`/Backup/Snapshot with Open Source technologies like
 	- CephFS
-	- 
+	- Gluster
+	- Longhorn
+	- BlockDev
+	- ...
+
+
 
 ## Kubernetes and VMs, everythin gets better or at least different?
 Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
@@ -91,5 +96,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTExMDc4OF19
+eyJoaXN0b3J5IjpbLTE1ODQzMTMwNzVdfQ==
 -->
