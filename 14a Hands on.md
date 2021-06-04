@@ -18,11 +18,10 @@
 	CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-### Store persistent data of container via bind mount
+### Store persistent data via Volume
 ```bash
 [root@node ~]# mkdir $PWD/webroot
-
-[root@node ~]# docker run -d -it -p 80:8080 --restart unless-stopped --mount type=bind,source=$PWD/webroot,target=/var/lib/tiddlywiki --name wiki mazzolino/tiddlywiki
+[root@node ~]# docker run -d -it -p 80:8080 --restart unless-stopped -v $PWD/webroot:/var/lib/tiddlywiki --name wiki mazzolino/tiddlywiki
 	Unable to find image 'mazzolino/tiddlywiki:latest' locally
 	latest: Pulling from mazzolino/tiddlywiki
 	...
@@ -139,7 +138,7 @@ PW: wiki
 	5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTIyNzIzNywtNjUwMjYxODM3LC03MT
+eyJoaXN0b3J5IjpbMTIwMDYzNDMzNSwtNjUwMjYxODM3LC03MT
 k4MTU0NDgsMjA5MDE5MTMyOCwxNzcyODAyNDU2LDE2ODE3ODE4
 MDddfQ==
 -->
