@@ -25,6 +25,7 @@ Problem is, at least for the next five to ten years, we will have some VMs runni
 Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
 As you can see in most right image above.
 
+Linux worker nodes can as well virtualize VMs because of KVM (Kernel nationalization module)
 
 ## Kubernetes and VMs, everythin gets better or at least different?
 Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
@@ -85,5 +86,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDIzODQ3MF19
+eyJoaXN0b3J5IjpbNTQxODE4N119
 -->
