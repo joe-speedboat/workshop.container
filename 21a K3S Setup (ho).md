@@ -40,11 +40,20 @@ kubectl get pods --all-namespaces
 
 ## Create Wildcard DNS for ingress routing
 -   Create a CNAME
-
-    *.vm-name.domain.tld -> vm-name.domain.tld
+```
+*.vm-name.domain.tld -> vm-name.domain.tld
+```    
 If you can't do so, you have to create entries in your hosts file for every application in the labs.
+No problem, but not really nerdy! ;-/
+
+
+##
+ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | sh
+ grep 'helm completion bash' $HOME/.bashrc || echo 'source <(helm completion bash)' >> $HOME/.bashrc
+
+ grep KUBECONFIG $HOME/.bashrc || echo 'export KUBECONFIG=/etc/rancher/k3s/k3s.yaml' >> $HOME/.bashrc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTM4NjI2MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTg1MDk5NDI0MCw3MzA5OTgxMTZdfQ==
 -->
