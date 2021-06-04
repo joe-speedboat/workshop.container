@@ -10,8 +10,8 @@ It will become bigger and complexer with the amount of applications you maintain
 Even if the deployment of an VM got automated this days, lot of manual work is needed to configure complex applications.
 This makes it difficult to document, update, migrate your applications.
 With Red Hat's CoreOS, this problem got solved at least for the Worker nodes.
-CoreOS is an immutable operating system  that fet
+CoreOS is an immutable operating system  that fetches its configuration from a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDMyOTEyNDEsMTI0NDkwODYwNCw3Mz
+eyJoaXN0b3J5IjpbLTIwNjQ3Njc2OTUsMTI0NDkwODYwNCw3Mz
 A5OTgxMTZdfQ==
 -->
