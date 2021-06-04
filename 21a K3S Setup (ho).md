@@ -18,7 +18,9 @@ dnf -y install vim tar wget jq git bash-completion lsof
 sed -i  '/swap/d' /etc/fstab
 swapoff -a
 
-firewall-cmd --permanent --zone=public --add-service=https
+dnf -y install firewalld
+systemctl enable firewalld --now
+firewall-cmd --permanent --zone=public --set-target=ACCEPT
 firewall-cmd --zone=public --add-masquerade --permanent
 firewall-cmd --reload
 reboot
@@ -26,9 +28,16 @@ reboot
 
 ## Install K3S
 ```bash
+curl -sfL https://get.k3s.io | sh
 
+cat /etc/systemd/system/k3s.service
+systemctl status k3s
 
+kubectl get nodes
+# all pods in running state? fine!
+kubectl get pods --all-namespaces
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2ODU2MDA3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTk2NjEwNzA4Myw3MzA5OTgxMTZdfQ==
 -->
