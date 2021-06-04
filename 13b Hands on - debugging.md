@@ -35,8 +35,10 @@ go away
 / # exit
 ```
 * Now try to access the web service on the node again, do you see the change?
-* Do you understand what happended
-* 
+* Do you understand what happened
+* If you start a new container instance.
+	* Will you see the "go away" page?
+	* Why?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY1NDA0MzddfQ==
+eyJoaXN0b3J5IjpbLTE5MDg4Mzg2OTJdfQ==
 -->
