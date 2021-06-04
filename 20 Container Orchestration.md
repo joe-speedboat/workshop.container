@@ -3,8 +3,11 @@
 ## The past and the future
 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/evol.png)
-Even if you can repeat and automate your docker container deployments easily. 
-It will become bigger and complexer with the amount of applications you maintain.
+If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
+
+Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
+Since VMware adapted the worker nodes into it's VM concept, OpenSource is going the other way round.
+As you can see in first 
 
 ## The Virtual Machine vs Containers problem
 Even if the deployment of an VM got automated this days, lot of manual work is needed to configure complex applications.
@@ -77,10 +80,7 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 [read the docs](https://kubernetes.io/docs/concepts/overview/components/)
 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
-If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter.
 
-Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.
-Since VMware adapted the worker nodes into it's VM concept, OpenSo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzY1ODQwN119
+eyJoaXN0b3J5IjpbLTE0NDczNDExMDNdfQ==
 -->
