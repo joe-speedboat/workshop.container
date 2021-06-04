@@ -111,14 +111,13 @@ docker exec -it web sh
 / # wget
 	Usage: wget [-c|--continue] [--spider] [-q|--quiet] [-O|--output-document FILE]
 
-	/ # wget -O /var/www/localhost/htdocs/index.html https://raw.githubusercontent.com/Metroxe/one-html-page-challenge/master/entries/ascii-cam.html
-	Connecting to raw.githubusercontent.com (185.199.108.133:443)
+/ # wget -O /var/www/localhost/htdocs/index.html https://raw.githubusercontent.com/Metroxe/one-html-page-challenge/master/entries/hangman.html
 	saving to '/var/www/localhost/htdocs/index.html'
 / # exit
 ```
 * Now try to access your web service again, what do see?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTcyNzkzNywtMTg1OTg0MjE1LC01NT
-UyOTUzMzYsLTE5MDg4Mzg2OTJdfQ==
+eyJoaXN0b3J5IjpbMTQ3MzI1OTY5NiwxMzcxNzI3OTM3LC0xOD
+U5ODQyMTUsLTU1NTI5NTMzNiwtMTkwODgzODY5Ml19
 -->
