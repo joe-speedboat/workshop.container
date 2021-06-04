@@ -40,7 +40,9 @@ In Switzerland, we look bit different at that size.
 And it might be a cause too that we still have more money to drive our projects than other countries have.
 
 But others spent a lot of attention to this problem.
-Slightly and silent, Ranger products found its way to European on-prem Kubernetes cluster setups.
+Slightly and silent, [Ranger products](https://rancher.com/) found their way to European on-prem Kubernetes cluster setups.
+
+And incredible fast, they started developing a hyperconverged OpenSource soluti
 
 
 
@@ -103,5 +105,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI3NjI0OF19
+eyJoaXN0b3J5IjpbLTIwMzQ0MjQzNTRdfQ==
 -->
