@@ -98,8 +98,9 @@ The overlay-fs and the logs stay if the container is in stopped mode.
 Be aware that if you use the `--rm` option when starting a container, everything about the container get removed immediately.
 
 # Fun exercise
-
+* Cleanup the `web` container used in previous labs
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzNzM2NTUsLTU1NTI5NTMzNiwtMT
-kwODgzODY5Ml19
+eyJoaXN0b3J5IjpbMTEwOTUxMDExMiwtNTU1Mjk1MzM2LC0xOT
+A4ODM4NjkyXX0=
 -->
