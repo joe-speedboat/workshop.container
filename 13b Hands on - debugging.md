@@ -70,10 +70,17 @@ web
 CONTAINER ID   IMAGE           COMMAND      CREATED          STATUS                      PORTS     NAMES
 3e7503e5577e   sebp/lighttpd   "start.sh"   34 minutes ago   Exited (1) 25 seconds ago             web
 ```
-Okay, we can see now that the container is not in running state anymore.
+Okay, we can see now that the container is not in running state any more.
 Let's take a closer look.
 
+### Copy content from/to
+```bash
+[root@node ~]# docker cp web:/var/www/localhost/htdocs/index.html .
+[root@node ~]# cat index.html 
+this is for sure not persitent
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYzNjYxMTcsLTU1NTI5NTMzNiwtMT
-kwODgzODY5Ml19
+eyJoaXN0b3J5IjpbLTM4ODMxMjI5MSwtNTU1Mjk1MzM2LC0xOT
+A4ODM4NjkyXX0=
 -->
