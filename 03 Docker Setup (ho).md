@@ -4,10 +4,10 @@ In March 2017, Docker released Docker Enterprise Edition (EE), merging their pre
 Docker Inc. positions CE for development and Docker EE for business-critical deployments. In this article, we’ll dive deeper into the differences between Docker CE and Docker EE, so you can identify the best option for your project as it stands today, and the best option for your project as it matures.
 
 Since few years, Red Hat goes it's own way to manage Docker containers.
-To not confuse anybody, we do this course with docker only.
+To not confuse anybody for this entry level course, we use docker only today, later on we can look into the r
 Red Hat uses Podman, Buildyah and Skopeo.
 
-
+![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/docker_vs_podman.jpg)
 
 ## Docker CE vs EE: An Overview
 Docker CE is a free and open source containerization platform. It is a rebranded version of the Docker open source solution that has been freely available since the launch of Docker in 2013.
@@ -50,6 +50,6 @@ dnf -y install vim tar wget jq git bash-completion lsof
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2OTA3ODg0LC04MTY3ODA3NDgsMTI5Mz
-EwMjc5Miw1MTgzNjA3MDNdfQ==
+eyJoaXN0b3J5IjpbMTAxOTE2MjQxNCwtODE2NzgwNzQ4LDEyOT
+MxMDI3OTIsNTE4MzYwNzAzXX0=
 -->
