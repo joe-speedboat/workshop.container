@@ -6,7 +6,6 @@ Services are presented by forwarding ports, which can be done by the docker cli.
 
 We have already used this in the labs we finished so far.
 
-## Docker Port forwardings
 # Binding Ports
 
 Docker containers can connect to the outside world without further configuration, but the outside world cannot connect to Docker containers by default.
@@ -85,6 +84,5 @@ However, if you need more complex multihost setups, it is recomended to use a ab
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY0MDI5MDAsLTE1MjE5NjUxODVdfQ
-==
+eyJoaXN0b3J5IjpbMTM1MTczMjYyOSwtMTUyMTk2NTE4NV19
 -->
