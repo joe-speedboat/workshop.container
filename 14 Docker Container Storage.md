@@ -25,14 +25,16 @@ It is exposed as either a directory or an individual file in the container’s f
 [read the docs](https://docs.docker.com/storage/volumes/)
 
 
+
+## Config files
+
 # Bind mounts
 [read the docs](https://docs.docker.com/storage/bind-mounts/)
 
 # tmpfs
+[read the docs](https://docs.docker.com/storage/tmpfs/)
 
-
-# Config files
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTczNzk5MywtMTM4OTI4NjU1NV19
+eyJoaXN0b3J5IjpbMTM5NjU2MDU0MiwtMTM4OTI4NjU1NV19
 -->
