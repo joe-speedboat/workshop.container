@@ -37,7 +37,11 @@ So with KubeVirt, Kubernetes can as well drive VMs, which brings a great benefit
 OKD/OpenShift with Red Hat did not spend lot of attention to this topic because of the size their projects have.
 RedHat speaks of KMUs if they have 600 or less employees.
 In Switzerland, we look bit different at that size. 
-And it might be a cause too that we still have more money to drive our projects than other countries have
+And it might be a cause too that we still have more money to drive our projects than other countries have.
+
+But others spent a lot of attention to this problem.
+Slightly and silent, Ranger products found its way to European on-prem Kubernetes cluster setups.
+
 
 
 ## Kubernetes and VMs, everythin gets better or at least different?
@@ -99,5 +103,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMzY4NTE1XX0=
+eyJoaXN0b3J5IjpbLTExNDI3NjI0OF19
 -->
