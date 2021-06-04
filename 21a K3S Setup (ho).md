@@ -5,9 +5,14 @@ K3S is a minimalistic Kubernetes distribution which moved all Kubernetes compone
 But in the end, K3S is a fully functioning Kubernetes distribution, which has its Target on lightweight setups like:
 - Embedded Computers
 - Closed Product shipping
-- Secured Docker pplication deployments
+- Secured Docker application deployments
+
+## Reset LAB VM
+Please reset your LAB VM to the minimal setup and start with the exercise below:
+
+# 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMjMwMzA4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjk3MjY3ODcyLDczMDk5ODExNl19
 -->
