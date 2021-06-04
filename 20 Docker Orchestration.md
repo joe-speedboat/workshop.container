@@ -9,7 +9,9 @@ It will become bigger and complexer with the amount of applications you maintain
 ### The Virtual Machine problem
 Even if the deployment of an VM got automated this days, lot of manual work is needed to configure complex applications.
 This makes it difficult to document, update, migrate your applications.
+With Red Hat's CoreOS, this problem got solved at least for the Worker nodes.
+CoreOS is an immutable operating system  that fet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NjA5ODMxLDEyNDQ5MDg2MDQsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNDMyOTEyNDEsMTI0NDkwODYwNCw3Mz
+A5OTgxMTZdfQ==
 -->
