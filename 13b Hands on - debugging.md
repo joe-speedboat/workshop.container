@@ -102,23 +102,23 @@ Be aware that if you use the `--rm` option when starting a container, everything
 * Start the lighttpd container again:
 ```bash
 docker run -d -it -p 80:80 --name web sebp/lighttpd
+
 docker exec -it web sh
+
 [root@node ~]# docker exec -it web sh
 / # curl
-sh: curl: not found
+	sh: curl: not found
 / # wget
-BusyBox v1.32.1 () multi-call binary.
+	Usage: wget [-c|--continue] [--spider] [-q|--quiet] [-O|--output-document FILE]
 
-Usage: wget [-c|--continue] [--spider] [-q|--quiet] [-O|--output-document FILE]
-
-/ # wget -O /var/www/localhost/htdocs/index.html https://raw.githubusercontent.com/Metroxe/one-html-page-challenge/master/entries/ascii-cam.html
-Connecting to raw.githubusercontent.com (185.199.108.133:443)
-saving to '/var/www/localhost/htdocs/index.html'
+	/ # wget -O /var/www/localhost/htdocs/index.html https://raw.githubusercontent.com/Metroxe/one-html-page-challenge/master/entries/ascii-cam.html
+	Connecting to raw.githubusercontent.com (185.199.108.133:443)
+	saving to '/var/www/localhost/htdocs/index.html'
 / # exit
-
 ```
+* Now try to access your web service again, what do see?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMjQ0MDkzLC0xODU5ODQyMTUsLTU1NT
-I5NTMzNiwtMTkwODgzODY5Ml19
+eyJoaXN0b3J5IjpbMTM3MTcyNzkzNywtMTg1OTg0MjE1LC01NT
+UyOTUzMzYsLTE5MDg4Mzg2OTJdfQ==
 -->
