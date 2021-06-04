@@ -43,9 +43,28 @@ But others spent a lot of attention to this problem.
 Slightly and silent, [Ranger products](https://rancher.com/) found their way to European on-prem Kubernetes cluster setups.
 
 And incredible fast, they started developing a hyperconverged OpenSource VM and Container management platform.
-End of Mai 2021, they reached the first release target: https://github.com/harvester/harvester/releases
+End of Mai 2021, they reached the first beta release target: https://github.com/harvester/harvester/releases
 
-I che at it and it is very promising and l
+I checked it and it is built very promising and solid:
+-   [Raw block device support](https://github.com/rancher/harvester/issues/227)
+    -   Now raw block devices will be used by default, which greatly improves the VM boot-up time and IO performance.
+-   [VM Live Migration](https://github.com/rancher/harvester/issues/384)
+    -   Users can now migrate one VM from one node to another node without downtime.
+-   [VM backup/restore](https://github.com/harvester/harvester/issues/385)
+    -   Users can now backup/restore VMs to an S3 or NFS server outside of the cluster, after setting up the backup target. [DOC](https://github.com/harvester/harvester/blob/master/docs/backup-restore.md)
+-   [PXE support](https://github.com/rancher/harvester/issues/217)
+    -   Users can now easily install Harvester on any node that supports PXE boot, with existing PXE server support. [DOC](https://github.com/harvester/harvester/blob/master/docs/automatic-installation.md)
+    -   Users can also install Harvester in Equinix Metal, using iPXE support. [DOC](https://github.com/harvester/ipxe-examples)
+-   [Zero downtime upgrade](https://github.com/rancher/harvester/issues/383)
+    -   **NOTE: Due to pending OS changes in the roadmap, the upgradability to the GA release cannot be guaranteed at this moment.**
+-   [Per node NIC configuration](https://github.com/harvester/harvester/issues/369)
+    -   Users can now specify different NICs per node for VLAN configuration.
+-   [Install Rancher with Harvester](https://github.com/rancher/harvester/issues/513)
+    -   Rancher now ships with Harvester, providing Kubernetes management support on top of Harvester. [DOC](https://github.com/harvester/harvester/blob/master/docs/rancher-integration.md)
+-   [Provision Kubernetes cluster using Harvester and Rancher](https://github.com/rancher/harvester/issues/512)
+    -   Users can now use the built-in Rancher to provision new Kubernetes clusters on top of the Harvester cluster. [DOC](https://github.com/harvester/harvester/blob/master/docs/node-driver.md)
+-   [Support bundle](https://github.com/rancher/harvester/issues/579)
+    -   Support bundle will help the developers to troubleshooting issues in the users' environment.
 
 
 
@@ -108,5 +127,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY2NzM0OTZdfQ==
+eyJoaXN0b3J5IjpbNzU2Mzk1MDkxXX0=
 -->
