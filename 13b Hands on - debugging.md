@@ -54,7 +54,11 @@ docker exec web sh -c "/bin/echo this is for sure not persitent > /var/www/local
 
 * Do you understand what happened?
 
+## Understand container states
+A running container acts somehow like a running operating system. But how looks a stopped container like?
+Let us get an idea by doing an exercise:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTI5NTMzNiwtMTkwODgzODY5Ml19
+eyJoaXN0b3J5IjpbMTY0NDAzMTIyLC01NTUyOTUzMzYsLTE5MD
+g4Mzg2OTJdfQ==
 -->
