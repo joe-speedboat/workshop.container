@@ -11,8 +11,9 @@ https://vsupalov.com/12-docker-facts/
 https://runnable.com/docker/getting-started/
 
 ## Kubernetes Operators
+https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator
 https://www.redhat.com/rhdc/managed-files/cl-oreilly-kubernetes-operators-ebook-f21452-202001-en_2.pdf
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTMwODEzN119
+eyJoaXN0b3J5IjpbMTk3ODM0MjkyNF19
 -->
