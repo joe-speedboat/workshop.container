@@ -14,7 +14,7 @@ do
    wget https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/files/k8s/nodered/$r
 done
 ```
-Pleas download this files as mentioned above and then look at this files and try to match the resources to the drawing below.
+Please download this files as mentioned above and then look at this files and try to match the resources to the drawing below.
 
 
 ## Understand k8s resources 
@@ -24,5 +24,6 @@ Pleas download this files as mentioned above and then look at this files and try
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzExNTQ4MSwtMTYyNTQxMjgzMV19
+eyJoaXN0b3J5IjpbLTIwMzUzMjM1NzAsLTE2MjU0MTI4MzFdfQ
+==
 -->
