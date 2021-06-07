@@ -1,24 +1,23 @@
 # Kubernetes Operators
 
-A [Kubernetes operator](https://www.redhat.com/rhdc/managed-files/cl-oreilly-kubernetes-operators-ebook-f21452-202001-en_2.pdf) is a method of packaging, deploying, and managing a Kubernetes application. A Kubernetes application is both deployed on [Kubernetes](https://www.redhat.com/en/topics/containers/what-is-kubernetes) and managed using the Kubernetes API (application programming interface) and kubectl tooling.
 
-A Kubernetes operator is an application-specific controller that extends the functionality of the Kubernetes API to create, configure, and manage instances of complex applications on behalf of a Kubernetes user.
+# Operator pattern
 
-It builds upon the basic Kubernetes resource and controller concepts, but includes domain or application-specific knowledge to automate the entire life cycle of the software it manages.
+Operators are software extensions to Kubernetes that make use of [custom resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) to manage applications and their components. Operators follow Kubernetes principles, notably the [control loop](https://kubernetes.io/docs/concepts/architecture/controller).
 
-In Kubernetes, controllers of the control plane implement control loops that repeatedly compare the desired state of the cluster to its actual state. If the cluster's actual state doesn’t match the desired state, then the controller takes action to fix the problem.
+## Motivation[](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/#motivation)
 
-An operator is a custom Kubernetes controller that uses custom resources (CR) to manage applications and their components. High-level configuration and settings are provided by the user within a CR. The Kubernetes operator translates the high-level directives into the low level actions, based on best practices embedded within the operator’s logic.
+The Operator pattern aims to capture the key aim of a human operator who is managing a service or set of services. Human operators who look after specific applications and services have deep knowledge of how the system ought to behave, how to deploy it, and how to react if there are problems.
 
-A custom resource is the [API](https://www.redhat.com/en/topics/api) extension mechanism in Kubernetes. A custom resource definition (CRD) defines a CR and lists out all of the configuration available to users of the operator.
+People who run workloads on Kubernetes often like to use automation to take care of repeatable tasks. The Operator pattern captures how you can write code to automate a task beyond what Kubernetes itself provides.
 
-The Kubernetes operator watches a CR type and takes application-specific actions to make the current state match the desired state in that resource.
+## Operators in Kubernetes[](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/#operators-in-kubernetes)
 
-Kubernetes operators introduce new object types through custom resource definitions. Custom resource definitions can be handled by the Kubernetes API just like built-in objects, including interaction via kubectl and inclusion in role-based access control (RBAC) policies.
+Kubernetes is designed for automation. Out of the box, you get lots of built-in automation from the core of Kubernetes. You can use Kubernetes to automate deploying and running workloads, _and_ you can automate how Kubernetes does that.
 
-A Kubernetes operator continues to monitor its application as it runs, and can back up data, recover from failures, and upgrade the application over time, automatically.
+Kubernetes' [controllers](https://kubernetes.io/docs/concepts/architecture/controller/) concept lets you extend the cluster's behaviour without modifying the code of Kubernetes itself. Operators are clients of the Kubernetes API that act as controllers for a [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 
-The actions a Kubernetes operator performs can include almost anything: scaling a complex app, application version upgrades, or even managing kernel modules for nodes in a computational cluster with specialized hardware.
+![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/k8s_operator.png)
 
 If you look into a running OpenShift cluster you can get an idea of where we will end:
 ```
@@ -57,5 +56,5 @@ service-ca                                 4.7.0-0.okd-2021-05-22-050008   True 
 storage                                    4.7.0-0.okd-2021-05-22-050008   True        False         False      171d
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwODE5Njg3LDEyMzkxNjYzODBdfQ==
+eyJoaXN0b3J5IjpbMTkwMDkyNDMxNywxMjM5MTY2MzgwXX0=
 -->
