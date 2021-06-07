@@ -60,8 +60,20 @@ spec:
     PLAY RECAP *********************************************************************
     localhost: ok=42 changed=0 unreachable=0 failed=0 skipped=30 rescued=0 ignored=0
 
+## Verify the deployment staus
+two pods must be in running state
+    kubectl get pods
 
+## Verify awx service
+notice the service port 80 for awx
+
+    kubectl get svc
+should show something like:
+
+NAME           TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+awx-postgres   ClusterIP   None            <none>        5432/TCP       35m
+awx-service    NodePort    10.3.12.26      <none>        80:31982/TCP   35m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzUxNjY5NSwxNjAwNzA3Mzg5LC0yOD
-c3Mjg5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTg3MjE0NzIsMTYwMDcwNzM4OSwtMj
+g3NzI4OTk2XX0=
 -->
