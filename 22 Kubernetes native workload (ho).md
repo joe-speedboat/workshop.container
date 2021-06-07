@@ -13,6 +13,11 @@ do
 done
 ```
 
+## Understand k8s resources 
+
+
+
+
 From logs you can take two needs of the current container:
 - Persistent volume (storage): `/data`
 - Listen port: `1880`
@@ -26,5 +31,6 @@ If you can't find out the needs, you should look for:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDI5NTgzMCwtMTY0MTAzMzY3MV19
+eyJoaXN0b3J5IjpbLTIwOTY0NjgyMTksMTA2NDI5NTgzMCwtMT
+Y0MTAzMzY3MV19
 -->
