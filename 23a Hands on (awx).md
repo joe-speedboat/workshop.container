@@ -44,13 +44,22 @@ metadata:
 spec:
   ingress_type: Ingress
   route_tls_termination_mechanism: edge
-  _hostname: fqdn.domain.com
+  hostname: fqdn.domain.com
   ```
 
     kubectl apply -f myawx.yml
 
-
+## Wait until images got pulled
+---
+apiVersion: awx.ansible.com/v1beta1
+kind: AWX
+metadata:
+  name: awx
+spec:
+  tower_ingress_type: Ingress
+  tower_route_tls_termination_mechanism: edge
+  tower_hostname: fqdn.domain.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDQ2MDQyMCwxNjAwNzA3Mzg5LC0yOD
+eyJoaXN0b3J5IjpbMTkzMTgyNTgzOSwxNjAwNzA3Mzg5LC0yOD
 c3Mjg5OTZdfQ==
 -->
