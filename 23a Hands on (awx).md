@@ -10,10 +10,12 @@ https://github.com/ansible/awx-operator
 ```bash
 kubectl config set-context --current --namespace=default
 kubectl apply -f https://raw.githubusercontent.com/ansible/awx-operator/devel/deploy/awx-operator.yaml
-sleep 10
+```
+
+## Verify wha
 kubectl get crd
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTIxODgyNTAsMTYwMDcwNzM4OSwtMj
+eyJoaXN0b3J5IjpbLTExODY5Mzc4NTMsMTYwMDcwNzM4OSwtMj
 g3NzI4OTk2XX0=
 -->
