@@ -25,10 +25,19 @@ kubectl apply -f https://raw.githubusercontent.com/ansible/awx-operator/devel/de
     kubectl logs -f deployment.apps/awx-operator
 
 ### check for new CRDs
-
     kubectl get crd
 
+## Create new namespace
+```bash
+kubectl create namespace awx
+kubectl config set-context --current --namespace=awx
+```
+
+## Create object with new CR
+```bash
+kubectl create namespace awx
+kubectl config set-context --current --namespace=awx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0NjY3Mzc4LDE2MDA3MDczODksLTI4Nz
-cyODk5Nl19
+eyJoaXN0b3J5IjpbLTQ5MjMyNzc0NSwxNjAwNzA3Mzg5LC0yOD
+c3Mjg5OTZdfQ==
 -->
