@@ -1,5 +1,6 @@
 
 # Docker Container Storage - hands on
+TIME: 15 min
 
 ## Bind mount 
 
@@ -68,5 +69,5 @@ PW: wiki
 	5a425a91d63c48ac9ac34d50b92cdff058cb7004466f49dce6293938a2b96e0e
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIwMDg2MDBdfQ==
+eyJoaXN0b3J5IjpbLTY4Mjg4MTI3NywtMTI5MjAwODYwMF19
 -->
