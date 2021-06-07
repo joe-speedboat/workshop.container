@@ -42,15 +42,15 @@ kind: AWX
 metadata:
   name: awx
 spec:
-  tower_ingress_type: Ingress
-  tower_route_tls_termination_mechanism: edge
-  tower_hostname: fqdn.domain.com
+  ingress_type: Ingress
+  route_tls_termination_mechanism: edge
+  _hostname: fqdn.domain.com
   ```
 
     kubectl apply -f myawx.yml
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTA3OTgxMSwxNjAwNzA3Mzg5LC0yOD
+eyJoaXN0b3J5IjpbMTc3NDQ2MDQyMCwxNjAwNzA3Mzg5LC0yOD
 c3Mjg5OTZdfQ==
 -->
