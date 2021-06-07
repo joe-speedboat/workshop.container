@@ -1,8 +1,8 @@
 
 
-# Kubernetes, everythin gets better or at least different?
-Kubernetes is the new standard in Container management and to be honest, it does a fantastic job.
-So all the Docker workload is moving into a Kubernetes Cluster ... sooner or later!
+# Kubernetes
+Kubernetes is the current industry-standard in Container management.
+So all the Docker workload is moving into a Kubernetes Cluster ... sooner or later.
 
 Kubernetes does orchestrate the whole container lifecycle:
 - Deployment
@@ -17,5 +17,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDE2MjY1Nl19
+eyJoaXN0b3J5IjpbLTEyOTc2MTQ0OTIsMTM0NDE2MjY1Nl19
 -->
