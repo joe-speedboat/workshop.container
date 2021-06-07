@@ -33,9 +33,10 @@ kubectl get pods
 ```
   
 ## Show pod logs
-```bash
-kubectl logs nodered-7555b955f9-9s88b 
 
+    kubectl logs nodered-7555b955f9-9s88b 
+
+```bash
 > node-red-docker@1.3.5 start /usr/src/node-red
 > node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS "--userDir" "/data"
 
@@ -70,9 +71,11 @@ file using your chosen key the next time you deploy a change.
 7 Jun 08:20:24 - [info] Server now running at http://127.0.0.1:1880/
 7 Jun 08:20:25 - [info] Starting flows
 7 Jun 08:20:25 - [info] Started flows
-````
-
+```
+From logs you can take two needs of the current container:
+- persistent volume (storate)
+- listen port
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTY1ODE1MSwtMTgyMTU2NTUxMyw3Mz
+eyJoaXN0b3J5IjpbLTI5MDQwNTAxNywtMTgyMTU2NTUxMyw3Mz
 A5OTgxMTZdfQ==
 -->
