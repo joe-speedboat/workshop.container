@@ -2,6 +2,7 @@
 Let us deploy a Kubernetes native workload.
 So we can get familiar with some of the components.
 
+## Deploy a node-red pod
 ```bash
 kubectl create namespace nodered
 	namespace/nodered created
@@ -31,8 +32,47 @@ kubectl get pods
 	nodered-7555b955f9-9s88b   1/1     Running   0          40s
 ```
   
+## Show pod logs
+```bash
+kubectl logs nodered-7555b955f9-9s88b 
 
+> node-red-docker@1.3.5 start /usr/src/node-red
+> node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS "--userDir" "/data"
+
+7 Jun 08:20:24 - [info] 
+
+Welcome to Node-RED
+===================
+
+7 Jun 08:20:24 - [info] Node-RED version: v1.3.5
+7 Jun 08:20:24 - [info] Node.js  version: v10.24.1
+7 Jun 08:20:24 - [info] Linux 4.18.0-305.3.1.el8_4.x86_64 x64 LE
+7 Jun 08:20:24 - [info] Loading palette nodes
+7 Jun 08:20:24 - [info] Settings file  : /data/settings.js
+7 Jun 08:20:24 - [info] Context store  : 'default' [module=memory]
+7 Jun 08:20:24 - [info] User directory : /data
+7 Jun 08:20:24 - [warn] Projects disabled : editorTheme.projects.enabled=false
+7 Jun 08:20:24 - [info] Flows file     : /data/flows.json
+7 Jun 08:20:24 - [warn] 
+
+---------------------------------------------------------------------
+Your flow credentials file is encrypted using a system-generated key.
+
+If the system-generated key is lost for any reason, your credentials
+file will not be recoverable, you will have to delete it and re-enter
+your credentials.
+
+You should set your own key using the 'credentialSecret' option in
+your settings file. Node-RED will then re-encrypt your credentials
+file using your chosen key the next time you deploy a change.
+---------------------------------------------------------------------
+
+7 Jun 08:20:24 - [info] Server now running at http://127.0.0.1:1880/
+7 Jun 08:20:25 - [info] Starting flows
+7 Jun 08:20:25 - [info] Started flows
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE1NjU1MTMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjEwOTY1ODE1MSwtMTgyMTU2NTUxMyw3Mz
+A5OTgxMTZdfQ==
 -->
