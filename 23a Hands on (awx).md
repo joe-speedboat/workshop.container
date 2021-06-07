@@ -34,10 +34,21 @@ kubectl config set-context --current --namespace=awx
 ```
 
 ## Create object with new CR
-```bash
-kubectl create namespace awx
-kubectl config set-context --current --namespace=awx
+- `myawx.yml`
+```yaml
+---
+apiVersion: awx.ansible.com/v1beta1
+kind: AWX
+metadata:
+  name: awx
+spec:
+  tower_ingress_type: Ingress
+  tower_route_tls_termination_mechanism: edge
+  tower_hostname: fqdn.domain.com
+  ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjMyNzc0NSwxNjAwNzA3Mzg5LC0yOD
-c3Mjg5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MzM0Njk4ODQsMTYwMDcwNzM4OSwtMj
+g3NzI4OTk2XX0=
 -->
