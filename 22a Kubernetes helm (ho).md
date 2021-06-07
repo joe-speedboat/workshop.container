@@ -27,14 +27,16 @@ kubectl get all
 That's all.
 
 ## Create ingress routing
-Since we don't want to run the application on port 8080 as it comes with helm, we have to rewire the web service.
+Since we don't want to run the application on port `8080` as it comes with helm, we have to rewire the web service.
 ```bash
 kubectl get svc
 kubectl delete svc zammad
 kubectl expose pod/zammad-0 --port=8080 --name=zammad
 
 kubectl create ingress ingress-www --rule=zammad.vm20.test.domain.ch/*=zammad:8080
+```
+Please replace the fqdn depending on your needs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg2OTk3NzIsNzU4NTIyNTY5LDczMD
+eyJoaXN0b3J5IjpbLTE4MTA0Njk4MDksNzU4NTIyNTY5LDczMD
 k5ODExNl19
 -->
