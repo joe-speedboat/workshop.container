@@ -75,8 +75,13 @@ should show something like:
     awx-postgres   ClusterIP   None            <none>        5432/TCP       35m
     awx-service    NodePort    10.3.12.26      <none>        80:31982/TCP   35m
 
+## Fetch the secret and test the login
 
+    kubectl get secret awx-admin-password -o jsonpath='{.data.password}' | base64 --decode
+
+firefox https://fqdn.domain.com
+-   user: admin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTA5MTIxMCwxNjAwNzA3Mzg5LC0yOD
-c3Mjg5OTZdfQ==
+eyJoaXN0b3J5IjpbLTgwMTc4NjQxLDE2MDA3MDczODksLTI4Nz
+cyODk5Nl19
 -->
