@@ -71,7 +71,16 @@ genpasswd() {
 # Get an overview
 - view all the running pods
 kubectl get pods --all-namespaces
+```
+NAMESPACE     NAME                                      READY   STATUS    RESTARTS   AGE
+kube-system   coredns-7448499f4d-rn9hs                  1/1     Running   0          45m
+kube-system   local-path-provisioner-5ff76fc89d-57nb8   1/1     Running   0          45m
+kube-system   metrics-server-86cbb8457f-zzwgt           1/1     Running   0          45m
+kube-system   svclb-traefik-28glk                       2/2     Running   0          45m
+kube-system   traefik-97b44b794-6xng4                   1/1     Running   0          45m
+```
+Please discuss the components you see with your class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE4MTM0NSwxMTI0Njg2ODUsNzMwOT
+eyJoaXN0b3J5IjpbLTQ5MjQ3OTYyNCwxMTI0Njg2ODUsNzMwOT
 k4MTE2XX0=
 -->
