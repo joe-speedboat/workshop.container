@@ -4,9 +4,14 @@ So we can get familiar with some of the components.
 
 ## Get k8s resources
 ```bash
+cd
 mkdir nodered
 cd nodered
-
+for r in deployment.yml ingress.yml pod.yml pvc.yml svc.yml
+do
+   wget https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/files/k8s/nodered/$r
+done
+```
 
 From logs you can take two needs of the current container:
 - Persistent volume (storage): `/data`
@@ -21,6 +26,5 @@ If you can't find out the needs, you should look for:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkyMDY4ODksLTE2NDEwMzM2NzFdfQ
-==
+eyJoaXN0b3J5IjpbMTA2NDI5NTgzMCwtMTY0MTAzMzY3MV19
 -->
