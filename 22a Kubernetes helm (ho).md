@@ -13,7 +13,15 @@ For Helm, there are three important concepts:
 2.  The _config_ contains configuration information that can be merged into a packaged chart to create a releasable object.
 3.  A _release_ is a running instance of a _chart_, combined with a specific _config_.
 
-## Deplo
+## Deploy a sample application with helm
+
+```bash
+kubectl create namespace zammad
+kubectl config set-context --current --namespace=zammad
+helm repo add zammad https://zammad.github.io/zammad-helm
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml # for K3S
+helm upgrade --install zammad zammad/zammad --namespace zammad
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NjI4MjQ2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzU4NTIyNTY5LDczMDk5ODExNl19
 -->
