@@ -76,8 +76,9 @@ file using your chosen key the next time you deploy a change.
 From logs you can take two needs of the current container:
 - Persistent volume (storage): `/data`
 - Listen port: `1880`
-Of course 
+
+Of course it is not given at any time that container needs are written to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjI3MDg1MCwtMTgyMTU2NTUxMyw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNTM5Njc4NDQsLTE4MjE1NjU1MTMsNz
+MwOTk4MTE2XX0=
 -->
