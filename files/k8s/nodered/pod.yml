@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodered
+  namespace: nodered
+spec:
+  containers:
+  - name: nodered
+    image: nodered/node-red
+    imagePullPolicy: IfNotPresent
+    volumeMounts:
+    - name: data
+      mountPath: /data
+    ports:
+    - containerPort: 1880
+  volumes:
+  - name: data
+    persistentVolumeClaim:
+      claimName: nodered-pvc

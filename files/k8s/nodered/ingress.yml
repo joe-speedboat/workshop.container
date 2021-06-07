@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: www
+  namespace: nodered
+spec:
+  rules:
+  - host: k3s.mydomain.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: nodered
+            port:
+              number: 1880
+        path: /
+        pathType: Prefix

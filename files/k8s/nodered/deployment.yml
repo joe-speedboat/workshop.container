@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: nodered
+  name: nodered
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: nodered
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: nodered
+    spec:
+      containers:
+      - image: nodered/node-red
+        name: nodered
+        ports:
+        - containerPort: 1880
+        volumeMounts:
+        - name: nodered-data
+          mountPath: /data
+      volumes:
+      - name: nodered-data
+        persistentVolumeClaim:
+          claimName: nodered-claim
