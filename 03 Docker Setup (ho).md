@@ -43,6 +43,13 @@ firewall-cmd --zone=public --add-masquerade --permanent
 firewall-cmd --reload
 ```
 
+### Install Docker Compose
+```bash
+test -d $HOME/bin || mkdir $HOME/bin
+curl -L "[https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname](https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname) -s)-$(uname -m)" -o $HOME/bin/docker-compose
+chmod 700 $HOME/bin/docker-compose
+```
+
 ### Install helpers
 
 ```bash
@@ -50,6 +57,6 @@ dnf -y install vim tar wget jq git bash-completion lsof
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ2ODE2MDIsLTgxNjc4MDc0OCwxMj
-kzMTAyNzkyLDUxODM2MDcwM119
+eyJoaXN0b3J5IjpbMTc5ODY3NDIxMSwtMTg5NDY4MTYwMiwtOD
+E2NzgwNzQ4LDEyOTMxMDI3OTIsNTE4MzYwNzAzXX0=
 -->
