@@ -1,5 +1,5 @@
 # Docker Container Storage - hands on
-
+TIME: 15 min
 
 ## Docker Volumes
 
@@ -70,5 +70,5 @@ PW: wiki
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjY5NTY4NV19
+eyJoaXN0b3J5IjpbLTg5OTA4NTY5MiwtNDY2Njk1Njg1XX0=
 -->
