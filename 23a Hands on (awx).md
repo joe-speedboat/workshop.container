@@ -7,8 +7,13 @@ You can find detailed instructions about this setup here:
 https://github.com/ansible/awx-operator
 
 ## Deploy Operator and CRD
+```bash
+kubectl config set-context --current --namespace=default
+kubectl apply -f https://raw.githubusercontent.com/ansible/awx-operator/devel/deploy/awx-operator.yaml
+sleep 10
+kubectl get crd
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTI1MzMzMiwxNjAwNzA3Mzg5LC0yOD
-c3Mjg5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MTIxODgyNTAsMTYwMDcwNzM4OSwtMj
+g3NzI4OTk2XX0=
 -->
