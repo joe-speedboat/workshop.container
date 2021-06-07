@@ -81,7 +81,39 @@ should show something like:
 
 firefox https://fqdn.domain.com
 -   user: admin
+
+# Debugging notes
+
+## Open Node Port for direct access
+
+    PORT=$(kubectl describe svc awx-service | grep NodePort: | awk '{print $3}' | tr 'A-Z' 'a-z')
+    echo PORT=$PORT
+    firewall-cmd --zone=public --add-port=$PORT
+
+## Disable SELinux
+
+    setenforce 0
+    > /var/log/audit/audit.log 
+
+# do some bad things
+
+    sealert -a /var/log/audit/audit.log
+
+## Traefik Config
+
+- [https://levelup.gitconnected.com/a-guide-to-k3s-ingress-using-traefik-with-nodeport-6eb29add0b4b](https://levelup.gitconnected.com/a-guide-to-k3s-ingress-using-traefik-with-nodeport-6eb29add0b4b)
+
+kubectl -n kube-system edit cm traefik
+
+## Jump into container for debugging
+
+# get pods
+kubectl get pods
+# get containers inside of pods
+kubectl describe <pod-name>
+
+kubectl exec --stdin --tty <pod-name> -c <container-name> -- /bin/bash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTc4NjQxLDE2MDA3MDczODksLTI4Nz
-cyODk5Nl19
+eyJoaXN0b3J5IjpbLTEzMTM1NzY3OTIsMTYwMDcwNzM4OSwtMj
+g3NzI4OTk2XX0=
 -->
