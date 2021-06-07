@@ -69,8 +69,9 @@ genpasswd() {
 ```
 
 # Get an overview
-
+- view all the running pods
+kubectl get pods --all-namespaces
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2NDkwNjU4LDExMjQ2ODY4NSw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMjE4MTM0NSwxMTI0Njg2ODUsNzMwOT
+k4MTE2XX0=
 -->
