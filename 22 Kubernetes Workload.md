@@ -77,8 +77,10 @@ From logs you can take two needs of the current container:
 - Persistent volume (storage): `/data`
 - Listen port: `1880`
 
-Of course it is not given at any time that container needs are written to
+Of course it is not given at any time that container needs are written to the logs.
+If you can't find out the needs, you should look for:
+- container registry documentation: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM5Njc4NDQsLTE4MjE1NjU1MTMsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjI1OTgzOTA3LC0xODIxNTY1NTEzLDczMD
+k5ODExNl19
 -->
