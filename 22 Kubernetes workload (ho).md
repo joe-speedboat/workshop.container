@@ -1,5 +1,5 @@
 # Deploy Kubernetes native workload
-TIME: 15 m
+TIME: 15 min
 
 Let us deploy a Kubernetes native workload.
 So we can get familiar with some of the components.
@@ -29,5 +29,5 @@ If you can't find out the needs, you should look for:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzM4ODQ1OSwtMTYyNTQxMjgzMV19
+eyJoaXN0b3J5IjpbMzExNDA2NDU4LC0xNjI1NDEyODMxXX0=
 -->
