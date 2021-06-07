@@ -1,4 +1,5 @@
 # Comprehensive review
+
 To see if we did understand what we learned today, we deploy a multi container application
 
 This is a classic Docker application deployment with persistent storage and two containers
@@ -29,6 +30,9 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 * Start the containers
 * Verify the content
 
+## Docker Automation Hero
+Look at the wikijs page mentioned above and try to get the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODQ2NzExOSwtMTA2NzQ1MTUzM119
+eyJoaXN0b3J5IjpbLTEyMDQwNjg5NzcsLTEwNjc0NTE1MzNdfQ
+==
 -->
