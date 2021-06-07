@@ -79,8 +79,10 @@ From logs you can take two needs of the current container:
 
 Of course it is not given at any time that container needs are written to the logs.
 If you can't find out the needs, you should look for:
-- container registry documentation: 
+- container registry documentation at  [dockerhub](https://hub.docker.com/r/nodered/node-red)
+- Use docker inspect to look into a container
+- Read the `Dockerfile` to see how the container got built
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1OTgzOTA3LC0xODIxNTY1NTEzLDczMD
+eyJoaXN0b3J5IjpbOTk3NjMzNzAxLC0xODIxNTY1NTEzLDczMD
 k5ODExNl19
 -->
