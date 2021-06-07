@@ -1,6 +1,6 @@
 # Kubernetes Operators
 
-A [Kubernetes operator](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook?intcmp=701f2000001OMH6AAO) is a method of packaging, deploying, and managing a Kubernetes application. A Kubernetes application is both deployed on [Kubernetes](https://www.redhat.com/en/topics/containers/what-is-kubernetes) and managed using the Kubernetes API (application programming interface) and kubectl tooling.
+A [Kubernetes operator](https://www.redhat.com/rhdc/managed-files/cl-oreilly-kubernetes-operators-ebook-f21452-202001-en_2.pdf) is a method of packaging, deploying, and managing a Kubernetes application. A Kubernetes application is both deployed on [Kubernetes](https://www.redhat.com/en/topics/containers/what-is-kubernetes) and managed using the Kubernetes API (application programming interface) and kubectl tooling.
 
 A Kubernetes operator is an application-specific controller that extends the functionality of the Kubernetes API to create, configure, and manage instances of complex applications on behalf of a Kubernetes user.
 
@@ -63,5 +63,5 @@ service-ca                                 4.7.0-0.okd-2021-05-22-050008   True 
 storage                                    4.7.0-0.okd-2021-05-22-050008   True        False         False      171d
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMwOTk4NzIsMTIzOTE2NjM4MF19
+eyJoaXN0b3J5IjpbMjAxNDY1NzUxMSwxMjM5MTY2MzgwXX0=
 -->
