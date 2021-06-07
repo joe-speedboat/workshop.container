@@ -12,6 +12,13 @@ TIME: 15min
 	* Look for the section `Volumes`
 
 * Discuss the tasks and outcome with the class
+
+## Identify depending container resources
+If you can't find out the needs, you should look for:
+- container registry documentation at  [dockerhub](https://hub.docker.com/r/nodered/node-red)
+- Use `docker inspect` to look into a container
+- Read the `Dockerfile` to see how the container got built.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Nzc5ODg5NV19
+eyJoaXN0b3J5IjpbMTE2MDQ0MjA1OF19
 -->
