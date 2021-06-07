@@ -46,7 +46,7 @@ firewall-cmd --reload
 ### Install Docker Compose
 ```bash
 test -d $HOME/bin || mkdir $HOME/bin
-curl -L "[https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname](https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname) -s)-$(uname -m)" -o $HOME/bin/docker-compose
+curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname) -s)-$(uname -m)" -o $HOME/bin/docker-compose
 chmod 700 $HOME/bin/docker-compose
 ```
 
@@ -57,6 +57,6 @@ dnf -y install vim tar wget jq git bash-completion lsof
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODY3NDIxMSwtMTg5NDY4MTYwMiwtOD
+eyJoaXN0b3J5IjpbMTE3NTgzMTU1MSwtMTg5NDY4MTYwMiwtOD
 E2NzgwNzQ4LDEyOTMxMDI3OTIsNTE4MzYwNzAzXX0=
 -->
