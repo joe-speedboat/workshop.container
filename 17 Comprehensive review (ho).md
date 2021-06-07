@@ -1,4 +1,5 @@
 # Comprehensive review
+TIME: 20 min - 40 min
 
 To see if we did understand what we learned today, we deploy a multi container application
 
@@ -31,8 +32,8 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 * Verify the content
 
 ## Docker Automation Hero
-Look at the wikijs page mentioned above and try to get the 
+Look at the wikijs page mentioned above and try to get the application up and running with `docker-compose`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQwNjg5NzcsLTEwNjc0NTE1MzNdfQ
+eyJoaXN0b3J5IjpbLTIxMzM5NjgwODUsLTEwNjc0NTE1MzNdfQ
 ==
 -->
