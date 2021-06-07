@@ -47,8 +47,10 @@ spec:
   tower_hostname: fqdn.domain.com
   ```
 
+    kubectl apply -f myawx.yml
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM0Njk4ODQsMTYwMDcwNzM4OSwtMj
-g3NzI4OTk2XX0=
+eyJoaXN0b3J5IjpbMTkyOTA3OTgxMSwxNjAwNzA3Mzg5LC0yOD
+c3Mjg5OTZdfQ==
 -->
