@@ -2,7 +2,9 @@
 Kubernetes operators are a big step into this direction, since the migration of Docker applications into new versions needed often some attention. Operators are containerized system administrators that maintain a kind of workload.
 This might be `prometheus` (which initially developed the operator concept).
 `AWX` which is the OpenSource Version of the Ansible Tower.
+
 Operators are the answer to missing kubernetes know-how and the leak of system administrators.
+
 If you look into a running OpenShift cluster you can get an idea of where we will end:
 ```
 [chris@control(wiki/system:admin) ~]☯ oc get clusteroperators.config.openshift.io
@@ -40,5 +42,5 @@ service-ca                                 4.7.0-0.okd-2021-05-22-050008   True 
 storage                                    4.7.0-0.okd-2021-05-22-050008   True        False         False      171d
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDQ5NTYyNF19
+eyJoaXN0b3J5IjpbMTIzOTE2NjM4MF19
 -->
