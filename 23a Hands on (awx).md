@@ -90,30 +90,34 @@ firefox https://fqdn.domain.com
     echo PORT=$PORT
     firewall-cmd --zone=public --add-port=$PORT
 
-## Disable SELinux
+## Disable SELinux and check autdit logs
 
     setenforce 0
     > /var/log/audit/audit.log 
 
-# do some bad things
+    # do some bad things
 
     sealert -a /var/log/audit/audit.log
 
 ## Traefik Config
 
-- [https://levelup.gitconnected.com/a-guide-to-k3s-ingress-using-traefik-with-nodeport-6eb29add0b4b](https://levelup.gitconnected.com/a-guide-to-k3s-ingress-using-traefik-with-nodeport-6eb29add0b4b)
+- https://levelup.gitconnected.com/a-guide-to-k3s-ingress-using-traefik-with-nodeport-6eb29add0b4b
 
-kubectl -n kube-system edit cm traefik
+    kubectl -n kube-system edit cm traefik
 
 ## Jump into container for debugging
 
 # get pods
-kubectl get pods
-# get containers inside of pods
-kubectl describe <pod-name>
 
-kubectl exec --stdin --tty <pod-name> -c <container-name> -- /bin/bash
+    kubectl get pods
+
+# get containers inside of pods
+
+    kubectl describe <pod-name>
+
+    kubectl exec --stdin --tty <pod-name> -c <container-name> -- /bin/bash
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM1NzY3OTIsMTYwMDcwNzM4OSwtMj
+eyJoaXN0b3J5IjpbLTEzMzI3ODcxMDQsMTYwMDcwNzM4OSwtMj
 g3NzI4OTk2XX0=
 -->
