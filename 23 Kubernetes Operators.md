@@ -20,12 +20,6 @@ A Kubernetes operator continues to monitor its application as it runs, and can b
 
 The actions a Kubernetes operator performs can include almost anything: scaling a complex app, application version upgrades, or even managing kernel modules for nodes in a computational cluster with specialized hardware.
 
-Kubernetes operators are a big step into this direction, since the migration of Docker applications into new versions needed often some attention. Operators are containerized system administrators that maintain a kind of workload.
-This might be `prometheus` (which initially developed the operator concept).
-`AWX` which is the OpenSource Version of the Ansible Tower.
-
-Operators are the answer to missing kubernetes know-how and the leak of system administrators.
-
 If you look into a running OpenShift cluster you can get an idea of where we will end:
 ```
 [chris@control(wiki/system:admin) ~]☯ oc get clusteroperators.config.openshift.io
@@ -63,5 +57,5 @@ service-ca                                 4.7.0-0.okd-2021-05-22-050008   True 
 storage                                    4.7.0-0.okd-2021-05-22-050008   True        False         False      171d
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDY1NzUxMSwxMjM5MTY2MzgwXX0=
+eyJoaXN0b3J5IjpbMzMwODE5Njg3LDEyMzkxNjYzODBdfQ==
 -->
