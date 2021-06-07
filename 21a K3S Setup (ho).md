@@ -1,4 +1,6 @@
 # K3S Setup - hands on
+TIME: 15 min
+
 [K3S homepage](https://k3s.io/)
 K3S is a minimalistic Kubernetes distribution which moved all Kubernetes components into containers and reduced them to the absolute minimum. 
 
@@ -81,6 +83,6 @@ kube-system   traefik-97b44b794-6xng4                   1/1     Running   0     
 ```
 Please discuss the components you see with your class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjQ3OTYyNCwxMTI0Njg2ODUsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbOTYxODM3MTYzLDExMjQ2ODY4NSw3MzA5OT
+gxMTZdfQ==
 -->
