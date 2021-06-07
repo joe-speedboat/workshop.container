@@ -9,6 +9,10 @@ https://vsupalov.com/12-docker-facts/
 
 ## Docker tutorial
 https://runnable.com/docker/getting-started/
+
+## Kubernetes Operators
+https://www.redhat.com/rhdc/managed-files/cl-oreilly-kubernetes-operators-ebook-f21452-202001-en_2.pdf
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjY2OTM1MjJdfQ==
+eyJoaXN0b3J5IjpbMTk5OTMwODEzN119
 -->
