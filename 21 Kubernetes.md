@@ -1,6 +1,8 @@
 
 
 # Kubernetes
+[Kubernetes cheat sheet](https://kubernetes.io/de/docs/reference/kubectl/cheatsheet/)
+
 Kubernetes is the current industry-standard in Container management.
 So all the Docker workload is moving into a Kubernetes Cluster ... sooner or later.
 
@@ -17,5 +19,5 @@ However, lets look into the minimal Kubernetes components to get an Idea of how 
 
 ![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc2MTQ0OTIsMTM0NDE2MjY1Nl19
+eyJoaXN0b3J5IjpbMTk3NTU0Nzc1OSwxMzQ0MTYyNjU2XX0=
 -->
