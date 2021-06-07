@@ -32,7 +32,7 @@ kubectl get pods
 	nodered-7555b955f9-9s88b   1/1     Running   0          40s
 ```
   
-## Show pod logs
+## Examine container logs
 
     kubectl logs nodered-7555b955f9-9s88b 
 
@@ -72,10 +72,12 @@ file using your chosen key the next time you deploy a change.
 7 Jun 08:20:25 - [info] Starting flows
 7 Jun 08:20:25 - [info] Started flows
 ```
+
 From logs you can take two needs of the current container:
-- persistent volume (storate)
-- listen port
+- Persistent volume (storage): `/data`
+- Listen port: `1880`
+Of course 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDQwNTAxNywtMTgyMTU2NTUxMyw3Mz
+eyJoaXN0b3J5IjpbMTAwNjI3MDg1MCwtMTgyMTU2NTUxMyw3Mz
 A5OTgxMTZdfQ==
 -->
