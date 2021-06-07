@@ -50,16 +50,18 @@ spec:
     kubectl apply -f myawx.yml
 
 ## Wait until images got pulled
----
-apiVersion: awx.ansible.com/v1beta1
-kind: AWX
-metadata:
-  name: awx
-spec:
-  tower_ingress_type: Ingress
-  tower_route_tls_termination_mechanism: edge
-  tower_hostname: fqdn.domain.com
+    kubectl get events -w --all-namespaces
+
+## Check operator logs
+
+    kubectl logs -f deployment.apps/awx-operator -n default
+
+### Wait for operator to finish its work
+    PLAY RECAP *********************************************************************
+    localhost: ok=42 changed=0 unreachable=0 failed=0 skipped=30 rescued=0 ignored=0
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTgyNTgzOSwxNjAwNzA3Mzg5LC0yOD
+eyJoaXN0b3J5IjpbLTkyNzUxNjY5NSwxNjAwNzA3Mzg5LC0yOD
 c3Mjg5OTZdfQ==
 -->
