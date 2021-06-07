@@ -20,8 +20,7 @@ Pleas download this files as mentioned above and then look at this files and try
 ## Understand k8s resources 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/k8s_workload.png)
 
-## Configure depending container resources
-Of course it is not given at any time that container needs are written to the logs.
+## Identify depending container resources
 If you can't find out the needs, you should look for:
 - container registry documentation at  [dockerhub](https://hub.docker.com/r/nodered/node-red)
 - Use `docker inspect` to look into a container
@@ -29,5 +28,6 @@ If you can't find out the needs, you should look for:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDA2NDU4LC0xNjI1NDEyODMxXX0=
+eyJoaXN0b3J5IjpbLTE0MDYyMTg1MzQsLTE2MjU0MTI4MzFdfQ
+==
 -->
