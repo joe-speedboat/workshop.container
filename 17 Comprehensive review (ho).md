@@ -11,7 +11,7 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 ```
  
 ## Exercise
-*  Read the [documentation](https://docs.requarks.io/install/docker) of wikijs
+*  Read the [documentation](https://docs.requarks.io/install/docker) of wikijs Docker setup
 	* Setup a mariadb with docker
 	* Setup a wikijs that connects to this service
 	* write some content into the wiki
@@ -21,7 +21,7 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 * verify if you can access the content again
 
 ## Addon
-* Pack the db directory into a tar.gz and move it to your desktop
+* Pack the db directory content into a tar.gz and move it to your desktop
 * Note the comands you used to deploy the wikijs with mariadb in a save place
 * Restore the VM snapshot of your docker node
 * Install docker
@@ -30,6 +30,5 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 * Verify the content
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcxNzUxNjUsLTEwNjc0NTE1MzNdfQ
-==
+eyJoaXN0b3J5IjpbMTMwODQ2NzExOSwtMTA2NzQ1MTUzM119
 -->
