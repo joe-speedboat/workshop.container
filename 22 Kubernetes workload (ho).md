@@ -82,9 +82,13 @@ kubectl get all
 
 # you can as well check the k8s events. CTRL-C to exit
 kubectl get events --all-namespaces -w
+	...
+	nodered       8m18s       Normal    ProvisioningSucceeded     persistentvolumeclaim/nodered-claim                              Successfully provisioned volume pvc-53616cc2-cb35-405e-aea9-ba3cd47d9c11
+	nodered       8m16s       Normal    Pulling                   pod/nodered-7c68d6cccd-bklhl                                     Pulling image "nodered/node-red"
+	nodered       8m15s      
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI3NTQ4NjUsMTY4NzMwMTQwLC03MD
-cwNTQyOTgsLTE2MjU0MTI4MzFdfQ==
+eyJoaXN0b3J5IjpbNTYzODA4ODQ1LC0xMjgyNzU0ODY1LDE2OD
+czMDE0MCwtNzA3MDU0Mjk4LC0xNjI1NDEyODMxXX0=
 -->
