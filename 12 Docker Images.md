@@ -47,7 +47,8 @@ docker inspect busybox:latest | jq -r '.[].RootFS'
 ## Customize an existing Docker Image
 ### Prepare your Docker Project
 ```bash
-mkdir src/docker.toolbox
+cd
+mkdir -p src/docker.toolbox
 cd src/docker.toolbox
 ```
 ### Create the container building information
@@ -167,5 +168,5 @@ Of course you can search is as well with the docker cli client, but it may take 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg2NzAxMTJdfQ==
+eyJoaXN0b3J5IjpbLTk3MjgwODQ3OCwtMjA4ODY3MDExMl19
 -->
