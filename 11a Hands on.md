@@ -1,5 +1,5 @@
 # Docker Registry - hands on
-TIME: 20min
+TIME: 15 min
 
 * Explore the docker-cli options with:
 ```bash
@@ -15,5 +15,5 @@ man -k docker
 
 * Discuss the tasks and outcome with the class
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3ODQ2NTU5XX0=
+eyJoaXN0b3J5IjpbLTYwNzEzMTQyOV19
 -->
