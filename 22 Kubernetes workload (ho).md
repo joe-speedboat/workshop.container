@@ -80,11 +80,11 @@ kubectl get all
 	NAME                                 DESIRED   CURRENT   READY   AGE
 	replicaset.apps/nodered-7c68d6cccd   1         1         1       19s
 
-# you can as well check the k8s events
+# you can as well check the k8s events. CTRL-C to exit
 kubectl get events --all-namespaces -w
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDMzMjg3MSwxNjg3MzAxNDAsLTcwNz
-A1NDI5OCwtMTYyNTQxMjgzMV19
+eyJoaXN0b3J5IjpbLTEyODI3NTQ4NjUsMTY4NzMwMTQwLC03MD
+cwNTQyOTgsLTE2MjU0MTI4MzFdfQ==
 -->
