@@ -22,9 +22,19 @@ Please download this files as mentioned above and then look at this files and tr
 
 ## Edit the application resources to fit your needs
 
+```bash
+grep namespace *
+	ingress.yml:  namespace: nodered
+	pod.yml:  namespace: nodered
+
+grep host *
+ingress.yml:  - host: k3s.mydomain.com
+
+# change host to fit your needs
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzA1NDI5OCwtMTYyNTQxMjgzMV19
+eyJoaXN0b3J5IjpbNTYxMzQwNTkwLC03MDcwNTQyOTgsLTE2Mj
+U0MTI4MzFdfQ==
 -->
