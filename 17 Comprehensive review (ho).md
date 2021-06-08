@@ -9,7 +9,7 @@ mkdir database
 
 docker run -d --restart unless-stopped --name db -e POSTGRES_DB=wiki -e POSTGRES_PASSWORD=wikijsrocks -e POSTGRES_USER=wikijs -v $PWD/database:/var/lib/postgresql/data postgres:11-alpine
 
-docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB_TYPE=postgres -e DB_HOST=db -e DB_PORT=5432 -e DB_USER=wikijs -e DB_PASS=wikijsrocks -e DB_NAME=wiki requarks/wiki:
+docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB_TYPE=postgres -e DB_HOST=db -e DB_PORT=5432 -e DB_USER=wikijs -e DB_PASS=wikijsrocks -e DB_NAME=wiki requarks/wiki:2
 ```
  
 ## Exercise
@@ -34,6 +34,6 @@ docker run -d -p 80:3000 --restart unless-stopped --name wiki --link db:db -e DB
 ## Docker Automation Hero
 Look at the wikijs page mentioned above and try to get the application up and running with `docker-compose`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM5NjgwODUsLTEwNjc0NTE1MzNdfQ
-==
+eyJoaXN0b3J5IjpbMTA3ODEyMzI1MywtMjEzMzk2ODA4NSwtMT
+A2NzQ1MTUzM119
 -->
