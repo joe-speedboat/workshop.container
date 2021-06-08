@@ -35,10 +35,11 @@ vim ingress.yml
 ```
 
 ## Deploy the workload
+- please not, that the pod will not get deployed by kubectl, it's integra
 ```bash
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzMwMTQwLC03MDcwNTQyOTgsLTE2Mj
-U0MTI4MzFdfQ==
+eyJoaXN0b3J5IjpbNDg1NDMzMzQyLDE2ODczMDE0MCwtNzA3MD
+U0Mjk4LC0xNjI1NDEyODMxXX0=
 -->
