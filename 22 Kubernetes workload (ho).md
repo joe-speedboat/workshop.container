@@ -20,10 +20,11 @@ Please download this files as mentioned above and then look at this files and tr
 ## Understand k8s resources 
 ![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/k8s_workload.png)
 
+## Edit the application resources to fit your needs
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUzMjM1NzAsLTE2MjU0MTI4MzFdfQ
-==
+eyJoaXN0b3J5IjpbLTcwNzA1NDI5OCwtMTYyNTQxMjgzMV19
 -->
