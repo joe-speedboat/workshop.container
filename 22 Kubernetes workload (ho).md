@@ -60,28 +60,31 @@ kubectl create -f pvc.yml
 # create the deployment, this will also create the pod 
 kubectl create -f deployment.yml 
 	deployment.apps/nodered created
-
+# create the service, so connectivity to container will be possible
 kubectl create -f svc.yml 
 	service/nodered created
 
 kubectl create -f ingress.yml 
 	ingress.networking.k8s.io/www created
-### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
-# kubectl get all
-NAME                           READY   STATUS    RESTARTS   AGE
-pod/nodered-7c68d6cccd-bklhl   1/1     Running   0          19s
 
-NAME              TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
-service/nodered   ClusterIP   10.43.171.204   <none>        1880/TCP   14s
+kubectl get all
+	NAME                           READY   STATUS    RESTARTS   AGE
+	pod/nodered-7c68d6cccd-bklhl   1/1     Running   0          19s
 
-NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
-deployment.apps/nodered   1/1     1            1           19s
+	NAME              TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+	service/nodered   ClusterIP   10.43.171.204   <none>        1880/TCP   14s
 
-NAME                                 DESIRED   CURRENT   READY   AGE
-replicaset.apps/nodered-7c68d6cccd   1         1         1       19s
+	NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+	deployment.apps/nodered   1/1     1            1           19s
+
+	NAME                                 DESIRED   CURRENT   READY   AGE
+	replicaset.apps/nodered-7c68d6cccd   1         1         1       19s
+
+# you can as well check the k8s events
+kubectl get events --all-namespaces -w
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMjQ0MjczLDE2ODczMDE0MCwtNzA3MD
-U0Mjk4LC0xNjI1NDEyODMxXX0=
+eyJoaXN0b3J5IjpbLTM4NDMzMjg3MSwxNjg3MzAxNDAsLTcwNz
+A1NDI5OCwtMTYyNTQxMjgzMV19
 -->
