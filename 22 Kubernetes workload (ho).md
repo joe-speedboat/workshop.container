@@ -28,13 +28,17 @@ grep namespace *
 	pod.yml:  namespace: nodered
 
 grep host *
-ingress.yml:  - host: k3s.mydomain.com
+	ingress.yml:  - host: k3s.mydomain.com
 
 # change host to fit your needs
+vim ingress.yml
+```
 
+## Deploy the workload
+```bash
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMzQwNTkwLC03MDcwNTQyOTgsLTE2Mj
+eyJoaXN0b3J5IjpbMTY4NzMwMTQwLC03MDcwNTQyOTgsLTE2Mj
 U0MTI4MzFdfQ==
 -->
