@@ -35,11 +35,51 @@ vim ingress.yml
 ```
 
 ## Deploy the workload
-- please not, that the pod will not get deployed by kubectl, it's integra
+- please not, that the pod will not get deployed by kubectl, it's integrated in the kubernetes deployment resource.
 ```bash
+# create nodered namespace
+kubectl create namespace nodered
+	namespace/nodered created
 
+# switch to namespace, so that new resouces get created within if they have not namespace defined within
+kubectl config set-context --current --namespace=nodered
+	Context "default" modified.
 
+# 
+ls -1
+	deployment.yml
+	ingress.yml
+	pod.yml
+	pvc.yml
+	svc.yml
+### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
+# kubectl create -f pvc.yml
+persistentvolumeclaim/nodered-claim created
+### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
+# kubectl create -f deployment.yml 
+deployment.apps/nodered created
+### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
+# kubectl create -f svc.yml 
+service/nodered created
+### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
+# kubectl create -f ingress.yml 
+ingress.networking.k8s.io/www created
+### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
+# kubectl get all
+NAME                           READY   STATUS    RESTARTS   AGE
+pod/nodered-7c68d6cccd-bklhl   1/1     Running   0          19s
+
+NAME              TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/nodered   ClusterIP   10.43.171.204   <none>        1880/TCP   14s
+
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/nodered   1/1     1            1           19s
+
+NAME                                 DESIRED   CURRENT   READY   AGE
+replicaset.apps/nodered-7c68d6cccd   1         1         1       19s
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NDMzMzQyLDE2ODczMDE0MCwtNzA3MD
-U0Mjk4LC0xNjI1NDEyODMxXX0=
+eyJoaXN0b3J5IjpbLTE3MjMwNTUyMzAsMTY4NzMwMTQwLC03MD
+cwNTQyOTgsLTE2MjU0MTI4MzFdfQ==
 -->
