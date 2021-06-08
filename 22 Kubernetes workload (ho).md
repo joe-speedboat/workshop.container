@@ -45,25 +45,27 @@ kubectl create namespace nodered
 kubectl config set-context --current --namespace=nodered
 	Context "default" modified.
 
-# 
+# find the resources we downloaded before
 ls -1
 	deployment.yml
 	ingress.yml
 	pod.yml
 	pvc.yml
 	svc.yml
-### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
-# kubectl create -f pvc.yml
-persistentvolumeclaim/nodered-claim created
-### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
-# kubectl create -f deployment.yml 
-deployment.apps/nodered created
-### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
-# kubectl create -f svc.yml 
-service/nodered created
-### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
-# kubectl create -f ingress.yml 
-ingress.networking.k8s.io/www created
+
+# create the physical volume claim, pls. node the action of storage auto provisioner
+kubectl create -f pvc.yml
+	persistentvolumeclaim/nodered-claim created
+
+# create the deployment, this will also create the pod 
+kubectl create -f deployment.yml 
+	deployment.apps/nodered created
+
+kubectl create -f svc.yml 
+	service/nodered created
+
+kubectl create -f ingress.yml 
+	ingress.networking.k8s.io/www created
 ### 08.06.2021_10:41 root@k3s:~/nodered ✯ nodered 
 # kubectl get all
 NAME                           READY   STATUS    RESTARTS   AGE
@@ -80,6 +82,6 @@ replicaset.apps/nodered-7c68d6cccd   1         1         1       19s
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMwNTUyMzAsMTY4NzMwMTQwLC03MD
-cwNTQyOTgsLTE2MjU0MTI4MzFdfQ==
+eyJoaXN0b3J5IjpbODYzMjQ0MjczLDE2ODczMDE0MCwtNzA3MD
+U0Mjk4LC0xNjI1NDEyODMxXX0=
 -->
