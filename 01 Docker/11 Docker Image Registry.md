@@ -114,7 +114,9 @@ docker login
 ### Pushing an Docker image
 Let us push a docker image into the private docker registry.
 ```bash
-
+REG_URL
+REG_USR
+# login to dockerhub
 docker login
 
 
@@ -122,5 +124,6 @@ docker login
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMTYwMTA0LC02NTM4MDYzNzddfQ==
+eyJoaXN0b3J5IjpbMTYxODcyMjA5Nyw4OTAxNjAxMDQsLTY1Mz
+gwNjM3N119
 -->
