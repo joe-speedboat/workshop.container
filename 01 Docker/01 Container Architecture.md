@@ -3,7 +3,7 @@ Docker is an open platform for developing, shipping, and running applications. D
 
 ## Docker  Containers vs. Operating System Applications
 Docker, Kubernetes, and containers are indeed powerful technologies that can bring many benefits to a business. However, depending on what kind of workload you have, you might need to stick to using virtual machines (VMs) instead, or a combination of both containers and VMs.
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/images/containers-vs-virtual-machines.jpg)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/containers-vs-virtual-machines.jpg)
 ## Namespaces
 Docker uses a technology called `namespaces` to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
 These namespaces provide a layer of **isolation**. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
@@ -28,7 +28,7 @@ Under the hood might not be the correct heading for this topic, but these are th
 
 The usage and handling of Docker Containers is depending on several components, below I tried to describe it in a meaning way, so we can discuss it now...
 
-![enter image description here](images/docker_overview_bychris.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/docker_overview_bychris.png)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTU1OTA3MTg5OF19
