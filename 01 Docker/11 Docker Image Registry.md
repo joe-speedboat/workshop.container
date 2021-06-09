@@ -104,9 +104,7 @@ docker login
 	Login with your Docker ID to push and pull images from Docker Hub....
 	Username: 
 	Password: 
-	WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
-	Configure a credential helper to remove this warning. See
-	https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+...
 
 	Login Succeeded
 ```
@@ -124,6 +122,6 @@ docker login
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODcyMjA5Nyw4OTAxNjAxMDQsLTY1Mz
-gwNjM3N119
+eyJoaXN0b3J5IjpbNTQ5MTc5NzgxLDE2MTg3MjIwOTcsODkwMT
+YwMTA0LC02NTM4MDYzNzddfQ==
 -->
