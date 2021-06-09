@@ -133,32 +133,32 @@ docker images
 docker tag mytoolbox:0.01 mytoolbox:stable
 
 docker images
-REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
-mytoolbox    0.01      a2424c9c517b   15 minutes ago   53.5MB
-mytoolbox    stable    a2424c9c517b   15 minutes ago   53.5MB
-alpine       3.13      6dbb9cc54074   6 weeks ago      5.61MB
-alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
+	REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+	mytoolbox    0.01      a2424c9c517b   15 minutes ago   53.5MB
+	mytoolbox    stable    a2424c9c517b   15 minutes ago   53.5MB
+	alpine       3.13      6dbb9cc54074   6 weeks ago      5.61MB
+	alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
 ```
 
 ### And now lets make this image public available
 * My Dockerhub namespace is <tt>christian773</tt>, please replace this with your namespace name.
 ```bash
-[root@node toolbox]# docker tag mytoolbox:stable docker.io/christian773/mytoolbox:stable
+docker tag mytoolbox:stable docker.io/christian773/mytoolbox:stable
 
-[root@node toolbox]# docker login
-Authenticating with existing credentials...
-WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
-Configure a credential helper to remove this warning. See
-https://docs.docker.com/engine/reference/commandline/login/#credentials-store
-Login Succeeded
+docker login
+	Authenticating with existing credentials...
+	WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+	Configure a credential helper to remove this warning. See
+	https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+	Login Succeeded
 
-[root@node toolbox]# docker push docker.io/christian773/mytoolbox:stable
-The push refers to repository [docker.io/christian773/mytoolbox]
-25f46b9aaadb: Pushed 
-2be52c6a6a9f: Pushed 
-08ba6168a320: Pushed 
-b2d5eeeaba3a: Mounted from library/alpine 
-stable: digest: sha256:e177e2ceb9c980086536a5a09e93b6685f1c9ca7761cb579e747979c6c059513 size: 1156
+docker push docker.io/christian773/mytoolbox:stable
+	The push refers to repository [docker.io/christian773/mytoolbox]
+	25f46b9aaadb: Pushed 
+	2be52c6a6a9f: Pushed 
+	08ba6168a320: Pushed 
+	b2d5eeeaba3a: Mounted from library/alpine 
+	stable: digest: sha256:e177e2ceb...747979c6c059513 size: 1156
 ```
 ### let us now check if the image is available
 After about 5 minutes you should be able to see the new image in your dockerhub profile:
@@ -168,5 +168,5 @@ Of course you can search is as well with the docker cli client, but it may take 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4MzI2NjQ0XX0=
+eyJoaXN0b3J5IjpbMTM0NTUzMjMzMl19
 -->
