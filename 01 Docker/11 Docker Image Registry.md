@@ -93,11 +93,18 @@ docker login -u christian773 docker.io
 ### Pushing an Docker image
 Let us push a docker image into the private docker registry.
 ```bash
-
-
+docker push docker.io/christian773/todo-spring:stable
+The push refers to repository [docker.io/christian773/todo-spring]
+d2ce0d2f1200: Pushed 
+fa1dacd1e720: Pushed 
+144a43b910e8: Pushed 
+4a2bc86056a8: Pushed 
+stable: digest: sha256:e0fb5fdbf3e8c585ec4a9f33c71e3b94956948acafbbd25e8025058257a84584 size: 1162
 ```
 
 ## Dockerhub limitations
+Dockerhub public image registry used to be free for any usage.
+But since they reached it's capacity limits, you have to authenticate for bypassing the public limits.
 
 ### Anonymous dockerhub limitations
 ```bash
@@ -121,7 +128,7 @@ curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ra
 	ratelimit-remaining: 200;w=21600
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM4MzYwMTQsLTc5MDU5NDAwMywxOD
+eyJoaXN0b3J5IjpbLTE1NjgzMDIwODEsLTc5MDU5NDAwMywxOD
 IwMDQ1NzA2LDE2MTg3MjIwOTcsODkwMTYwMTA0LC02NTM4MDYz
 NzddfQ==
 -->
