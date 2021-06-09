@@ -14,8 +14,12 @@
 
 # Exercises
 Most of the code you will see is meant as an exercise.
-To make it easier finding out which one you have to execute in your LAB/VM, I will mark the titles and pages wit an **ho** or **hands on** tag.
-
+To make it easier finding out which one you have to execute in your LAB/VM, 
+I will marked the titles and pages wit an
+ - **ho** for **hands on** tag.
+ or
+ - **lab** for **self paced** tag.
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjE0NjY1Ml19
+eyJoaXN0b3J5IjpbLTU5MDkzNjE1NywxMTYyMTQ2NjUyXX0=
 -->
