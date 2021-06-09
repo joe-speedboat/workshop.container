@@ -59,6 +59,10 @@ docker images
 Tags are used to identify the location and version of an image.
 Let's explore it by an example with the image we downloaded from quay.io before:
 ```bash
+docker pull quay.io/ooteniya/todo-spring:v5.0.0
+	v5.0.0: Pulling from ooteniya/todo-spring
+	...
+	
 docker tag quay.io/ooteniya/todo-spring:v5.0.0 docker.io/christian773/todo-spring:v5.0.0
 
 docker tag quay.io/ooteniya/todo-spring:v5.0.0 docker.io/christian773/todo-spring:stable
@@ -123,6 +127,6 @@ docker login
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDA0NTcwNiwxNjE4NzIyMDk3LDg5MD
-E2MDEwNCwtNjUzODA2Mzc3XX0=
+eyJoaXN0b3J5IjpbLTE0MzMwNjE2NywxODIwMDQ1NzA2LDE2MT
+g3MjIwOTcsODkwMTYwMTA0LC02NTM4MDYzNzddfQ==
 -->
