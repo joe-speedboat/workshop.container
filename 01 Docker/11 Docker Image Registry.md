@@ -73,9 +73,9 @@ docker images
 As you can see, tags can be used to label image versions.
 
 ## Authenticate against Registry Service
-Dockerhub public image registry used to be free for any usage ... 
+Dockerhub public image registry used to be free for any usage.
 But since they reached it's capacity limits, you have to authenticate for bypassing the publick limits.
-
+You need as well to authenticate against a registry if you want to pull images that are not public.
 
 ### Anonymous dockerhub limitations
 ```bash
@@ -123,6 +123,6 @@ docker login
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MTgwNDg3LDE2MTg3MjIwOTcsODkwMT
-YwMTA0LC02NTM4MDYzNzddfQ==
+eyJoaXN0b3J5IjpbMTgyMDA0NTcwNiwxNjE4NzIyMDk3LDg5MD
+E2MDEwNCwtNjUzODA2Mzc3XX0=
 -->
