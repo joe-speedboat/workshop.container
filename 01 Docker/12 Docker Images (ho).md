@@ -76,28 +76,28 @@ RUN chmod 755 /usr/bin/nc_benchmark.sh
 ### Build it
 ```bash
 docker build --network=host -t mytoolbox:0.01 .
-Sending build context to Docker daemon   2.56kB
-Step 1/12 : FROM alpine:3.13
- ---> 6dbb9cc54074
-...
-Removing intermediate container 7dcc1bf8ab68
- ---> a2424c9c517b
-Successfully built a2424c9c517b
-Successfully tagged mytoolbox:0.01
+	Sending build context to Docker daemon   2.56kB
+	Step 1/12 : FROM alpine:3.13
+	 ---> 6dbb9cc54074
+	...
+	Removing intermediate container 7dcc1bf8ab68
+	 ---> a2424c9c517b
+	Successfully built a2424c9c517b
+	Successfully tagged mytoolbox:0.01
 ```
 ### Test it
 ```bash
-[root@node toolbox]# hostname -i
-192.168.116.102
+hostname -i
+	192.168.116.102
 
-[root@node toolbox]# docker run -it mytoolbox:0.01 bash
-**bash-5.1# /usr/bin/nmap -T5 -P0 -sS 127.0.0.1**
-Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
-Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-01 17:33 UTC
-Nmap scan report for localhost (127.0.0.1)
-Host is up (0.0000010s latency).
-All 1000 scanned ports on localhost (127.0.0.1) are closed
-Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+docker run -it mytoolbox:0.01 bash
+	**bash-5.1# /usr/bin/nmap -T5 -P0 -sS 127.0.0.1**
+		Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+		Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-01 17:33 UTC
+		Nmap scan report for localhost (127.0.0.1)
+		Host is up (0.0000010s latency).
+		All 1000 scanned ports on localhost (127.0.0.1) are closed
+		Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
 
 bash-5.1# /usr/bin/nmap -T5 -P0 -sS 192.168.116.102**
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
@@ -168,5 +168,5 @@ Of course you can search is as well with the docker cli client, but it may take 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjgwODQ3OF19
+eyJoaXN0b3J5IjpbOTExMTQxMjQwXX0=
 -->
