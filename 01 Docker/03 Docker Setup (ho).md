@@ -19,6 +19,15 @@ Docker EE, on the other hand, is a premium version of CE. Docker EE is an integr
 ## Setup a Docker CE host on CentOS8 (ho)
 This user can be used later on to manage Docker, but will have no privileges to manage the underlying operating system.
 
+### Configure Firewalling
+```bash
+dnf -y install firewalld
+systemctl enable firewalld --now
+firewall-cmd --permanent --zone=public --set-target=ACCEPT
+firewall-cmd --zone=public --add-masquerade --permanent
+firewall-cmd --reload
+```
+
 ### Install Docker CE
 ```
 yum -y install epel-release
@@ -32,15 +41,6 @@ systemctl enable docker
 ```
 useradd dadmin
 usermod -aG docker dadmin
-```
-
-### Configure Firewalling
-```bash
-dnf -y install firewalld
-systemctl enable firewalld --now
-firewall-cmd --permanent --zone=public --set-target=ACCEPT
-firewall-cmd --zone=public --add-masquerade --permanent
-firewall-cmd --reload
 ```
 
 ### Install Docker Compose
@@ -57,5 +57,5 @@ dnf -y install vim tar wget jq git bash-completion lsof
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDcxNzU0MF19
+eyJoaXN0b3J5IjpbMTIwMjMxNDI3NiwxNjIwNzE3NTQwXX0=
 -->
