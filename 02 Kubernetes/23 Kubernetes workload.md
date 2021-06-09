@@ -11,14 +11,14 @@ mkdir nodered
 cd nodered
 for r in deployment.yml ingress.yml pod.yml pvc.yml svc.yml
 do
-   wget https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/files/k8s/nodered/$r
+   wget https://raw.githubusercontent.com/joe-speedboat/workshop.container/main/files/k8s/nodered/$r
 done
 ```
 Please download this files as mentioned above and then look at this files and try to match the resources to the drawing below.
 
 
 ## Understand k8s resources 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/k8s_workload.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/k8s_workload.png)
 
 ## Edit the application resources to fit your needs
 

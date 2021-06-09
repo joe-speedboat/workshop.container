@@ -1,12 +1,12 @@
 # Docker Images
 A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users.
 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/container-layers.jpg)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/container-layers.jpg)
 ## Under the hood
 ```bash
 mkdir tmp
 cd tmp
-wget https://github.com/joe-speedboat/workshop.docker/raw/main/files/busybox.tar
+wget https://github.com/joe-speedboat/workshop.container/raw/main/files/busybox.tar
 
 # let's look deeper into this container thing...
 tar vtf busybox.tar

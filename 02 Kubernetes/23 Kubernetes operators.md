@@ -17,7 +17,7 @@ Kubernetes is designed for automation. Out of the box, you get lots of built-in 
 
 Kubernetes' [controllers](https://kubernetes.io/docs/concepts/architecture/controller/) concept lets you extend the cluster's behaviour without modifying the code of Kubernetes itself. Operators are clients of the Kubernetes API that act as controllers for a [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/k8s_operator.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/k8s_operator.png)
 
 If you look into a running OpenShift cluster you can get an idea of where we will end:
 ```

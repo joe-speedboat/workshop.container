@@ -1,7 +1,7 @@
 
 # The past and the future
 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/evol.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/evol.png)
 If it is a K8S native, K3S, RKE, Tanzu, OpenShift or even OKD ... it doesn't matter how you orchestrate your Container workload ... Everywhere, Kubernetes is inside.
 
 Problem is, at least for the next five to ten years, we will have some VMs running that have to interact with.

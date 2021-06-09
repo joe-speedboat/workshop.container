@@ -17,7 +17,7 @@ Kubernetes does orchestrate the whole container lifecycle:
 However, lets look into the minimal Kubernetes components to get an Idea of how it is organized.
 [read the docs](https://kubernetes.io/docs/concepts/overview/components/)
 
-![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.docker/main/images/components-of-kubernetes.svg)
+![enter image description here](https://raw.githubusercontent.com/joe-speedboat/workshop.container/main/images/components-of-kubernetes.svg)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTk3NTU0Nzc1OV19
 -->

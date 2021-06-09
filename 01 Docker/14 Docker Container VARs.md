@@ -3,7 +3,7 @@ Variables are used to inject variable Information into a container or image.
 If we do it during the build time, it is called an ARG. ARGs are not visible in running containers.
 In running containers, this variables are called ENV. ENVs are visible in running containers.
 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/docker_env_arg.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/docker_env_arg.png)
 ## Setting ARG Values
 How to set them, and where? 
 You can leave them blank in the Dockerfile, or set default values. 

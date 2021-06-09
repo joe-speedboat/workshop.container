@@ -7,7 +7,7 @@ Since few years, Red Hat goes it's own way to manage Docker containers.
 To not confuse anybody for this entry level course, we use docker only today, later on we can look into the Red Hat way of containers...
 Red Hat uses Podman, Buildyah and Skopeo.
 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/docker_vs_podman.jpg)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/docker_vs_podman.jpg)
 
 ## Docker CE vs EE: An Overview
 Docker CE is a free and open source containerization platform. It is a rebranded version of the Docker open source solution that has been freely available since the launch of Docker in 2013.

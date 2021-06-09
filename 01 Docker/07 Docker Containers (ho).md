@@ -85,7 +85,7 @@ docker run -d --restart unless-stopped -p 80:80 yeasy/simple-web:latest
 ```
 Now go and try to access the port 80 of your VM with a webbrowser!
 You should see something like that:
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/http_simple_web.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/http_simple_web.png)
 
 Now let us inspect the current status of docker.
 ```bash

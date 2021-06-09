@@ -11,7 +11,7 @@ Docker has two options for containers to store files in the host machine, so tha
 
 An easy way to visualize the difference among volumes, bind mounts, and tmpfs mounts is to think about where the data lives on the Docker host.
 
-![enter image description here](https://github.com/joe-speedboat/workshop.docker/raw/main/images/types-of-mounts.png)
+![enter image description here](https://github.com/joe-speedboat/workshop.container/raw/main/images/types-of-mounts.png)
 ## Choose the right type of mount
 Types of mounts and where they live on the Docker host.
 * Volumes are stored in a part of the host filesystem which is managed by Docker (/var/lib/docker/volumes/ on Linux). Non-Docker processes should not modify this part of the filesystem. Volumes are the best way to persist data in Docker.
