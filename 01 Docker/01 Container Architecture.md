@@ -28,7 +28,7 @@ Under the hood might not be the correct heading for this topic, but these are th
 
 The usage and handling of Docker Containers is depending on several components, below I tried to describe it in a meaning way, so we can discuss it now...
 
-![enter image description here](images/docker_overview_bychris.png)
+![enter image description here](../images/docker_overview_bychris.png)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTU1OTA3MTg5OF19
