@@ -77,29 +77,27 @@ docker images
 As you can see, tags can be used to label image versions.
 
 ## Authenticate against Registry Service
-Dockerhub public image registry used to be free for any usage.
-But since they reached it's capacity limits, you have to authenticate for bypassing the publick limits.
-You need as well to authenticate against a registry if you want to pull images that are not public.
+You need to authenticate against a registry if you want to pull images that are not public.
 
 ### Authenticate with docker client
 This will make your private images accessible and avoid hitting anonymous pull limitations
 ```bash
-docker login
-	Login with your Docker ID to push and pull images from Docker Hub....
-	Username: 
+docker login -u christian773 docker.io
 	Password: 
-	...
+	WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+	Configure a credential helper to remove this warning. See
+	https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 	Login Succeeded
 ```
 
 ### Pushing an Docker image
 Let us push a docker image into the private docker registry.
 ```bash
-REG_URL
-REG_USR
-# login to dockerhub
-docker login
+
+
 ```
+
+## Dockerhub limitations
 
 ### Anonymous dockerhub limitations
 ```bash
@@ -123,6 +121,7 @@ curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ra
 	ratelimit-remaining: 200;w=21600
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDU5NDAwMywxODIwMDQ1NzA2LDE2MT
-g3MjIwOTcsODkwMTYwMTA0LC02NTM4MDYzNzddfQ==
+eyJoaXN0b3J5IjpbLTExMDM4MzYwMTQsLTc5MDU5NDAwMywxOD
+IwMDQ1NzA2LDE2MTg3MjIwOTcsODkwMTYwMTA0LC02NTM4MDYz
+NzddfQ==
 -->
