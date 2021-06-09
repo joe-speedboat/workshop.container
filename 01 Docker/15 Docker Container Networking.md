@@ -48,12 +48,12 @@ docker run -p 10.0.0.3:80:8080 nginx
 You can create separate networks and connect docker containers to this specific netowkrs.
 However, if you need more complex multihost setups, it is recomended to use a abstracted networking layer that deals with this networking isolation issues. Like kubernetes, swarm, ...
 ```bash
-[root@node ~]# docker network ls
+docker network ls
 	NETWORK ID     NAME      DRIVER    SCOPE
 	9b3a47779c4c   bridge    bridge    local
 	9364c05292cf   host      host      local
 	677311b96ac2   none      null      local
-[root@node ~]# docker network inspect bridge
+docker network inspect bridge
 ...
             "Config": [
                 {
@@ -84,5 +84,5 @@ However, if you need more complex multihost setups, it is recomended to use a ab
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTczMjYyOV19
+eyJoaXN0b3J5IjpbLTQ5NTY0MTg4MV19
 -->
