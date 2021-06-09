@@ -54,23 +54,23 @@ docker network ls
 	9364c05292cf   host      host      local
 	677311b96ac2   none      null      local
 docker network inspect bridge
-...
+	...
             "Config": [
                 {
                     "Subnet": "172.17.0.0/16",
                     "Gateway": "172.17.0.1"
-...
+	...
 
-[root@node ~]#  docker network create -d bridge infra-net
-	a49ef9027e872fd39587870e491626148ea25a309cbb04350318c073af18fd48
+docker network create -d bridge infra-net
+	a49ef9027e872fd395878...04350318c073af18fd48
 
-[root@node ~]# docker network inspect infra-net
-...
+docker network inspect infra-net
+	...
                     "Subnet": "172.18.0.0/16",
                     "Gateway": "172.18.0.1"
-...
+	...
 
-[root@node ~]# docker run -it --name=net-test --net=infra-net busybox sh
+docker run -it --name=net-test --net=infra-net busybox sh
 	/ # ip a
 	1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
 	    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -84,5 +84,5 @@ docker network inspect bridge
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTY0MTg4MV19
+eyJoaXN0b3J5IjpbLTExNjI0OTUyNTJdfQ==
 -->
