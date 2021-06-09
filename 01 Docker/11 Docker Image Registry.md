@@ -81,9 +81,6 @@ Dockerhub public image registry used to be free for any usage.
 But since they reached it's capacity limits, you have to authenticate for bypassing the publick limits.
 You need as well to authenticate against a registry if you want to pull images that are not public.
 
-
-
-
 ### Authenticate with docker client
 This will make your private images accessible and avoid hitting anonymous pull limitations
 ```bash
@@ -102,12 +99,30 @@ REG_URL
 REG_USR
 # login to dockerhub
 docker login
-
-
-
 ```
 
+### Anonymous dockerhub limitations
+```bash
+TOKEN=$(curl "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
+curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ratelimitpreview/test/manifests/latest
+	...
+	date: Tue, 01 Jun 2021 05:55:56 GMT
+	strict-transport-security: max-age=31536000
+	ratelimit-limit: 100;w=21600
+	ratelimit-remaining: 99;w=21600
+```
+
+### Authenticate and verify limits again
+```bash
+TOKEN=$(curl --user 'username:password' "https://auth.docker.io/token?service=registry.docker.io&scope=repository:ratelimitpreview/test:pull" | jq -r .token)
+curl --head -H "Authorization: Bearer $TOKEN" https://registry-1.docker.io/v2/ratelimitpreview
+	...
+	date: Tue, 01 Jun 2021 06:06:39 GMT
+	strict-transport-security: max-age=31536000
+	ratelimit-limit: 200;w=21600
+	ratelimit-remaining: 200;w=21600
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjAxMzAzNiwxODIwMDQ1NzA2LDE2MT
+eyJoaXN0b3J5IjpbLTc5MDU5NDAwMywxODIwMDQ1NzA2LDE2MT
 g3MjIwOTcsODkwMTYwMTA0LC02NTM4MDYzNzddfQ==
 -->
