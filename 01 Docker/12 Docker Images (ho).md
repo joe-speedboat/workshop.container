@@ -99,40 +99,40 @@ docker run -it mytoolbox:0.01 bash
 		All 1000 scanned ports on localhost (127.0.0.1) are closed
 		Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
 
-bash-5.1# /usr/bin/nmap -T5 -P0 -sS 192.168.116.102**
-Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
-Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-01 17:33 UTC
-Nmap scan report for 192.168.116.102
-Host is up (0.000048s latency).
-Not shown: 996 filtered ports
-PORT     STATE  SERVICE
-22/tcp   open   ssh
-80/tcp   closed http
-443/tcp  closed https
-9090/tcp closed zeus-admin
-Nmap done: 1 IP address (1 host up) scanned in 16.30 seconds
+	bash-5.1# /usr/bin/nmap -T5 -P0 -sS 192.168.116.102**
+		Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+		Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-01 17:33 UTC
+		Nmap scan report for 192.168.116.102
+		Host is up (0.000048s latency).
+		Not shown: 996 filtered ports
+		PORT     STATE  SERVICE
+		22/tcp   open   ssh
+		80/tcp   closed http
+		443/tcp  closed https
+		9090/tcp closed zeus-admin
+		Nmap done: 1 IP address (1 host up) scanned in 16.30 seconds
 
-bash-5.1# hostname
-05bc3bff027b
+	bash-5.1# hostname
+		05bc3bff027b
 
-bash-5.1# exit
+	bash-5.1# exit
 
-[root@stream toolbox]# docker ps -a
-CONTAINER ID   IMAGE            COMMAND                  CREATED              STATUS                       PORTS     NAMES
-05bc3bff027b   mytoolbox:0.01   "bash"                   About a minute ago   Exited (0) 5 seconds ago               dreamy_davinci
+docker ps -a
+	CONTAINER ID   IMAGE            COMMAND                  CREATED              STATUS                       PORTS     NAMES
+	05bc3bff027b   mytoolbox:0.01   "bash"                   About a minute ago   Exited (0) 5 seconds ago               dreamy_davinci
 ```
 ### Tag the image
 We might find this image useful, and want to mark it as a working release.
 ```bash
-[root@node toolbox]# docker images
-REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
-mytoolbox    0.01      a2424c9c517b   14 minutes ago   53.5MB
-alpine       3.13      6dbb9cc54074   6 weeks ago      5.61MB
-alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
+docker images
+	REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+	mytoolbox    0.01      a2424c9c517b   14 minutes ago   53.5MB
+	alpine       3.13      6dbb9cc54074   6 weeks ago      5.61MB
+	alpine       latest    6dbb9cc54074   6 weeks ago      5.61MB
 
-[root@node toolbox]# docker tag mytoolbox:0.01 mytoolbox:stable
+docker tag mytoolbox:0.01 mytoolbox:stable
 
-[root@node toolbox]# docker images
+docker images
 REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 mytoolbox    0.01      a2424c9c517b   15 minutes ago   53.5MB
 mytoolbox    stable    a2424c9c517b   15 minutes ago   53.5MB
@@ -168,5 +168,5 @@ Of course you can search is as well with the docker cli client, but it may take 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMTQxMjQwXX0=
+eyJoaXN0b3J5IjpbNjc4MzI2NjQ0XX0=
 -->
