@@ -109,10 +109,10 @@ docker login
 	https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 	Login Succeeded
-
-docker.io/christian773/todo-spring:stable
-
 ```
+
+### Pushing an Docker image
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzgwNjM3N119
+eyJoaXN0b3J5IjpbLTQzNDYyODEyNSwtNjUzODA2Mzc3XX0=
 -->
