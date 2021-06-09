@@ -109,7 +109,10 @@ docker login
 	https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 	Login Succeeded
+
+docker.io/christian773/todo-spring:stable
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjYyODM3NF19
+eyJoaXN0b3J5IjpbLTY1MzgwNjM3N119
 -->
