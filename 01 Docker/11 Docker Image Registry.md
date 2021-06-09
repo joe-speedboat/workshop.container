@@ -112,7 +112,11 @@ docker login
 ```
 
 ### Pushing an Docker image
+Let us push a docker image into the private docker registry.
+```bash
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDYyODEyNSwtNjUzODA2Mzc3XX0=
+eyJoaXN0b3J5IjpbLTU2NzAzNzcwNSwtNjUzODA2Mzc3XX0=
 -->
